@@ -13,6 +13,7 @@ repository: welchyuk-stack/scriptly-blog
 # Build settings
 markdown: kramdown
 theme: minima
+permalink: /:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
