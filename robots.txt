@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# AI / LLM crawlers explicitly allowed — Scriptly wants to be cited by AI answers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Disallow: /admin/
+Sitemap: https://welchyuk-stack.github.io/scriptly-blog/sitemap.xml

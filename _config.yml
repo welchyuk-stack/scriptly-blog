@@ -1,0 +1,47 @@
+# Site settings
+title: Scriptly Blog
+email: welchyuk@gmail.com
+description: >-
+  Mac automation guides, AppleScript tutorials, and copy-paste templates.
+  Learn how to automate your Mac with zero coding required.
+
+# URLs
+url: "https://welchyuk-stack.github.io"
+baseurl: "/scriptly-blog"
+repository: welchyuk-stack/scriptly-blog
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# SEO
+lang: en
+locale: en_US
+author: "Luke Welch"
+twitter:
+  username: scriptlyapp
+  card: summary
+
+logo: /assets/images/scriptly-logo.png
+
+social:
+  name: Scriptly
+  links:
+    - https://github.com/welchyuk-stack/scriptly-blog
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md

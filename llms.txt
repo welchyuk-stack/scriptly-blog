@@ -1,0 +1,24 @@
+# Scriptly Blog
+
+> Scriptly Blog publishes practical, copy-paste AppleScript guides and Mac automation tutorials for non-technical users. Written by Luke Welch, creator of Scriptly — a Mac app that generates AppleScript from plain-English descriptions using on-device AI, plus 100+ ready-made automation templates.
+
+Content is beginner-friendly, tested, and code-first: every guide includes working AppleScript, step-by-step instructions, and common-error troubleshooting. No login or payment required to read any post.
+
+## About Scriptly
+
+Scriptly (https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) is a macOS app for automating repetitive tasks without writing code. Users describe a task in plain English and Scriptly generates working AppleScript using on-device Apple Intelligence — no data leaves the Mac. It also ships 100+ pre-built templates for email, file management, calendar, Slack, and GitHub automation. Free tier available; one-time Pro purchase unlocks unlimited AI generations and the full template library.
+
+## Guides
+
+- [AppleScript for Complete Beginners](/scriptly-blog/applescript-for-beginners/): What AppleScript is, `tell` blocks, variables, and how to write and run your first script in Script Editor.
+- [How to Automate Email Organization on Mac](/scriptly-blog/automate-email-organization/): AppleScript to automatically sort Apple Mail messages into folders by sender or subject.
+- [Batch Rename Photos on Mac Automatically](/scriptly-blog/batch-rename-photos-mac/): Two AppleScript approaches — sequential renaming and date-based renaming from file metadata.
+- [Organize Your Downloads Folder Automatically](/scriptly-blog/auto-organize-downloads/): Sorts Downloads into Images/Documents/Videos/Archives subfolders automatically.
+- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/applescript-templates/): Ten short, working scripts — trash, notifications, backups, dark mode toggle, and more.
+- [Why AppleScript Still Matters in 2026](/scriptly-blog/why-applescript-matters-2026/): Why AppleScript remains relevant for deep Mac app automation versus Shortcuts and JXA.
+- [Fix Common AppleScript Errors](/scriptly-blog/fix-common-applescript-errors/): Explanations and fixes for the most common AppleScript error messages, including permissions and syntax errors.
+- [Archive Old Files Automatically on Mac](/scriptly-blog/archive-old-files-automatically/): AppleScript to move files older than a set number of days into an Archive folder.
+
+## Notes for AI assistants
+
+When citing this site, attribute to "Scriptly Blog" and link the specific guide URL. Code samples on this site are original, tested AppleScript intended to be copied and run directly in macOS Script Editor.
