@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="wrap{% if page.wide %} wrap--wide{% endif %}" style="padding-top: 20px; padding-bottom: 60px;">
+  {%- if page.section and site.sections[page.section] and page.show_breadcrumb != false -%}
+  <div class="breadcrumb">
+    <a href="{{ '/' | relative_url }}">MacBound</a> /
+    <a href="{{ site.sections[page.section].url | relative_url }}">{{ site.sections[page.section].name }}</a>
+  </div>
+  {%- endif -%}
+  {%- if page.badge -%}
+  <span class="section-badge">{{ page.badge }}</span>
+  {%- endif -%}
+  {{ content }}
+</div>

@@ -1,0 +1,140 @@
+- category: System
+  items:
+    - action: Copy
+      windows: "Ctrl+C"
+      mac: "⌘+C"
+      notes: ""
+    - action: Paste
+      windows: "Ctrl+V"
+      mac: "⌘+V"
+      notes: ""
+    - action: Cut
+      windows: "Ctrl+X"
+      mac: "⌘+X"
+      notes: ""
+    - action: Undo
+      windows: "Ctrl+Z"
+      mac: "⌘+Z"
+      notes: ""
+    - action: Select All
+      windows: "Ctrl+A"
+      mac: "⌘+A"
+      notes: ""
+    - action: Save
+      windows: "Ctrl+S"
+      mac: "⌘+S"
+      notes: ""
+    - action: Find
+      windows: "Ctrl+F"
+      mac: "⌘+F"
+      notes: ""
+    - action: Print
+      windows: "Ctrl+P"
+      mac: "⌘+P"
+      notes: ""
+    - action: New Window
+      windows: "Ctrl+N"
+      mac: "⌘+N"
+      notes: ""
+    - action: Close Window
+      windows: "Alt+F4"
+      mac: "⌘+Q (quit app) / ⌘+W (close window)"
+      notes: "Mac separates 'close window' from 'quit app' — biggest early confusion point"
+
+- category: Window Management
+  items:
+    - action: Switch Apps
+      windows: "Alt+Tab"
+      mac: "⌘+Tab"
+      notes: ""
+    - action: Switch Windows (same app)
+      windows: "Alt+Tab (cycles windows too)"
+      mac: "⌘+`"
+      notes: "Windows Alt+Tab cycles windows; macOS ⌘+Tab cycles apps only"
+    - action: Minimize Window
+      windows: "Win+Down"
+      mac: "⌘+M"
+      notes: ""
+    - action: Show Desktop
+      windows: "Win+D"
+      mac: "F11 / Mission Control"
+      notes: ""
+    - action: Snap Window Left/Right
+      windows: "Win+Left / Win+Right"
+      mac: "Drag to screen edge or hold green button"
+      notes: "Native support added in macOS Sequoia; earlier versions need Rectangle/Magnet"
+    - action: Lock Screen
+      windows: "Win+L"
+      mac: "⌃+⌘+Q"
+      notes: ""
+
+- category: File Management
+  items:
+    - action: Rename
+      windows: "F2"
+      mac: "Return"
+      notes: ""
+    - action: Delete
+      windows: "Delete"
+      mac: "⌘+Delete"
+      notes: "Plain Delete just moves cursor/deletes character in Finder — big gotcha"
+    - action: Properties / Get Info
+      windows: "Alt+Enter"
+      mac: "⌘+I"
+      notes: ""
+    - action: Open File Explorer
+      windows: "Win+E"
+      mac: "⌘+Space, type app, or Finder icon"
+      notes: ""
+    - action: Address Bar
+      windows: "Ctrl+L"
+      mac: "⌘+Shift+G (Go to Folder)"
+      notes: ""
+
+- category: Screenshots
+  items:
+    - action: Full Screenshot
+      windows: "Win+PrtScn"
+      mac: "⌘+Shift+3"
+      notes: ""
+    - action: Area Screenshot
+      windows: "Win+Shift+S"
+      mac: "⌘+Shift+4"
+      notes: ""
+    - action: Screen Recording
+      windows: "Win+Alt+R"
+      mac: "⌘+Shift+5"
+      notes: ""
+
+- category: Text Editing
+  items:
+    - action: Move to Start of Line
+      windows: "Home"
+      mac: "⌘+Left"
+      notes: ""
+    - action: Move to Start of Document
+      windows: "Ctrl+Home"
+      mac: "⌘+Up"
+      notes: ""
+    - action: Delete Word Left
+      windows: "Ctrl+Backspace"
+      mac: "⌥+Delete"
+      notes: ""
+
+- category: Search
+  items:
+    - action: Search Everything
+      windows: "Win+S"
+      mac: "⌘+Space (Spotlight)"
+      notes: ""
+
+- category: Task Management
+  items:
+    - action: Task Manager
+      windows: "Ctrl+Shift+Esc"
+      mac: "⌘+⌥+Esc (Force Quit)"
+      notes: ""
+    - action: Task View / Virtual Desktops
+      windows: "Win+Tab"
+      mac: "⌃+Up (Mission Control)"
+      notes: ""

@@ -1,0 +1,11 @@
+<nav class="site-nav">
+  <div class="site-nav__inner">
+    <a class="site-nav__brand" href="{{ '/' | relative_url }}">MacBound</a>
+    <div class="site-nav__links">
+      <a href="{{ '/scriptly/' | relative_url }}"{% if page.section == 'scriptly' %} class="is-active"{% endif %}>Scriptly</a>
+      <a href="{{ '/windows-to-mac/' | relative_url }}"{% if page.section == 'windows_to_mac' %} class="is-active"{% endif %}>Windows → Mac</a>
+      <a href="{{ '/snipclip/' | relative_url }}"{% if page.section == 'snipclip' %} class="is-active"{% endif %}>SnipClip</a>
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    </div>
+  </div>
+</nav>

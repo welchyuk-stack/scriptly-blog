@@ -1,0 +1,33 @@
+- concept: Address bar
+  windows: "Type a path directly"
+  mac: "⌘+Shift+G opens 'Go to Folder'"
+- concept: Quick access / pinned
+  windows: "Pinned folders in sidebar"
+  mac: "Favorites in Finder sidebar — drag folders in"
+- concept: Multiple panes
+  windows: "Not built-in"
+  mac: "⌘+T for tabs, or new Finder windows"
+- concept: Search
+  windows: "Search box, indexed"
+  mac: "⌘+F, backed by Spotlight index"
+- concept: Properties
+  windows: "Right-click > Properties"
+  mac: "⌘+I (Get Info)"
+- concept: Rename
+  windows: "F2"
+  mac: "Return / Enter"
+- concept: Delete permanently
+  windows: "Shift+Delete"
+  mac: "⌘+Option+Delete (bypasses Trash)"
+- concept: View as list/icons
+  windows: "View menu / toolbar"
+  mac: "⌘+1 (icons), ⌘+2 (list), ⌘+3 (columns), ⌘+4 (gallery)"
+- concept: Show hidden files
+  windows: "View > Hidden items"
+  mac: "⌘+Shift+."
+- concept: Map network drive
+  windows: "This PC > Map network drive"
+  mac: "⌘+K (Connect to Server)"
+- concept: Copy path
+  windows: "Shift+right-click > Copy as path"
+  mac: "Right-click > Option key > 'Copy as Pathname'"

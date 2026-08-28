@@ -2,6 +2,8 @@
 layout: post
 title: "Fix Common AppleScript Errors (With Real Explanations, Not Just Fixes)"
 date: 2026-08-24
+redirect_from: /fix-common-applescript-errors/
+section: scriptly
 categories: [troubleshooting, applescript, reference]
 tags: [AppleScript, errors, debugging, permissions]
 author: Luke Welch
@@ -122,5 +124,5 @@ Or skip the debugging entirely: [Scriptly](https://apps.apple.com/us/app/scriptl
 
 ## Related Guides
 
-- [AppleScript for Complete Beginners](/scriptly-blog/applescript-for-beginners/)
-- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/applescript-templates/)
+- [AppleScript for Complete Beginners](/scriptly-blog/scriptly/applescript-for-beginners/)
+- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/scriptly/applescript-templates/)

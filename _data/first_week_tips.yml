@@ -1,0 +1,21 @@
+- day: 1
+  title: "Closing ≠ Quitting"
+  body: "The red button closes a window but the app keeps running. Use ⌘+Q to fully quit an app, or ⌘+W to close just the window."
+- day: 2
+  title: "Spotlight is your Start Menu"
+  body: "Press ⌘+Space and start typing to launch apps, do math, convert units, or search files — faster than digging through folders."
+- day: 3
+  title: "The Menu Bar belongs to the app, not the window"
+  body: "Unlike Windows, the top menu bar always shows the frontmost app's menus — even if no window is visible. Click the desktop and app menus vanish."
+- day: 4
+  title: "Right-click still works"
+  body: "Two-finger tap on the trackpad, or Ctrl+click, opens the same context menu you're used to from Windows."
+- day: 5
+  title: "Force Quit for frozen apps"
+  body: "⌘+⌥+Esc opens Force Quit — the Mac equivalent of Ctrl+Alt+Delete's Task Manager."
+- day: 6
+  title: "Trash is Recycle Bin"
+  body: "Drag files to Trash in the Dock, or select and press ⌘+Delete. Empty it via Finder > Empty Trash."
+- day: 7
+  title: "The Dock is part taskbar, part Start Menu"
+  body: "Pin apps by dragging them in; a small dot under an icon means the app is running."

@@ -2,6 +2,8 @@
 layout: post
 title: "How to Automate Email Organization on Mac (Zero Coding Required)"
 date: 2026-08-19
+redirect_from: /automate-email-organization/
+section: scriptly
 categories: [email, automation, beginner-friendly]
 tags: [AppleScript, email, Mail.app, templates]
 author: Luke Welch
@@ -110,6 +112,6 @@ Go to **System Settings → Privacy & Security → Automation**, find Script Edi
 
 ## Related Guides
 
-- [Archive Old Emails and Files Automatically](/scriptly-blog/archive-old-files-automatically/)
-- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/applescript-templates/)
-- [Fix Common AppleScript Errors](/scriptly-blog/fix-common-applescript-errors/)
+- [Archive Old Emails and Files Automatically](/scriptly-blog/scriptly/archive-old-files-automatically/)
+- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/scriptly/applescript-templates/)
+- [Fix Common AppleScript Errors](/scriptly-blog/scriptly/fix-common-applescript-errors/)

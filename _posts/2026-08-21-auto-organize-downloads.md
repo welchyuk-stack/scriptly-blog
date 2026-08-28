@@ -2,6 +2,8 @@
 layout: post
 title: "Organize Your Downloads Folder Automatically (AppleScript That Actually Works)"
 date: 2026-08-21
+redirect_from: /auto-organize-downloads/
+section: scriptly
 categories: [files, automation, beginner-friendly]
 tags: [AppleScript, Finder, Downloads, file organization]
 author: Luke Welch
@@ -108,6 +110,6 @@ The script checks with `exists folder... of downloadsFolder` and won't overwrite
 
 ## Related Guides
 
-- [Batch Rename Photos on Mac Automatically](/scriptly-blog/batch-rename-photos-mac/)
-- [Archive Old Files Automatically](/scriptly-blog/archive-old-files-automatically/)
-- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/applescript-templates/)
+- [Batch Rename Photos on Mac Automatically](/scriptly-blog/scriptly/batch-rename-photos-mac/)
+- [Archive Old Files Automatically](/scriptly-blog/scriptly/archive-old-files-automatically/)
+- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/scriptly/applescript-templates/)

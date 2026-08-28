@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="wrap wrap--wide">
+    <div>&copy; {{ 'now' | date: "%Y" }} MacBound. Built by {{ site.author }}.</div>
+    <div class="site-footer__links">
+      <a href="{{ '/scriptly/' | relative_url }}">Scriptly</a>
+      <a href="{{ '/windows-to-mac/' | relative_url }}">Windows → Mac</a>
+      <a href="{{ '/snipclip/' | relative_url }}">SnipClip</a>
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS (Scriptly)</a>
+      <a href="{{ '/feed/windows_to_mac.xml' | relative_url }}">RSS (Windows → Mac)</a>
+      <a href="{{ '/feed/snipclip.xml' | relative_url }}">RSS (SnipClip)</a>
+      <a href="https://github.com/{{ site.repository }}">GitHub</a>
+    </div>
+  </div>
+</footer>

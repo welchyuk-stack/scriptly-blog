@@ -2,6 +2,8 @@
 layout: post
 title: "Archive Old Files Automatically on Mac (AppleScript Guide)"
 date: 2026-08-25
+redirect_from: /archive-old-files-automatically/
+section: scriptly
 categories: [files, automation]
 tags: [AppleScript, Finder, archiving, storage]
 author: Luke Welch
@@ -120,6 +122,6 @@ Check `daysOld` — and remember `modification date` updates every time a file i
 
 ## Related Guides
 
-- [Organize Your Downloads Folder Automatically](/scriptly-blog/auto-organize-downloads/)
-- [How to Automate Email Organization on Mac](/scriptly-blog/automate-email-organization/)
-- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/applescript-templates/)
+- [Organize Your Downloads Folder Automatically](/scriptly-blog/scriptly/auto-organize-downloads/)
+- [How to Automate Email Organization on Mac](/scriptly-blog/scriptly/automate-email-organization/)
+- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/scriptly/applescript-templates/)

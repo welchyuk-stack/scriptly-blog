@@ -2,6 +2,8 @@
 layout: post
 title: "10 AppleScript Templates You Can Copy-Paste Right Now"
 date: 2026-08-22
+redirect_from: /applescript-templates/
+section: scriptly
 categories: [templates, reference, applescript]
 tags: [AppleScript, templates, copy-paste, Finder, Mail]
 author: Luke Welch
@@ -151,6 +153,6 @@ These ten cover the basics. [Scriptly](https://apps.apple.com/us/app/scriptly-sc
 
 ## Related Guides
 
-- [Organize Your Downloads Folder Automatically](/scriptly-blog/auto-organize-downloads/)
-- [How to Automate Email Organization on Mac](/scriptly-blog/automate-email-organization/)
-- [Fix Common AppleScript Errors](/scriptly-blog/fix-common-applescript-errors/)
+- [Organize Your Downloads Folder Automatically](/scriptly-blog/scriptly/auto-organize-downloads/)
+- [How to Automate Email Organization on Mac](/scriptly-blog/scriptly/automate-email-organization/)
+- [Fix Common AppleScript Errors](/scriptly-blog/scriptly/fix-common-applescript-errors/)

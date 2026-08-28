@@ -1,11 +1,12 @@
 # Site settings
-title: Scriptly Blog
+title: MacBound
 email: welchyuk@gmail.com
 description: >-
-  Mac automation guides, AppleScript tutorials, and copy-paste templates.
-  Learn how to automate your Mac with zero coding required.
+  A Mac content hub: AppleScript automation with Scriptly, a full Windows-to-Mac
+  switching guide, and screenshot & markup tips with SnipClip.
 
 # URLs
+# TODO: update to custom domain when purchased (see macbound-domain-shortlist) — change only this block, never hardcode a URL in a layout or include.
 url: "https://welchyuk-stack.github.io"
 baseurl: "/scriptly-blog"
 repository: welchyuk-stack/scriptly-blog
@@ -13,16 +14,31 @@ repository: welchyuk-stack/scriptly-blog
 # Build settings
 markdown: kramdown
 theme: minima
-permalink: /:title/
+permalink: /scriptly/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-redirect-from
 
-# Pagination
-paginate: 10
-paginate_path: "/blog/page:num/"
+# Collections
+collections:
+  windows_to_mac:
+    output: true
+    permalink: /windows-to-mac/:path/
+  snipclip:
+    output: true
+    permalink: /snipclip/:path/
+
+# jekyll-feed: include the two new collections alongside _posts so RSS
+# covers all three sections, not just Scriptly. Default posts_limit is 10,
+# which silently truncated the 14-post Windows→Mac feed — raised well above
+# any section's current post count.
+feed:
+  collections:
+    - windows_to_mac
+    - snipclip
+  posts_limit: 100
 
 # SEO
 lang: en
@@ -40,14 +56,38 @@ webmaster_verifications:
   bing: 5F7C9B6BB8D05475018B67DC707860F4
 
 social:
-  name: Scriptly
+  name: MacBound
   links:
     - https://github.com/welchyuk-stack/scriptly-blog
+
+# Section metadata — product/section-specific bits referenced from layouts,
+# so nothing is hardcoded in templates.
+sections:
+  scriptly:
+    name: Scriptly
+    tagline: "AppleScript & Automation"
+    accent: "#0071e3"
+    url: /scriptly/
+    app_url: "https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12"
+    twitter: scriptlyapp
+  windows_to_mac:
+    name: "Windows → Mac"
+    tagline: "Switching Guide"
+    accent: "#5856d6"
+    url: /windows-to-mac/
+  snipclip:
+    name: SnipClip
+    tagline: "Screenshots & Markup"
+    accent: "#0a7f6d"
+    url: /snipclip/
+    app_url: "https://apps.apple.com/gb/app/snipclip/id6789209242"
 
 # Exclude from processing
 exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
+  - vendor
   - node_modules
   - README.md
+  - macbound-build-plan.md

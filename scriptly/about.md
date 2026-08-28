@@ -1,7 +1,9 @@
 ---
 layout: page
 title: "About Scriptly"
-permalink: /about/
+permalink: /scriptly/about/
+redirect_from: /about/
+section: scriptly
 ---
 
 # About Scriptly

@@ -2,6 +2,8 @@
 layout: post
 title: "AppleScript for Complete Beginners: What It Is and How to Write Your First Script"
 date: 2026-08-18
+redirect_from: /applescript-for-beginners/
+section: scriptly
 categories: [beginner-friendly, applescript]
 tags: [AppleScript, Script Editor, beginner, tutorial]
 author: Luke Welch
@@ -105,7 +107,7 @@ Almost every useful AppleScript follows this same three-step shape.
 
 **Typos in app names** — `tell application "finder"` (lowercase) will fail. App names are case-sensitive: `"Finder"`, `"Mail"`, `"Photos"`.
 
-**Running a script that needs a file/folder that doesn't exist** — if your script references a folder called "Archive" that you haven't created yet, it'll error out. Create it first, or add a check (we cover this in [Fix Common AppleScript Errors](/scriptly-blog/fix-common-applescript-errors/)).
+**Running a script that needs a file/folder that doesn't exist** — if your script references a folder called "Archive" that you haven't created yet, it'll error out. Create it first, or add a check (we cover this in [Fix Common AppleScript Errors](/scriptly-blog/scriptly/fix-common-applescript-errors/)).
 
 ## You Don't Have to Write These From Scratch
 
@@ -115,8 +117,8 @@ But understanding the basics above means you can actually read what Scriptly gen
 
 ## Next Steps
 
-- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/applescript-templates/)
-- [Organize Your Downloads Folder Automatically](/scriptly-blog/auto-organize-downloads/)
-- [Fix Common AppleScript Errors](/scriptly-blog/fix-common-applescript-errors/)
+- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/scriptly/applescript-templates/)
+- [Organize Your Downloads Folder Automatically](/scriptly-blog/scriptly/auto-organize-downloads/)
+- [Fix Common AppleScript Errors](/scriptly-blog/scriptly/fix-common-applescript-errors/)
 
 Questions? The [r/applescript](https://reddit.com/r/applescript) community is active and helpful for beginners.

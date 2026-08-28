@@ -1,0 +1,72 @@
+- gesture: Tap to Click
+  fingers: 1
+  motion: Tap
+  description: "Single tap anywhere on the trackpad clicks (enable in System Settings > Trackpad)."
+  windows_equivalent: "Left click"
+  image: ""
+- gesture: Secondary Click
+  fingers: 2
+  motion: Tap with two fingers
+  description: "Two-finger tap opens the right-click / context menu."
+  windows_equivalent: "Right click"
+  image: ""
+- gesture: Scroll
+  fingers: 2
+  motion: Slide up/down/left/right
+  description: "Two fingers scroll content. Natural scrolling is on by default (content moves with your fingers, opposite of Windows)."
+  windows_equivalent: "Mouse wheel / scrollbar drag"
+  image: ""
+- gesture: Zoom
+  fingers: 2
+  motion: Pinch open/closed
+  description: "Pinch to zoom in Photos, Maps, Safari, and most apps."
+  windows_equivalent: "Ctrl + scroll wheel"
+  image: ""
+- gesture: Smart Zoom
+  fingers: 2
+  motion: Double-tap
+  description: "Double-tap with two fingers to zoom into a webpage section or photo."
+  windows_equivalent: "Double-click to fit content"
+  image: ""
+- gesture: Swipe Between Pages
+  fingers: 2
+  motion: Swipe left/right
+  description: "Navigate back/forward in Safari and other apps."
+  windows_equivalent: "Alt+Left / Alt+Right"
+  image: ""
+- gesture: Mission Control
+  fingers: 3
+  motion: Swipe up
+  description: "Shows all open windows and spaces at once."
+  windows_equivalent: "Win+Tab (Task View)"
+  image: ""
+- gesture: App Exposé
+  fingers: 3
+  motion: Swipe down
+  description: "Shows all windows of the current app."
+  windows_equivalent: "Alt+Tab (filtered to one app)"
+  image: ""
+- gesture: Switch Spaces / Full-Screen Apps
+  fingers: 3
+  motion: Swipe left/right
+  description: "Move between virtual desktops and full-screen apps."
+  windows_equivalent: "Ctrl+Win+Left/Right"
+  image: ""
+- gesture: Show Desktop
+  fingers: 4
+  motion: Spread fingers apart (pinch out)
+  description: "Pushes windows to the edges, revealing the desktop. Works with 4 or 5 fingers."
+  windows_equivalent: "Win+D"
+  image: ""
+- gesture: Open Launchpad
+  fingers: 4
+  motion: Pinch fingers together
+  description: "Opens a grid view of all installed apps. Works with 4 or 5 fingers."
+  windows_equivalent: "Start Menu"
+  image: ""
+- gesture: Drag and Drop (three-finger drag)
+  fingers: 3
+  motion: Drag after enabling in Accessibility settings
+  description: "Move windows/files without a separate click-hold; must be turned on manually."
+  windows_equivalent: "Click-and-hold drag"
+  image: ""

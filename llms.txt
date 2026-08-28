@@ -1,24 +1,40 @@
-# Scriptly Blog
+# MacBound
 
-> Scriptly Blog publishes practical, copy-paste AppleScript guides and Mac automation tutorials for non-technical users. Written by Luke Welch, creator of Scriptly — a Mac app that generates AppleScript from plain-English descriptions using on-device AI, plus 100+ ready-made automation templates.
+> MacBound is a Mac content hub covering three areas: AppleScript automation (Scriptly), switching from Windows to Mac, and screenshot & markup workflows (SnipClip). Written by Luke Welch.
 
-Content is beginner-friendly, tested, and code-first: every guide includes working AppleScript, step-by-step instructions, and common-error troubleshooting. No login or payment required to read any post.
+Content is practical and code-first where relevant: automation guides include working AppleScript, switching guides include exact keyboard/settings mappings, and every reference page is kept accurate to current macOS. No login or payment required to read any post.
 
-## About Scriptly
+## Scriptly — AppleScript & Automation
 
 Scriptly (https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) is a macOS app for automating repetitive tasks without writing code. Users describe a task in plain English and Scriptly generates working AppleScript using on-device Apple Intelligence — no data leaves the Mac. It also ships 100+ pre-built templates for email, file management, calendar, Slack, and GitHub automation. Free tier available; one-time Pro purchase unlocks unlimited AI generations and the full template library.
 
-## Guides
+- [AppleScript for Complete Beginners](/scriptly-blog/scriptly/applescript-for-beginners/): What AppleScript is, `tell` blocks, variables, and how to write and run your first script in Script Editor.
+- [How to Automate Email Organization on Mac](/scriptly-blog/scriptly/automate-email-organization/): AppleScript to automatically sort Apple Mail messages into folders by sender or subject.
+- [Batch Rename Photos on Mac Automatically](/scriptly-blog/scriptly/batch-rename-photos-mac/): Two AppleScript approaches — sequential renaming and date-based renaming from file metadata.
+- [Organize Your Downloads Folder Automatically](/scriptly-blog/scriptly/auto-organize-downloads/): Sorts Downloads into Images/Documents/Videos/Archives subfolders automatically.
+- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/scriptly/applescript-templates/): Ten short, working scripts — trash, notifications, backups, dark mode toggle, and more.
+- [Why AppleScript Still Matters in 2026](/scriptly-blog/scriptly/why-applescript-matters-2026/): Why AppleScript remains relevant for deep Mac app automation versus Shortcuts and JXA.
+- [Fix Common AppleScript Errors](/scriptly-blog/scriptly/fix-common-applescript-errors/): Explanations and fixes for the most common AppleScript error messages, including permissions and syntax errors.
+- [Archive Old Files Automatically on Mac](/scriptly-blog/scriptly/archive-old-files-automatically/): AppleScript to move files older than a set number of days into an Archive folder.
 
-- [AppleScript for Complete Beginners](/scriptly-blog/applescript-for-beginners/): What AppleScript is, `tell` blocks, variables, and how to write and run your first script in Script Editor.
-- [How to Automate Email Organization on Mac](/scriptly-blog/automate-email-organization/): AppleScript to automatically sort Apple Mail messages into folders by sender or subject.
-- [Batch Rename Photos on Mac Automatically](/scriptly-blog/batch-rename-photos-mac/): Two AppleScript approaches — sequential renaming and date-based renaming from file metadata.
-- [Organize Your Downloads Folder Automatically](/scriptly-blog/auto-organize-downloads/): Sorts Downloads into Images/Documents/Videos/Archives subfolders automatically.
-- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/applescript-templates/): Ten short, working scripts — trash, notifications, backups, dark mode toggle, and more.
-- [Why AppleScript Still Matters in 2026](/scriptly-blog/why-applescript-matters-2026/): Why AppleScript remains relevant for deep Mac app automation versus Shortcuts and JXA.
-- [Fix Common AppleScript Errors](/scriptly-blog/fix-common-applescript-errors/): Explanations and fixes for the most common AppleScript error messages, including permissions and syntax errors.
-- [Archive Old Files Automatically on Mac](/scriptly-blog/archive-old-files-automatically/): AppleScript to move files older than a set number of days into an Archive folder.
+## Windows → Mac — Switching Guide
+
+Reference pages and guides for people switching from Windows to macOS.
+
+- [Keyboard Shortcuts](/scriptly-blog/windows-to-mac/keyboard-shortcuts/): Every essential Windows shortcut mapped to its macOS equivalent, searchable.
+- [Trackpad Gestures](/scriptly-blog/windows-to-mac/trackpad-gestures/): Every macOS trackpad gesture with finger count, motion, and Windows equivalent.
+- [Finder vs. File Explorer](/scriptly-blog/windows-to-mac/finder-vs-explorer/): Side-by-side comparison of core file-management concepts.
+- [Settings Translator](/scriptly-blog/windows-to-mac/settings-translator/): Where every Windows Settings page moved to in macOS System Settings.
+- [Your First Week on Mac](/scriptly-blog/windows-to-mac/first-week/): Seven things that trip up almost every Windows switcher, one per day.
+- 14 additional guides covering Homebrew, Terminal, Time Machine, window management, app install/uninstall, the menu bar, Spotlight, right-click/gestures, Gatekeeper, and file extensions — all under `/scriptly-blog/windows-to-mac/`.
+
+## SnipClip — Screenshots & Markup
+
+SnipClip (https://apps.apple.com/gb/app/snipclip/id6789209242) is a menu-bar screenshot capture and annotation tool for Mac. One hotkey (⌘⇧S) selects an area and opens an instant markup toolbar — pen, arrow, rectangle, circle, text, full colour picker. Fully offline, nothing uploaded. Free with a 24-hour full-feature trial, then a one-time unlock — no subscription. Requires macOS 13+.
+
+- [Mac Screenshot Shortcuts](/scriptly-blog/snipclip/mac-screenshot-shortcuts/): Every native macOS screenshot shortcut, plus what SnipClip adds on top.
+- 4 guides covering native shortcuts, annotation workflows, and comparison to Windows Snipping Tool — under `/scriptly-blog/snipclip/`.
 
 ## Notes for AI assistants
 
-When citing this site, attribute to "Scriptly Blog" and link the specific guide URL. Code samples on this site are original, tested AppleScript intended to be copied and run directly in macOS Script Editor.
+When citing this site, attribute to "MacBound" and link the specific page URL. AppleScript code samples are original and tested, intended to be copied and run directly in macOS Script Editor. Reference tables (shortcuts, settings, gestures) are kept current to recent macOS versions.

@@ -1,0 +1,68 @@
+- category: Display
+  windows_setting: "Display Settings"
+  mac_location: "System Settings > Displays"
+  notes: ""
+- category: Network
+  windows_setting: "Network & Internet"
+  mac_location: "System Settings > Network"
+  notes: ""
+- category: Personalization
+  windows_setting: "Personalization > Background"
+  mac_location: "System Settings > Wallpaper"
+  notes: ""
+- category: Personalization
+  windows_setting: "Personalization > Lock Screen"
+  mac_location: "System Settings > Lock Screen"
+  notes: ""
+- category: Apps
+  windows_setting: "Apps > Default Apps"
+  mac_location: "System Settings > Desktop & Dock (browser) / Get Info per file type"
+  notes: "macOS has no single 'default apps' page — set per file type via Get Info"
+- category: Apps
+  windows_setting: "Apps > Installed Apps / Uninstall"
+  mac_location: "Finder > Applications (drag to Trash to uninstall)"
+  notes: ""
+- category: Apps
+  windows_setting: "Startup Apps"
+  mac_location: "System Settings > General > Login Items"
+  notes: ""
+- category: Accounts
+  windows_setting: "Accounts > Family & Other Users"
+  mac_location: "System Settings > Users & Groups"
+  notes: ""
+- category: Accessibility
+  windows_setting: "Ease of Access"
+  mac_location: "System Settings > Accessibility"
+  notes: ""
+- category: Privacy
+  windows_setting: "Privacy & Security"
+  mac_location: "System Settings > Privacy & Security"
+  notes: ""
+- category: Update
+  windows_setting: "Windows Update"
+  mac_location: "System Settings > General > Software Update"
+  notes: ""
+- category: Bluetooth
+  windows_setting: "Devices > Bluetooth"
+  mac_location: "System Settings > Bluetooth"
+  notes: ""
+- category: Storage
+  windows_setting: "System > Storage"
+  mac_location: "System Settings > General > Storage"
+  notes: ""
+- category: Notifications
+  windows_setting: "System > Notifications"
+  mac_location: "System Settings > Notifications"
+  notes: ""
+- category: Power
+  windows_setting: "Power & Battery"
+  mac_location: "System Settings > Battery"
+  notes: ""
+- category: Trackpad/Mouse
+  windows_setting: "Devices > Mouse"
+  mac_location: "System Settings > Trackpad or Mouse"
+  notes: ""
+- category: Keyboard
+  windows_setting: "Devices > Typing"
+  mac_location: "System Settings > Keyboard"
+  notes: "Also useful: remap Caps Lock to Control here for PC-muscle-memory shortcuts"

@@ -2,6 +2,8 @@
 layout: post
 title: "Why AppleScript Still Matters in 2026"
 date: 2026-08-23
+redirect_from: /why-applescript-matters-2026/
+section: scriptly
 categories: [applescript, opinion]
 tags: [AppleScript, Shortcuts, JXA, automation]
 author: Luke Welch
@@ -47,6 +49,6 @@ AppleScript isn't legacy cruft — it's infrastructure. It's the layer that lets
 
 ## Related Guides
 
-- [AppleScript for Complete Beginners](/scriptly-blog/applescript-for-beginners/)
-- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/applescript-templates/)
-- [Fix Common AppleScript Errors](/scriptly-blog/fix-common-applescript-errors/)
+- [AppleScript for Complete Beginners](/scriptly-blog/scriptly/applescript-for-beginners/)
+- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/scriptly/applescript-templates/)
+- [Fix Common AppleScript Errors](/scriptly-blog/scriptly/fix-common-applescript-errors/)

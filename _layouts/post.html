@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<article>
+  <div class="article-meta">
+    {%- if page.collection == "posts" and page.date -%}{{ page.date | date: "%B %d, %Y" }}{%- endif -%}
+    {%- if page.author %} · {{ page.author }}{% endif -%}
+  </div>
+  {{ content }}
+</article>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body{% if page.section and site.sections[page.section] %} style="--accent: {{ site.sections[page.section].accent }};"{% endif %}>
+    {%- include nav.html -%}
+    {%- include section-bar.html -%}
+    <main>
+      {{ content }}
+    </main>
+    {%- include footer.html -%}
+    <script src="{{ '/assets/js/reference-table.js' | relative_url }}"></script>
+  </body>
+</html>
