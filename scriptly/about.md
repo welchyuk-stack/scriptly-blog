@@ -28,7 +28,7 @@ Using on-device Apple Intelligence, Scriptly generates working scripts from plai
 
 ## Download
 
-[Get Scriptly from the App Store](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12)
+<a href="https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" alt="Download on the App Store" style="height: 44px; width: auto;"></a>
 
 ### Features
 

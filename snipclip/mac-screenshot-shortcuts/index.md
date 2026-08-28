@@ -50,7 +50,7 @@ SnipClip isn't a replacement for `⌘⇧4` — it's what happens *after*. Its ow
 - Free with a 24-hour full-feature trial, then a one-time unlock — no subscription
 - Requires macOS 13+
 
-[Get SnipClip from the App Store]({{ site.sections.snipclip.app_url }})
+<a href="{{ site.sections.snipclip.app_url }}"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" alt="Download on the App Store" style="height: 44px; width: auto;"></a>
 
 ---
 

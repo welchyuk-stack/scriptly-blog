@@ -101,6 +101,70 @@ pre code { background: none; padding: 0; }
 .site-nav__links a:hover { color: var(--text); text-decoration: none; }
 .site-nav__links a.is-active { color: var(--text); font-weight: 600; }
 
+/* "Useful Apps" nav dropdown */
+.nav-dropdown { position: relative; }
+.nav-dropdown__trigger {
+  background: none;
+  border: none;
+  font: inherit;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.nav-dropdown__trigger:hover { color: var(--text); }
+.nav-dropdown.is-open .nav-dropdown__trigger { color: var(--text); font-weight: 600; }
+.nav-dropdown__caret {
+  font-size: 0.7em;
+  transition: transform 0.15s ease;
+}
+.nav-dropdown.is-open .nav-dropdown__caret { transform: rotate(180deg); }
+
+.nav-dropdown__menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 14px);
+  left: 0;
+  min-width: 240px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  padding: 8px;
+  z-index: 20;
+}
+.nav-dropdown.is-open .nav-dropdown__menu { display: block; }
+
+.nav-dropdown__menu a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: var(--text);
+}
+.nav-dropdown__menu a:hover { background: var(--surface); text-decoration: none; }
+.nav-dropdown__menu a.is-active { background: var(--surface); }
+.nav-dropdown__menu strong {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+.nav-dropdown__menu small {
+  display: block;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.nav-dropdown__accent {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border);
@@ -347,4 +411,90 @@ table.ref-table tr.is-hidden { display: none; }
   .hero { padding: 40px 0 10px; }
   .hero h1 { font-size: 2rem; }
   h1 { font-size: 1.8rem; }
+}
+
+/* App hero — themed like the app's own App Store listing: dark gradient,
+   icon, tagline, official App Store badge, screenshot gallery. */
+.app-hero {
+  background: linear-gradient(160deg, var(--app-accent, #1d1d1f) 0%, var(--app-accent-dark, #000) 100%);
+  color: #ffffff;
+  padding: 56px 0 48px;
+  margin: -20px 0 0;
+}
+.app-hero__inner {
+  max-width: var(--wide-width);
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.app-hero__icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+  flex-shrink: 0;
+}
+.app-hero__text h1 {
+  margin: 0 0 4px;
+  font-size: 2rem;
+  color: #ffffff;
+}
+.app-hero__text p {
+  margin: 0 0 18px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.1rem;
+}
+.app-hero__badge img {
+  height: 44px;
+  width: auto;
+  border-radius: 0;
+  display: block;
+}
+
+.app-screens {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 28px 24px 8px;
+  margin: 0 auto;
+  max-width: var(--wide-width);
+  scroll-snap-type: x proximity;
+}
+.app-screens img {
+  height: 320px;
+  width: auto;
+  border-radius: 14px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+@media (max-width: 640px) {
+  .app-hero { padding: 40px 0 32px; }
+  .app-hero__inner { gap: 18px; }
+  .app-hero__icon { width: 72px; height: 72px; border-radius: 16px; }
+  .app-hero__text h1 { font-size: 1.6rem; }
+  .app-screens img { height: 220px; }
+}
+
+/* App feature list — small check-style rows under a themed hero */
+.app-features {
+  list-style: none;
+  padding: 0;
+  margin: 1.2em 0;
+  display: grid;
+  gap: 10px;
+}
+.app-features li {
+  padding-left: 26px;
+  position: relative;
+}
+.app-features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 600;
 }

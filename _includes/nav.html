@@ -2,10 +2,55 @@
   <div class="site-nav__inner">
     <a class="site-nav__brand" href="{{ '/' | relative_url }}">MacBound</a>
     <div class="site-nav__links">
-      <a href="{{ '/scriptly/' | relative_url }}"{% if page.section == 'scriptly' %} class="is-active"{% endif %}>Scriptly</a>
-      <a href="{{ '/windows-to-mac/' | relative_url }}"{% if page.section == 'windows_to_mac' %} class="is-active"{% endif %}>Windows → Mac</a>
-      <a href="{{ '/snipclip/' | relative_url }}"{% if page.section == 'snipclip' %} class="is-active"{% endif %}>SnipClip</a>
+      <div class="nav-dropdown" id="apps-dropdown">
+        <button class="nav-dropdown__trigger" aria-haspopup="true" aria-expanded="false" id="apps-dropdown-trigger">
+          Useful Apps <span class="nav-dropdown__caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="nav-dropdown__menu" role="menu">
+          <a role="menuitem" href="{{ '/scriptly/' | relative_url }}"{% if page.section == 'scriptly' %} class="is-active"{% endif %}>
+            <span class="nav-dropdown__accent" style="background: {{ site.sections.scriptly.accent }};"></span>
+            <span>
+              <strong>Scriptly</strong>
+              <small>AppleScript & Automation</small>
+            </span>
+          </a>
+          <a role="menuitem" href="{{ '/snipclip/' | relative_url }}"{% if page.section == 'snipclip' %} class="is-active"{% endif %}>
+            <span class="nav-dropdown__accent" style="background: {{ site.sections.snipclip.accent }};"></span>
+            <span>
+              <strong>SnipClip</strong>
+              <small>Screenshots & Markup</small>
+            </span>
+          </a>
+        </div>
+      </div>
       <a href="{{ '/blog/' | relative_url }}">Blog</a>
     </div>
   </div>
 </nav>
+<script>
+(function () {
+  var dropdown = document.getElementById('apps-dropdown');
+  var trigger = document.getElementById('apps-dropdown-trigger');
+  if (!dropdown || !trigger) return;
+
+  function close() {
+    dropdown.classList.remove('is-open');
+    trigger.setAttribute('aria-expanded', 'false');
+  }
+  function toggle() {
+    var open = dropdown.classList.toggle('is-open');
+    trigger.setAttribute('aria-expanded', String(open));
+  }
+
+  trigger.addEventListener('click', function (e) {
+    e.stopPropagation();
+    toggle();
+  });
+  document.addEventListener('click', function (e) {
+    if (!dropdown.contains(e.target)) close();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') close();
+  });
+})();
+</script>
