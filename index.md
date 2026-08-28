@@ -9,6 +9,11 @@ wide: true
 show_breadcrumb: false
 ---
 
+<div class="hero">
+  <div class="logo-wordmark--hero">{% include wordmark.html %}</div>
+  <p>Your complete guide to feeling at home on macOS.</p>
+</div>
+
 # Windows → Mac Switching Guide
 
 Everything you need to feel at home on macOS — reference pages for the stuff you'll look up in week one, plus guides for the stuff you'll want to understand properly.
