@@ -10,50 +10,59 @@ show_breadcrumb: false
 ---
 
 <div class="hero">
-  <div class="logo-wordmark--hero">{% include wordmark.html %}</div>
-  <p>Your complete guide to feeling at home on macOS.</p>
+  <div class="kicker">Windows → Mac · The complete switching guide</div>
+  <h1>Feel at home<br>on macOS.</h1>
+  <p>Reference pages for the stuff you'll look up in week one. Guides for the stuff you'll want to understand properly.</p>
 </div>
 
-# Windows → Mac Switching Guide
+<hr class="hr">
 
-Everything you need to feel at home on macOS — reference pages for the stuff you'll look up in week one, plus guides for the stuff you'll want to understand properly.
+<h2 class="kicker kicker--ink" style="margin-top: 40px;">01 — Reference</h2>
 
-## Reference
-
-<div class="card-grid">
-  <a class="card" href="{{ '/windows-to-mac/keyboard-shortcuts/' | relative_url }}">
-    <div class="card__accent" style="background: {{ site.sections.windows_to_mac.accent }};"></div>
+<div class="ref-grid">
+  <a class="ref-cell" href="{{ '/windows-to-mac/keyboard-shortcuts/' | relative_url }}">
+    <div class="ref-cell__no">01</div>
     <h3>Keyboard Shortcuts</h3>
     <p>Searchable, copyable, printable — every Windows shortcut mapped to macOS.</p>
   </a>
-  <a class="card" href="{{ '/windows-to-mac/trackpad-gestures/' | relative_url }}">
-    <div class="card__accent" style="background: {{ site.sections.windows_to_mac.accent }};"></div>
+  <a class="ref-cell" href="{{ '/windows-to-mac/trackpad-gestures/' | relative_url }}">
+    <div class="ref-cell__no">02</div>
     <h3>Trackpad Gestures</h3>
     <p>Every gesture your trackpad supports, and what it replaces.</p>
   </a>
-  <a class="card" href="{{ '/windows-to-mac/finder-vs-explorer/' | relative_url }}">
-    <div class="card__accent" style="background: {{ site.sections.windows_to_mac.accent }};"></div>
+  <a class="ref-cell" href="{{ '/windows-to-mac/finder-vs-explorer/' | relative_url }}">
+    <div class="ref-cell__no">03</div>
     <h3>Finder vs. Explorer</h3>
     <p>Same job, different muscle memory — a side-by-side comparison.</p>
   </a>
-  <a class="card" href="{{ '/windows-to-mac/settings-translator/' | relative_url }}">
-    <div class="card__accent" style="background: {{ site.sections.windows_to_mac.accent }};"></div>
+  <a class="ref-cell" href="{{ '/windows-to-mac/settings-translator/' | relative_url }}">
+    <div class="ref-cell__no">04</div>
     <h3>Settings Translator</h3>
     <p>"Where did they move this?" Find any Windows setting's new home.</p>
   </a>
-  <a class="card" href="{{ '/windows-to-mac/first-week/' | relative_url }}">
-    <div class="card__accent" style="background: {{ site.sections.windows_to_mac.accent }};"></div>
+  <a class="ref-cell" href="{{ '/windows-to-mac/first-week/' | relative_url }}">
+    <div class="ref-cell__no">05</div>
     <h3>Your First Week</h3>
     <p>Seven things that trip up almost every switcher, one per day.</p>
   </a>
 </div>
 
-## Guides
+<hr class="hr">
 
+<h2 class="kicker kicker--ink" style="margin-top: 40px;">02 — Guides</h2>
+
+<div class="guide-index">
 {% assign w2m_posts = site.windows_to_mac | sort: "title" %}
 {% for post in w2m_posts %}
-  <div class="post-list-item">
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    <p>{{ post.excerpt | default: post.description }}</p>
-  </div>
+  <a class="guide-row" href="{{ post.url | relative_url }}">
+    <span class="guide-row__no">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
+    <span class="guide-row__title">{{ post.title }}</span>
+    <span class="guide-row__arrow">→</span>
+  </a>
 {% endfor %}
+</div>
+
+<div class="poster">
+  <div class="poster__kicker">From the makers of Scriptly &amp; SnipClip</div>
+  <div class="poster__title">Built by switchers, for switchers.</div>
+</div>

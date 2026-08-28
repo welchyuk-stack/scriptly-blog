@@ -66,15 +66,15 @@ sections:
   scriptly:
     name: Scriptly
     tagline: "AppleScript & Automation"
-    accent: "#4655c6"
-    accent_dark: "#2f3a94"
+    accent: "#14275c"
+    accent_dark: "#0a1024"
     url: /scriptly/
     app_url: "https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12"
     twitter: scriptlyapp
   windows_to_mac:
     name: "Windows → Mac"
     tagline: "Switching Guide"
-    accent: "#5856d6"
+    accent: "#14275c"
     url: /
   snipclip:
     name: SnipClip
