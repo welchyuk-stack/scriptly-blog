@@ -10,9 +10,8 @@ show_breadcrumb: false
 ---
 
 <div class="hero">
-  <div class="kicker">Windows → Mac · The complete switching guide</div>
+  <div class="kicker">Helpful tips and tricks</div>
   <h1>Feel at home<br>on macOS.</h1>
-  <p>Reference pages for the stuff you'll look up in week one. Guides for the stuff you'll want to understand properly.</p>
 </div>
 
 <hr class="hr">
@@ -60,9 +59,4 @@ show_breadcrumb: false
     <span class="guide-row__arrow">→</span>
   </a>
 {% endfor %}
-</div>
-
-<div class="poster">
-  <div class="poster__kicker">From the makers of Scriptly &amp; SnipClip</div>
-  <div class="poster__title">Built by switchers, for switchers.</div>
 </div>
