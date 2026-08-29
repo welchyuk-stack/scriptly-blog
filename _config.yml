@@ -6,9 +6,8 @@ description: >-
   switching guide, and screenshot & markup tips with SnipClip.
 
 # URLs
-# TODO: update to custom domain when purchased (see macbound-domain-shortlist) — change only this block, never hardcode a URL in a layout or include.
-url: "https://welchyuk-stack.github.io"
-baseurl: "/scriptly-blog"
+url: "https://macbound.com"
+baseurl: ""
 repository: welchyuk-stack/scriptly-blog
 
 # Build settings
