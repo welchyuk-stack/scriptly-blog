@@ -1,5 +1,6 @@
 ---
 layout: page
+last_modified_at: 2026-08-28 07:46:48 +0000
 title: "Your First Week on Mac: 7 Things to Learn"
 description: "A day-by-day guide to your first week switching from Windows to Mac."
 permalink: /windows-to-mac/first-week/

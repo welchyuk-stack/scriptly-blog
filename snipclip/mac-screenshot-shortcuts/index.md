@@ -1,5 +1,6 @@
 ---
 layout: page
+last_modified_at: 2026-08-28 07:46:48 +0000
 title: "Every Mac Screenshot Shortcut (Plus How to Add Markup Instantly)"
 description: "The native macOS screenshot shortcuts, and how SnipClip's hotkey adds instant markup on top."
 permalink: /snipclip/mac-screenshot-shortcuts/

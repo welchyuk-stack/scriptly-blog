@@ -14,6 +14,11 @@ repository: welchyuk-stack/scriptly-blog
 markdown: kramdown
 theme: minima
 permalink: /scriptly/:title/
+
+# Jekyll ignores underscore-prefixed files by default — these are Cloudflare
+# Pages control files (security headers, IndexNow key) that must ship as-is.
+include:
+  - _headers
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2026-08-28 07:46:48 +0000
 title: "Finder vs File Explorer: What's Actually Different"
 excerpt: "They both show you your files. Past that, Finder and File Explorer barely agree on anything. Here's what changed."
 author: Luke Welch

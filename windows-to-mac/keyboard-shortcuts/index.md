@@ -1,5 +1,6 @@
 ---
 layout: page
+last_modified_at: 2026-08-28 07:46:48 +0000
 title: "Windows to Mac Keyboard Shortcuts (Full Reference)"
 description: "Every essential Windows keyboard shortcut mapped to its macOS equivalent — searchable, copyable, and printable."
 permalink: /windows-to-mac/keyboard-shortcuts/
@@ -11,7 +12,7 @@ wide: true
 
 # Windows → Mac Keyboard Shortcuts
 
-Find the macOS equivalent of any Windows shortcut you already know. Search by action or by either shortcut, star the ones you want to remember, and print a clean reference sheet when you're ready.
+Find the macOS equivalent of any Windows shortcut you already know. Search by action or by either shortcut, star the ones you want to remember, and print a clean reference sheet when you're ready. This is the full lookup table — if you'd rather read about *why* the mappings work the way they do (and which ones trip people up), see [Windows Keyboard Shortcuts vs Mac: The Muscle-Memory Guide](/windows-to-mac/windows-shortcuts-vs-mac-guide/).
 
 <div class="ref-toolbar no-print">
   <input type="search" id="ref-search" placeholder="Search a shortcut or action…" aria-label="Search shortcuts">

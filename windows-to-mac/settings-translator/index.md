@@ -1,5 +1,6 @@
 ---
 layout: page
+last_modified_at: 2026-08-28 07:46:48 +0000
 title: "Where Did This Windows Setting Go on Mac? (Settings Translator)"
 description: "Find the macOS System Settings location for any Windows Settings page."
 permalink: /windows-to-mac/settings-translator/
@@ -11,7 +12,7 @@ wide: true
 
 # Settings Translator
 
-"Where did they move this?" — find the macOS location for any Windows Settings page.
+"Where did they move this?" — find the macOS location for any Windows Settings page. This is the searchable lookup table — for the longer explanation of how macOS organizes System Settings differently from the Windows Control Panel, read [Where Did My Windows Settings Go? A Mac Translator](/windows-to-mac/wheres-my-windows-setting-on-mac/).
 
 <div class="ref-toolbar no-print">
   <input type="search" id="ref-search" placeholder="Search a Windows setting…" aria-label="Search settings">

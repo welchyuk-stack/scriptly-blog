@@ -1,6 +1,8 @@
 /* MacBound theme "Grid Index" (option 1a) — Modernist: Archivo, deep navy accent,
-   zero radius, strong 2px rules, flush-left. Drop-in replacement for assets/css/main.css. */
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap');
+   zero radius, strong 2px rules, flush-left. Drop-in replacement for assets/css/main.css.
+   Archivo is loaded via <link> + preconnect in _includes/head.html, not @import here —
+   @import is a hard serial dependency (fetch main.css, parse it, THEN fetch the font
+   CSS, THEN the font file) that was adding ~800ms to the critical path on mobile. */
 
 :root {
   --bg: #f3f2f2;
@@ -123,9 +125,27 @@ pre code { background: none; padding: 0; }
   letter-spacing: 0.08em;
   flex-wrap: wrap;
 }
-.site-nav__links a { color: var(--text); }
+.site-nav__links a { color: var(--text); display: inline-flex; align-items: center; }
 .site-nav__links a:hover { color: var(--accent); text-decoration: none; }
 .site-nav__links a.is-active { color: var(--accent); }
+
+/* Wordmark must never wrap — the trailing accent square is part of one
+   unbroken lockup, not a separate element that can fall to its own line. */
+.logo-wordmark, .logo-wordmark > span { white-space: nowrap; }
+
+@media (max-width: 640px) {
+  .site-nav__inner { flex-wrap: wrap; row-gap: 14px; padding: 14px 20px; }
+  .site-nav__links { gap: 20px; row-gap: 12px; width: 100%; }
+  /* Enlarge every nav tap target to the 44px accessibility minimum without
+     changing the visual type scale — padding does the work, not font-size. */
+  .site-nav__links a,
+  .nav-dropdown__trigger,
+  .theme-toggle {
+    min-height: 44px;
+    padding: 10px 4px;
+  }
+  .theme-toggle { padding: 10px 14px; }
+}
 
 /* "Useful Apps" dropdown — flat panel, 2px border, no radius */
 .nav-dropdown { position: relative; }
@@ -316,6 +336,11 @@ table.ref-table tr.is-hidden { display: none; }
 .site-footer a { color: var(--text); }
 .site-footer a:hover { color: var(--accent); text-decoration: none; }
 .site-footer__links { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 10px; }
+
+@media (max-width: 640px) {
+  .site-footer__links { row-gap: 6px; }
+  .site-footer__links a { display: inline-flex; align-items: center; min-height: 44px; }
+}
 
 /* App hero — flat navy field instead of a gradient */
 .app-hero { background: #14275c; color: #ffffff; padding: 56px 0 48px; margin: -20px 0 0; }

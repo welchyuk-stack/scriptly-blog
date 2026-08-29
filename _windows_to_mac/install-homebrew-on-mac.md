@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2026-08-28 07:46:48 +0000
 title: "How to Install Homebrew on Mac (and Why You'll Want It)"
 excerpt: "Windows has winget and Chocolatey. Mac's equivalent is Homebrew — and once it's installed, it becomes how you install almost everything else."
 author: Luke Welch

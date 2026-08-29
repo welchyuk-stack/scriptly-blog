@@ -1,5 +1,6 @@
 ---
 layout: page
+last_modified_at: 2026-08-28 07:46:48 +0000
 title: "Mac Trackpad Gestures for Windows Switchers"
 description: "Every essential macOS trackpad gesture explained, with its Windows equivalent."
 permalink: /windows-to-mac/trackpad-gestures/
@@ -9,9 +10,9 @@ wide: true
 
 <span class="section-badge">Windows → Mac</span>
 
-# Trackpad Gestures
+# Trackpad Gestures: Quick Reference
 
-Every gesture below works the same on a Magic Trackpad or a MacBook's built-in trackpad.
+Every gesture below works the same on a Magic Trackpad or a MacBook's built-in trackpad. This is the quick-scan card grid — for the full story on why gestures replace right-clicking and window snapping (and which ones switchers miss first), read [Right-Click, Gestures, and the Death of Muscle Memory](/windows-to-mac/right-click-gestures-mouse-trackpad/).
 
 <div class="gesture-grid">
 {%- for g in site.data.gestures -%}

@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2026-08-28 07:46:48 +0000
 title: "Every Mac Screenshot Shortcut Explained (⌘⇧3, ⌘⇧4, ⌘⇧5)"
 excerpt: "Three shortcuts cover every screenshot scenario on Mac. Here's exactly what each one does, and the options most people never discover."
 author: Luke Welch

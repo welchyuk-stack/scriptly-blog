@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2026-08-28 07:46:48 +0000
 title: "The Menu Bar Isn't the Taskbar: Understanding the Biggest UI Shift"
 excerpt: "It's the single detail that makes Mac feel most unfamiliar at first — and once it clicks, most of the rest of macOS makes more sense."
 author: Luke Welch

@@ -4,7 +4,7 @@ layout: page
 <article>
   <div class="article-meta">
     {%- if page.collection == "posts" and page.date -%}{{ page.date | date: "%B %d, %Y" }}{%- endif -%}
-    {%- if page.author %} · {{ page.author }}{% endif -%}
+    {%- if page.author %} · <a href="{{ '/about/' | relative_url }}">{{ page.author }}</a>{% endif -%}
   </div>
   {{ content }}
 </article>

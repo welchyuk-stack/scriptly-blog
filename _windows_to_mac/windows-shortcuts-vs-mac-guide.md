@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2026-08-28 07:46:48 +0000
 title: "Windows Keyboard Shortcuts vs Mac: The Muscle-Memory Guide"
 excerpt: "Your fingers already know the shortcuts — they're just pressing the wrong keys. Here's how to retrain them fast."
 author: Luke Welch

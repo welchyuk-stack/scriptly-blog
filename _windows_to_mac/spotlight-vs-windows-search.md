@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2026-08-28 07:46:48 +0000
 title: "Spotlight vs Windows Search"
 excerpt: "Same idea — press a key, start typing, find what you need. Spotlight goes further than most people realize."
 author: Luke Welch

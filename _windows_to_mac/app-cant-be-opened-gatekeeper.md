@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2026-08-28 07:46:48 +0000
 title: "\"App Can't Be Opened\" — Understanding Gatekeeper and Mac Security Prompts"
 excerpt: "The warning looks scarier than it is. Here's what Gatekeeper actually checks, and when it's safe to override it."
 author: Luke Welch

@@ -2,7 +2,80 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap">
   {%- seo -%}
+
+  <!-- Site Organization + author Person entities. jekyll-seo-tag's own
+       "publisher" block above hardcodes the author's name as the org name
+       (a plugin quirk, not configurable) — this supplements it with a
+       correctly-typed Organization and a fuller Person record. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "{{ site.url }}/#organization",
+    "name": "{{ site.social.name }}",
+    "url": "{{ site.url }}/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo | absolute_url }}"
+    },
+    "sameAs": [
+      {%- for link in site.social.links -%}
+        "{{ link }}"{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "{{ site.url }}/about/#person",
+    "name": "{{ site.author }}",
+    "url": "{{ site.url }}/about/",
+    "worksFor": { "@id": "{{ site.url }}/#organization" },
+    "sameAs": [
+      {%- for link in site.social.links -%}
+        "{{ link }}"{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ]
+  }
+  </script>
+
+  {%- if page.section and site.sections[page.section] and page.section != "windows_to_mac" -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "MacBound", "item": "{{ site.url }}/" },
+      { "@type": "ListItem", "position": 2, "name": "{{ site.sections[page.section].name }}", "item": "{{ site.sections[page.section].url | absolute_url }}" }
+      {%- if page.url != site.sections[page.section].url -%}
+      , { "@type": "ListItem", "position": 3, "name": "{{ page.title }}", "item": "{{ page.url | absolute_url }}" }
+      {%- endif -%}
+    ]
+  }
+  </script>
+  {%- endif -%}
+
+  {%- if page.layout == "app" -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "{{ site.sections[page.section].name }}",
+    "url": "{{ page.url | absolute_url }}",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "macOS",
+    "description": "{{ page.description }}",
+    "publisher": { "@id": "{{ site.url }}/#organization" }
+  }
+  </script>
+  {%- endif -%}
+
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}

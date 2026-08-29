@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2026-08-28 07:46:48 +0000
 title: "Windows Snipping Tool vs Mac: How Screenshot & Markup Workflows Actually Compare"
 excerpt: "Snipping Tool bundles capture and markup into one app. Mac splits them by default — here's what that means in practice."
 author: Luke Welch

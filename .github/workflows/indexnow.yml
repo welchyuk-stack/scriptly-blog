@@ -1,0 +1,24 @@
+name: Submit sitemap to IndexNow
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for Cloudflare Pages deploy
+        run: sleep 90
+      - name: Submit sitemap URLs to IndexNow
+        run: |
+          curl -s https://macbound.com/sitemap.xml \
+            | grep -o '<loc>[^<]*</loc>' \
+            | sed -e 's/<loc>//' -e 's#</loc>##' \
+            > urls.txt
+          COUNT=$(wc -l < urls.txt)
+          echo "Submitting $COUNT URLs to IndexNow"
+          URL_JSON=$(python3 -c "import json,sys; print(json.dumps([l.strip() for l in open('urls.txt') if l.strip()]))")
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"macbound.com\",\"key\":\"30a1532f1583ae20fc58820a00922f26\",\"keyLocation\":\"https://macbound.com/30a1532f1583ae20fc58820a00922f26.txt\",\"urlList\":${URL_JSON}}"

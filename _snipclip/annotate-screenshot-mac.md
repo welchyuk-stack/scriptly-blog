@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2026-08-28 07:46:48 +0000
 title: "How to Annotate a Screenshot on Mac (Arrows, Boxes, Text)"
 excerpt: "Mac has a built-in markup tool — it's just easy to miss. Here's how to use it, and when a dedicated tool is worth the switch."
 author: Luke Welch
