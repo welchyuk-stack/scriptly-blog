@@ -1,7 +1,7 @@
 ---
 layout: app
 title: "Scriptly — Mac Automation Guides"
-description: "Learn to automate your Mac with zero coding. AppleScript templates, guides, and tutorials, written for beginners."
+description: "Automate your Mac with 115+ AppleScript templates and AI generation — or write your own script. Guides and tutorials for beginners and scripters alike."
 permalink: /scriptly/
 section: scriptly
 ---
@@ -11,7 +11,7 @@ section: scriptly
     <img class="app-hero__icon" src="{{ '/assets/images/scriptly/icon.jpg' | relative_url }}" alt="Scriptly app icon">
     <div class="app-hero__text">
       <h1>Scriptly</h1>
-      <p>Templates + AI, zero coding — automate your Mac with plain-English AppleScript.</p>
+      <p>115+ templates, AI generation, or write your own — automate your Mac in AppleScript, your way.</p>
       <a class="app-hero__badge" href="{{ site.sections.scriptly.app_url }}">
         <img src="{{ '/assets/images/badges/app-store-badge-white.svg' | relative_url }}" alt="Download on the App Store">
       </a>
