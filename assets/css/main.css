@@ -345,13 +345,16 @@ table.ref-table tr.is-hidden { display: none; }
 /* App hero — flat navy field instead of a gradient */
 .app-hero { background: #14275c; color: #ffffff; padding: 56px 0 48px; margin: -20px 0 0; }
 .app-hero__inner { max-width: var(--wide-width); margin: 0 auto; padding: 0 24px; display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
-.app-hero__icon { width: 96px; height: 96px; border-radius: 0; box-shadow: 0 12px 32px rgba(0,0,0,0.35); flex-shrink: 0; filter: grayscale(1) contrast(1.08); }
+/* App icon and product screenshots are exempt from the site's global
+   grayscale filter — they're the one place actual product color (app UI,
+   icons) matters more than the monochrome house style. */
+.app-hero__icon { width: 96px; height: 96px; border-radius: 0; box-shadow: 0 12px 32px rgba(0,0,0,0.35); flex-shrink: 0; filter: none; }
 .app-hero__text h1 { margin: 0 0 4px; font-size: 32px; color: #ffffff; }
 .app-hero__text p { margin: 0 0 18px; color: rgba(255,255,255,0.75); font-size: 17px; }
 .app-hero__badge img { height: 44px; width: auto; border-radius: 0; display: block; filter: none; }
 
 .app-screens { display: flex; gap: 18px; overflow-x: auto; padding: 28px 24px 8px; margin: 0 auto; max-width: var(--wide-width); scroll-snap-type: x proximity; }
-.app-screens img { height: 320px; width: auto; border-radius: 0; box-shadow: 0 8px 28px rgba(0,0,0,0.18); flex-shrink: 0; scroll-snap-align: start; }
+.app-screens img { height: 320px; width: auto; border-radius: 0; box-shadow: 0 8px 28px rgba(0,0,0,0.18); flex-shrink: 0; scroll-snap-align: start; filter: none; }
 @media (max-width: 640px) {
   .app-hero { padding: 40px 0 32px; }
   .app-hero__inner { gap: 18px; }
