@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
+last_modified_at: 2026-08-29 17:28:37 +0000
 title: "How to Install and Uninstall Apps on Mac (No Control Panel)"
 excerpt: "There's no Control Panel, no MSI installers, and no 'Add or Remove Programs' list. Here's how app management actually works."
 author: Luke Welch

@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
+last_modified_at: 2026-08-29 17:28:37 +0000
 title: "Trackpad Gestures Every Windows Switcher Should Learn"
 excerpt: "A Mac trackpad replaces a surprising number of keyboard shortcuts and mouse clicks — if you know the gestures exist."
 author: Luke Welch

@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
+last_modified_at: 2026-08-29 17:28:37 +0000
 title: "Where Did My Windows Settings Go? A Mac Translator"
 excerpt: "Every Windows Settings page maps to something on Mac — it's just not always where you'd guess. Here's the translation."
 author: Luke Welch

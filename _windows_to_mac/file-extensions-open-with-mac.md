@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
+last_modified_at: 2026-08-29 17:28:37 +0000
 title: "File Extensions and \"Open With\" on Mac vs Windows"
 excerpt: "Mac hides file extensions by default and handles default apps per-file rather than per-type globally. Here's how to actually control it."
 author: Luke Welch

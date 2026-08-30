@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
+last_modified_at: 2026-08-30 06:06:04 +0000
 title: "Windows Snipping Tool vs Mac: Every Screenshot & Markup Option Compared"
 excerpt: "Snipping Tool bundles capture and markup into one app. Here's every way to match that on Mac — built-in, free third-party, and paid — compared side by side."
 author: Luke Welch

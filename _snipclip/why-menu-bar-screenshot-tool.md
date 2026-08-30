@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
+last_modified_at: 2026-08-29 17:28:37 +0000
 title: "Why a Menu-Bar Screenshot Tool Beats a Full App Window"
 excerpt: "The best tool for a five-second task is the one that never asks you to switch windows to use it."
 author: Luke Welch

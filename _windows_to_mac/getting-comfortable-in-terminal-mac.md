@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
+last_modified_at: 2026-08-29 17:28:37 +0000
 title: "Getting Comfortable in Terminal on Mac"
 excerpt: "You don't need Terminal to use a Mac day to day — but knowing a handful of commands makes a lot of small annoyances disappear."
 author: Luke Welch

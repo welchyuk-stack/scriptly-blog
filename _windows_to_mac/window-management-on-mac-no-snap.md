@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
+last_modified_at: 2026-08-29 17:28:37 +0000
 title: "Window Management on Mac: There's No Snap, Here's What to Use Instead"
 excerpt: "Windows' Snap layouts are one of the features switchers miss most. Here's how to get the same result on Mac."
 author: Luke Welch

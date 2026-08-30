@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
+last_modified_at: 2026-08-29 17:28:37 +0000
 title: "Time Machine: Mac's Built-In Backup, Explained for Windows Switchers"
 excerpt: "Windows has File History, buried and easy to ignore. Time Machine is Mac's equivalent — more visible, and worth actually turning on."
 author: Luke Welch

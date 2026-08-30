@@ -50,9 +50,45 @@ locale: en_US
 author: "Luke Welch"
 twitter:
   username: scriptlyapp
-  card: summary
+  card: summary_large_image
 
-logo: /assets/images/scriptly-logo.png
+# Link-preview (Open Graph/Twitter Card) images. jekyll-seo-tag reads
+# `page.image`, which Jekyll's front-matter `defaults` can set per-path
+# without touching the plugin's (buggy) `logo:`/publisher code path.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social/default.jpg
+  - scope:
+      path: "scriptly"
+    values:
+      image: /assets/images/scriptly/social-preview.jpg
+  - scope:
+      path: ""
+      type: posts
+    values:
+      image: /assets/images/scriptly/social-preview.jpg
+  - scope:
+      path: "snipclip"
+    values:
+      image: /assets/images/snipclip/social-preview.jpg
+  - scope:
+      path: ""
+      type: snipclip
+    values:
+      image: /assets/images/snipclip/social-preview.jpg
+
+# NOTE: intentionally no top-level `logo:` key (renamed to org_logo below).
+# jekyll-seo-tag reads `logo:` only to emit its own "publisher" JSON-LD block,
+# which hardcodes publisher.name to the resolved author's PERSONAL name (a
+# plugin bug with no config override) — colliding with the correctly-typed
+# Organization block we hand-author in _includes/head.html. Omitting `logo:`
+# makes the plugin skip that block entirely (jekyll-seo-tag/drop.rb#logo:
+# `return unless site["logo"]`), leaving only our correct schema. Our own
+# Organization block uses `org_logo:` instead, which the plugin doesn't know
+# about, so it can't trigger the same bug.
+org_logo: /assets/images/scriptly-logo.png
 
 google_site_verification: dtVfpsOb02W8ArqVl9I3m6sFd3x6S6ZQR5S6dyWw-WE
 webmaster_verifications:

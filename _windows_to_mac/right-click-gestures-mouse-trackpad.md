@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
+last_modified_at: 2026-08-29 17:28:37 +0000
 title: "Right-Click, Gestures, and the Death of Muscle Memory"
 excerpt: "Your mouse and trackpad both still work on Mac. The habits built around them don't transfer cleanly — here's what changed."
 author: Luke Welch
