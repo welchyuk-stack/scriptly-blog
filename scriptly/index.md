@@ -22,7 +22,7 @@ section: scriptly
 <div class="app-screens">
   <img src="{{ '/assets/images/scriptly/screenshot-1-hero.jpg' | relative_url }}" alt="Scriptly: automate your Mac with 115+ ready-to-run templates, plain-English AI generation, and your own AppleScript">
   <img src="{{ '/assets/images/scriptly/screenshot-2-ai.jpg' | relative_url }}" alt="Scriptly AI: describe an automation in plain English and it writes the AppleScript, with an Explain step before you run anything">
-  <img src="{{ '/assets/images/scriptly/screenshot-3-marketplace.jpg' | relative_url }}" alt="Scriptly Community Marketplace: browse and publish templates, with a built-in safety scan before download">
+  <img src="{{ '/assets/images/scriptly/screenshot-3-marketplace.jpg' | relative_url }}" alt="Scriptly Community Marketplace: browse and publish templates shared by the community, with report and block-author options">
   <img src="{{ '/assets/images/scriptly/screenshot-4-scheduling.jpg' | relative_url }}" alt="Scriptly scheduled automations: run any template daily, weekly, or once, even while Scriptly is closed">
   <img src="{{ '/assets/images/scriptly/screenshot-5-menubar.jpg' | relative_url }}" alt="Scriptly menu bar: one-click run for your favourite automations, no window required">
   <img src="{{ '/assets/images/scriptly/screenshot-6-privacy.jpg' | relative_url }}" alt="Scriptly privacy: scripts never run themselves, destructive actions are flagged first, sandboxed, no accounts or tracking">
@@ -49,7 +49,7 @@ Practical, copy-paste AppleScript guides for people who have never written a lin
 
 **Does Scriptly run scripts automatically?** Only if you schedule one yourself. Otherwise, Scriptly writes a script and you run it — from the template view, the menu bar, or a schedule you set. Nothing runs without you choosing to, and every AI-generated script is checked for risky patterns before you're allowed to run it.
 
-**What's the Marketplace?** A searchable library of templates other Scriptly users have published, on top of the 115+ built-in ones. Every download goes through a built-in safety scan first, and you can report or block any author whose templates shouldn't be there.
+**What's the Marketplace?** A searchable library of templates other Scriptly users have published, on top of the 115+ built-in ones. You can report or block any author whose templates shouldn't be there — reports are reviewed by the developer.
 
 **Does the AI generation need an internet connection?** No — script generation and explanation both run on-device using Apple Intelligence. Nothing you type is sent anywhere. These features need macOS 26 and an Apple Intelligence–capable Mac; everything else in Scriptly (templates, running, scheduling, menu bar, Marketplace browsing) works back to macOS 13.
 

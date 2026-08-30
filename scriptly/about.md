@@ -32,7 +32,7 @@ Using on-device Apple Intelligence, Scriptly generates working scripts from plai
 ### Features
 
 - ✓ 115+ pre-built templates across Files, Slack, GitHub, Calendar, Email, Notion, Zoom, and more
-- ✓ Community Marketplace — browse, search, and publish templates, with a safety scan before download and the ability to report or block an author
+- ✓ Community Marketplace — browse, search, and publish templates, with the ability to report a template or block an author, reviewed by the developer
 - ✓ AI script generation and plain-language explanation, with automatic repair for scripts that fail to compile
 - ✓ Menu bar quick-run for your favourite automations, one click, no window
 - ✓ Scheduled automations — daily, weekly, or once, running via a background helper even while Scriptly is closed
