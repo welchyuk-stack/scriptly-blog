@@ -8,24 +8,24 @@ section: scriptly
 
 <div class="app-hero" style="--app-accent: {{ site.sections.scriptly.accent }}; --app-accent-dark: {{ site.sections.scriptly.accent_dark }};">
   <div class="app-hero__inner">
-    <img class="app-hero__icon" src="{{ '/assets/images/scriptly/icon.jpg' | relative_url }}" alt="Scriptly app icon">
+    <img class="app-hero__icon" width="96" height="96" src="{{ '/assets/images/scriptly/icon.jpg' | relative_url }}" alt="Scriptly app icon">
     <div class="app-hero__text">
       <h1>Scriptly</h1>
       <p>115+ templates, AI generation, or write your own — automate your Mac in AppleScript, your way.</p>
       <a class="app-hero__badge" href="{{ site.sections.scriptly.app_url }}">
-        <img src="{{ '/assets/images/badges/app-store-badge-white.svg' | relative_url }}" alt="Download on the App Store">
+        <img src="{{ '/assets/images/badges/app-store-badge-white.svg' | relative_url }}" width="120" height="40" alt="Download on the App Store">
       </a>
     </div>
   </div>
 </div>
 
 <div class="app-screens">
-  <img src="{{ '/assets/images/scriptly/screenshot-1-hero.jpg' | relative_url }}" alt="Scriptly: automate your Mac with 115+ ready-to-run templates, plain-English AI generation, and your own AppleScript">
-  <img src="{{ '/assets/images/scriptly/screenshot-2-ai.jpg' | relative_url }}" alt="Scriptly AI: describe an automation in plain English and it writes the AppleScript, with an Explain step before you run anything">
-  <img src="{{ '/assets/images/scriptly/screenshot-3-marketplace.jpg' | relative_url }}" alt="Scriptly Community Marketplace: browse and publish templates shared by the community, with report and block-author options">
-  <img src="{{ '/assets/images/scriptly/screenshot-4-scheduling.jpg' | relative_url }}" alt="Scriptly scheduled automations: run any template daily, weekly, or once, even while Scriptly is closed">
-  <img src="{{ '/assets/images/scriptly/screenshot-5-menubar.jpg' | relative_url }}" alt="Scriptly menu bar: one-click run for your favourite automations, no window required">
-  <img src="{{ '/assets/images/scriptly/screenshot-6-privacy.jpg' | relative_url }}" alt="Scriptly privacy: scripts never run themselves, destructive actions are flagged first, sandboxed, no accounts or tracking">
+  <img src="{{ '/assets/images/scriptly/screenshot-1-hero.jpg' | relative_url }}" width="900" height="562" fetchpriority="high" alt="Scriptly: automate your Mac with 115+ ready-to-run templates, plain-English AI generation, and your own AppleScript">
+  <img src="{{ '/assets/images/scriptly/screenshot-2-ai.jpg' | relative_url }}" width="900" height="562" loading="lazy" alt="Scriptly AI: describe an automation in plain English and it writes the AppleScript, with an Explain step before you run anything">
+  <img src="{{ '/assets/images/scriptly/screenshot-3-marketplace.jpg' | relative_url }}" width="900" height="562" loading="lazy" alt="Scriptly Community Marketplace: browse and publish templates shared by the community, with report and block-author options">
+  <img src="{{ '/assets/images/scriptly/screenshot-4-scheduling.jpg' | relative_url }}" width="900" height="562" loading="lazy" alt="Scriptly scheduled automations: run any template daily, weekly, or once, even while Scriptly is closed">
+  <img src="{{ '/assets/images/scriptly/screenshot-5-menubar.jpg' | relative_url }}" width="900" height="562" loading="lazy" alt="Scriptly menu bar: one-click run for your favourite automations, no window required">
+  <img src="{{ '/assets/images/scriptly/screenshot-6-privacy.jpg' | relative_url }}" width="900" height="562" loading="lazy" alt="Scriptly privacy: scripts never run themselves, destructive actions are flagged first, sandboxed, no accounts or tracking">
 </div>
 
 <div class="wrap wrap--wide" style="padding-top: 20px; padding-bottom: 60px;" markdown="1">
@@ -43,19 +43,31 @@ Practical, copy-paste AppleScript guides for people who have never written a lin
   <li>{{ site.sections.scriptly.price | prepend: "$" }} one-time purchase, no subscription, no in-app purchases</li>
 </ul>
 
-## Is Scriptly right for you?
+## Common questions
 
-**Do I need to know how to code?** No. Every template is ready to run as-is, and the AI generator writes scripts from a plain-English description — you never have to read or write AppleScript syntax unless you want to.
+### Do I need to know how to code?
 
-**Does Scriptly run scripts automatically?** Only if you schedule one yourself. Otherwise, Scriptly writes a script and you run it — from the template view, the menu bar, or a schedule you set. Nothing runs without you choosing to, and every AI-generated script is checked for risky patterns before you're allowed to run it.
+No. Every template is ready to run as-is, and the AI generator writes scripts from a plain-English description — you never have to read or write AppleScript syntax unless you want to.
 
-**What's the Marketplace?** A searchable library of templates other Scriptly users have published, on top of the 115+ built-in ones. You can report or block any author whose templates shouldn't be there — reports are reviewed by the developer.
+### Does Scriptly run scripts automatically?
 
-**Does the AI generation need an internet connection?** No — script generation and explanation both run on-device using Apple Intelligence. Nothing you type is sent anywhere. These features need macOS 26 and an Apple Intelligence–capable Mac; everything else in Scriptly (templates, running, scheduling, menu bar, Marketplace browsing) works back to macOS 13.
+Only if you schedule one yourself. Otherwise, Scriptly writes a script and you run it — from the template view, the menu bar, or a schedule you set. Nothing runs without you choosing to, and every AI-generated script is checked for risky patterns before you're allowed to run it.
 
-**Do scheduled automations really run when the app is closed?** Yes — a signed, sandboxed background helper checks for due schedules roughly every 15 minutes even with Scriptly fully quit. While the app is open, it checks far more often, so timing is much tighter in the common case.
+### What's the Marketplace?
 
-**Is there a free tier?** No — Scriptly is a {{ site.sections.scriptly.price | prepend: "$" }} one-time purchase with everything included. No subscription, no locked features, no in-app purchases.
+A searchable library of templates other Scriptly users have published, on top of the 115+ built-in ones. You can report or block any author whose templates shouldn't be there — reports are reviewed by the developer.
+
+### Does the AI generation need an internet connection?
+
+No — script generation and explanation both run on-device using Apple Intelligence. Nothing you type is sent anywhere. These features need macOS 26 and an Apple Intelligence–capable Mac; everything else in Scriptly (templates, running, scheduling, menu bar, Marketplace browsing) works back to macOS 13.
+
+### Do scheduled automations really run when the app is closed?
+
+Yes — a signed, sandboxed background helper checks for due schedules roughly every 15 minutes even with Scriptly fully quit. While the app is open, it checks far more often, so timing is much tighter in the common case.
+
+### Is there a free tier?
+
+No — Scriptly is a {{ site.sections.scriptly.price | prepend: "$" }} one-time purchase with everything included. No subscription, no locked features, no in-app purchases.
 
 ## Latest Guides
 
