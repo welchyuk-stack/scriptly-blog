@@ -23,7 +23,7 @@ Most automation tools require coding. We're solving that.
 
 **Describe what you want. Scriptly writes the AppleScript.**
 
-Using on-device Apple Intelligence, Scriptly generates working scripts from plain-English descriptions — nothing leaves your Mac. If a generated script has a mistake, Scriptly's repair step checks and fixes it before you ever see it.
+Using on-device Apple Intelligence, Scriptly generates working scripts from plain-English descriptions — nothing leaves your Mac. If a generated script won't compile, Scriptly repairs it automatically before you ever see it, and every generated script is checked for risky, destructive patterns before you're allowed to run it. You can also ask Scriptly to explain any script — built-in or AI-generated — in plain language before running it.
 
 ## Download
 
@@ -31,12 +31,14 @@ Using on-device Apple Intelligence, Scriptly generates working scripts from plai
 
 ### Features
 
-- ✓ 100+ pre-built templates, plus a community Marketplace to browse and publish more
-- ✓ AI script generation (describe in English) with automatic script repair
-- ✓ Menu bar quick-run for your saved automations
-- ✓ Scheduled automations — set a template to run on a recurring schedule
+- ✓ 115+ pre-built templates across Files, Slack, GitHub, Calendar, Email, Notion, Zoom, and more
+- ✓ Community Marketplace — browse, search, and publish templates, with a safety scan before download and the ability to report or block an author
+- ✓ AI script generation and plain-language explanation, with automatic repair for scripts that fail to compile
+- ✓ Menu bar quick-run for your favourite automations, one click, no window
+- ✓ Scheduled automations — daily, weekly, or once, running via a background helper even while Scriptly is closed
+- ✓ Permission preview before running — see what a script needs before you grant anything
 - ✓ Save custom templates and browse your run history
-- ✓ Private, on-device processing
+- ✓ Native Dark Mode; private, on-device processing outside the optional Marketplace
 - ✓ {{ site.sections.scriptly.price | prepend: "$" }} one-time purchase — no subscription, no in-app purchases
 
 ## Contact
