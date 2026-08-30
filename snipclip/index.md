@@ -31,12 +31,21 @@ A menu-bar screenshot tool for Mac that gets you from capture to markup in one h
 
 <ul class="app-features">
   <li>Global hotkey capture + instant markup (pen, arrow, rectangle, circle, text)</li>
+  <li>Remappable hotkey — change the capture shortcut in Preferences if it conflicts with another app</li>
   <li>Full colour picker with opacity control</li>
-  <li>Fully offline — nothing uploaded, no cloud sync</li>
+  <li>Fully offline — nothing uploaded, no cloud sync, no analytics</li>
   <li>Recent Captures: last 6 screenshots from the menu bar</li>
-  <li>Free with a 24-hour full-feature trial, then a one-time unlock — no subscription</li>
+  <li>{{ site.sections.snipclip.price | prepend: "$" }} one-time purchase — no subscription, no trial, no in-app purchases</li>
   <li>Requires macOS 13+</li>
 </ul>
+
+## Is SnipClip right for you?
+
+**Is there a free trial?** No — SnipClip is a straight {{ site.sections.snipclip.price | prepend: "$" }} one-time purchase from the App Store. That purchase is the unlock; there's nothing further to buy inside the app.
+
+**What does it do that the built-in macOS Screenshot tool doesn't?** macOS's own shortcuts (`⌘⇧3/4/5`) capture; markup is a separate step through Preview. SnipClip combines both into one hotkey — select an area and the markup toolbar is already open by the time you've finished dragging.
+
+**Does it upload my screenshots anywhere?** No. SnipClip has no cloud sync, no account, and makes no network requests — every capture stays on your Mac unless you choose to share it yourself.
 
 ## Reference
 

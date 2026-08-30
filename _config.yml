@@ -75,6 +75,7 @@ sections:
     url: /scriptly/
     app_url: "https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12"
     twitter: scriptlyapp
+    price: "4.99"
   windows_to_mac:
     name: "Windows → Mac"
     tagline: "Switching Guide"
@@ -87,6 +88,7 @@ sections:
     accent_dark: "#0a1024"
     url: /snipclip/
     app_url: "https://apps.apple.com/gb/app/snipclip/id6789209242"
+    price: "1.99"
 
 # Exclude from processing
 exclude:

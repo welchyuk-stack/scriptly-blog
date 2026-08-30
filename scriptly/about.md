@@ -2,7 +2,6 @@
 layout: page
 title: "About Scriptly"
 permalink: /scriptly/about/
-redirect_from: /about/
 section: scriptly
 ---
 
@@ -24,7 +23,7 @@ Most automation tools require coding. We're solving that.
 
 **Describe what you want. Scriptly writes the AppleScript.**
 
-Using on-device Apple Intelligence, Scriptly generates working scripts from plain-English descriptions — nothing leaves your Mac.
+Using on-device Apple Intelligence, Scriptly generates working scripts from plain-English descriptions — nothing leaves your Mac. If a generated script has a mistake, Scriptly's repair step checks and fixes it before you ever see it.
 
 ## Download
 
@@ -32,12 +31,13 @@ Using on-device Apple Intelligence, Scriptly generates working scripts from plai
 
 ### Features
 
-- ✓ 100+ pre-built templates
-- ✓ AI script generation (describe in English)
-- ✓ Run scripts directly from the app
-- ✓ Save custom templates
+- ✓ 100+ pre-built templates, plus a community Marketplace to browse and publish more
+- ✓ AI script generation (describe in English) with automatic script repair
+- ✓ Menu bar quick-run for your saved automations
+- ✓ Scheduled automations — set a template to run on a recurring schedule
+- ✓ Save custom templates and browse your run history
 - ✓ Private, on-device processing
-- ✓ Free tier + lifetime Pro purchase
+- ✓ {{ site.sections.scriptly.price | prepend: "$" }} one-time purchase — no subscription, no in-app purchases
 
 ## Contact
 

@@ -28,15 +28,29 @@ section: scriptly
 
 <div class="wrap wrap--wide" style="padding-top: 20px; padding-bottom: 60px;" markdown="1">
 
-Practical, copy-paste AppleScript guides for people who have never written a line of code — plus templates for anyone who just wants working scripts fast.
+Practical, copy-paste AppleScript guides for people who have never written a line of code — plus a template library and AI script generation for anyone who just wants working automations fast.
 
 <ul class="app-features">
-  <li>100+ ready-made automation templates</li>
-  <li>AI script generation — describe a task, get working AppleScript</li>
-  <li>Runs directly from the app, nothing to install separately</li>
+  <li>100+ ready-made automation templates, browsable in the in-app Marketplace</li>
+  <li>AI script generation — describe a task in plain English, get working AppleScript</li>
+  <li>Automatic script repair — Scriptly checks and fixes generated scripts before you see them</li>
+  <li>Menu bar quick-run — launch a favourite automation without opening the app</li>
+  <li>Scheduled automations — set a template to run on a recurring schedule</li>
   <li>Private, on-device processing — nothing leaves your Mac</li>
-  <li>Free tier + one-time Pro upgrade, no subscription</li>
+  <li>{{ site.sections.scriptly.price | prepend: "$" }} one-time purchase, no subscription, no in-app purchases</li>
 </ul>
+
+## Is Scriptly right for you?
+
+**Do I need to know how to code?** No. Every template is ready to run as-is, and the AI generator writes scripts from a plain-English description — you never have to read or write AppleScript syntax unless you want to.
+
+**Does Scriptly run scripts automatically?** No, by design. Scriptly writes and copies AppleScript to your clipboard; you run it yourself in Apple's Script Editor (or via the menu bar quick-run once you've saved it). The app has no automation or accessibility entitlement — it can't act on your Mac without you choosing to run something.
+
+**What's the Marketplace?** A browsable library of templates other Scriptly users have published, on top of the 100+ built-in ones — searchable by category, so you're rarely starting from a blank script.
+
+**Does the AI generation need an internet connection?** No — script generation and repair both run on-device using Apple Intelligence. Nothing you type is sent anywhere.
+
+**Is there a free tier?** No — Scriptly is a {{ site.sections.scriptly.price | prepend: "$" }} one-time purchase with everything included. No subscription, no locked features, no in-app purchases.
 
 ## Latest Guides
 

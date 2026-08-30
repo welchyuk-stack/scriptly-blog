@@ -71,7 +71,12 @@
     "applicationCategory": "UtilitiesApplication",
     "operatingSystem": "macOS",
     "description": "{{ page.description }}",
-    "publisher": { "@id": "{{ site.url }}/#organization" }
+    "publisher": { "@id": "{{ site.url }}/#organization" },
+    "offers": {
+      "@type": "Offer",
+      "price": "{{ site.sections[page.section].price }}",
+      "priceCurrency": "USD"
+    }
   }
   </script>
   {%- endif -%}

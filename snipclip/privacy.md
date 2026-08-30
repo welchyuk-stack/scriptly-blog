@@ -29,16 +29,18 @@ explicitly trigger a capture.
 
 ## Purchases
 
-SnipClip is a paid, one-time purchase on the Mac App Store. That transaction is handled
+SnipClip is a paid, one-time purchase on the Mac App Store — the purchase itself is the
+unlock, with no further in-app purchases or subscription. That transaction is handled
 entirely by Apple — we receive no payment information, no email address, and no account
 details. See [Apple's privacy policy](https://www.apple.com/legal/privacy/) for how Apple
 handles that transaction.
 
-## Free trial (existing installs)
+## Legacy trial (existing installs only)
 
-Some existing installs of SnipClip include a 24-hour free trial, tracked locally on your
-Mac using a timestamp stored in the system Keychain. This information never leaves your
-device.
+New downloads do not include a free trial. A small number of installs from before this
+change may still carry a 24-hour trial period from that earlier version, tracked locally
+on your Mac using a timestamp stored in the system Keychain. This information never
+leaves your device.
 
 ## System permissions
 
