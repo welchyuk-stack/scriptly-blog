@@ -6,6 +6,8 @@ permalink: /viewport/privacy/
 show_breadcrumb: false
 ---
 
+<span class="section-badge">PortHole</span>
+
 # PortHole Privacy Policy
 
 *Last updated: August 2026*

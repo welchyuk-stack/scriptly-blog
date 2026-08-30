@@ -3,8 +3,11 @@ layout: page
 title: "SnipClip Privacy Policy"
 description: "Privacy policy for SnipClip, the Mac screenshot and markup app. No accounts, no analytics, no tracking — everything stays on your Mac."
 permalink: /snipclip/privacy/
+section: snipclip
 show_breadcrumb: false
 ---
+
+<span class="section-badge">SnipClip</span>
 
 # SnipClip Privacy Policy
 
