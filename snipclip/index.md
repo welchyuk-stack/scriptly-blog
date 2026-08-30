@@ -20,9 +20,7 @@ section: snipclip
 </div>
 
 <div class="app-screens">
-  <img src="{{ '/assets/images/snipclip/promo.jpg' | relative_url }}" alt="SnipClip — pick any colour, copy instantly to clipboard">
-  <img src="{{ '/assets/images/snipclip/screenshot-1-colors.jpg' | relative_url }}" alt="SnipClip colour picker with opacity control">
-  <img src="{{ '/assets/images/snipclip/screenshot-2-editor.jpg' | relative_url }}" alt="SnipClip markup editor toolbar">
+  <img src="{{ '/assets/images/snipclip/screenshot-1-markup.jpg' | relative_url }}" alt="SnipClip: capture, markup, and share fast — freehand markup, shapes and arrows, text overlay and highlight, undo/redo, save and auto copy to clipboard, recent captures, custom hotkeys, lives in the menu bar">
 </div>
 
 <div class="wrap wrap--wide" style="padding-top: 20px; padding-bottom: 60px;" markdown="1">
@@ -30,7 +28,7 @@ section: snipclip
 A menu-bar screenshot tool for Mac that gets you from capture to markup in one hotkey — `⌘⇧S`, drag-select, mark up, copy or share. Fully offline, nothing uploaded.
 
 <ul class="app-features">
-  <li>Global hotkey capture + instant markup (pen, arrow, rectangle, circle, text)</li>
+  <li>Global hotkey capture + instant markup — 6 tools: pen, arrow, rectangle, circle, highlight, text</li>
   <li>Remappable hotkey — change the capture shortcut in Preferences if it conflicts with another app</li>
   <li>Full colour picker with opacity control</li>
   <li>Fully offline — nothing uploaded, no cloud sync, no analytics</li>
