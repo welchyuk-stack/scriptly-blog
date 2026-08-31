@@ -84,6 +84,10 @@ defaults:
       path: "porthole"
     values:
       image: /assets/images/porthole/social-preview.jpg
+  - scope:
+      path: "topbox"
+    values:
+      image: /assets/images/topbox/social-preview.jpg
 
 # NOTE: intentionally no top-level `logo:` key (renamed to org_logo below).
 # jekyll-seo-tag reads `logo:` only to emit its own "publisher" JSON-LD block,
@@ -146,6 +150,15 @@ sections:
     # No app_url yet — not archived/uploaded to App Store Connect as of
     # 2026-08-31. Add once it's actually live; until then the landing page
     # shows "coming soon" instead of a download badge.
+    price: "2.99"
+  topbox:
+    name: TopBox
+    tagline: "Clipboard & File Shelf"
+    accent: "#14275c"
+    accent_dark: "#0a1024"
+    url: /topbox/
+    # No app_url yet — not submitted to App Store Connect as of 2026-08-31.
+    # Add once it's live; until then the landing page shows "coming soon".
     price: "2.99"
 
 # Exclude from processing

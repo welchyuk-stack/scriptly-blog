@@ -28,6 +28,13 @@
               <small>Menu-Bar Display Fixes</small>
             </span>
           </a>
+          <a role="menuitem" href="{{ '/topbox/' | relative_url }}"{% if page.section == 'topbox' %} class="is-active"{% endif %}>
+            <span class="nav-dropdown__accent" style="background: {{ site.sections.topbox.accent }};"></span>
+            <span>
+              <strong>TopBox</strong>
+              <small>Clipboard & File Shelf</small>
+            </span>
+          </a>
         </div>
       </div>
       <a href="{{ '/blog/' | relative_url }}">Blog</a>
