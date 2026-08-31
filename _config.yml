@@ -15,10 +15,12 @@ markdown: kramdown
 theme: minima
 permalink: /scriptly/:title/
 
-# Jekyll ignores underscore-prefixed files by default — these are Cloudflare
-# Pages control files (security headers, IndexNow key) that must ship as-is.
+# Jekyll ignores underscore-prefixed files and dotfiles/dot-directories by
+# default — these are control files (Cloudflare headers, IndexNow key,
+# RFC 9116 security contact) that must ship as-is.
 include:
   - _headers
+  - .well-known
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
