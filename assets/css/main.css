@@ -353,6 +353,14 @@ table.ref-table tr.is-hidden { display: none; }
 .app-hero__text p { margin: 0 0 18px; color: rgba(255,255,255,0.75); font-size: 17px; }
 .app-hero__badge img { height: 44px; width: auto; border-radius: 0; display: block; filter: none; }
 
+/* "Coming soon" badge — same slot as the real App Store badge, for apps
+   not live yet. Deliberately plain/muted so it doesn't read as a real CTA. */
+.app-hero__badge--soon {
+  display: inline-flex; align-items: center; height: 44px; padding: 0 16px;
+  border: 2px solid rgba(255,255,255,0.4); color: rgba(255,255,255,0.85);
+  font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em;
+}
+
 .app-screens { display: flex; gap: 18px; overflow-x: auto; padding: 28px 24px 8px; margin: 0 auto; max-width: var(--wide-width); scroll-snap-type: x proximity; }
 .app-screens img { height: 320px; width: auto; border-radius: 0; box-shadow: 0 8px 28px rgba(0,0,0,0.18); flex-shrink: 0; scroll-snap-align: start; filter: none; }
 @media (max-width: 640px) {

@@ -3,6 +3,7 @@ layout: page
 title: "PortHole Support"
 description: "Get help with PortHole, the Mac menu-bar display utility — resolution fixes, saved layouts, and AirPlay casting."
 permalink: /porthole/support/
+section: porthole
 show_breadcrumb: false
 ---
 
@@ -26,19 +27,22 @@ policy, are reachable via the gear icon in the menu bar popover.
 
 ## Common questions
 
-**PortHole says a monitor is "wrong" but it looks fine to me.**
+### PortHole says a monitor is "wrong" but it looks fine to me.
+
 Built-in Retina displays are intentionally left alone — a scaled resolution there is a
 deliberate choice, not a mismatch. If an *external* monitor is flagged, try System
 Settings → Displays as a fallback if PortHole's own fix doesn't take.
 
-**A second external display isn't showing up, or only mirrors the first.**
+### A second external display isn't showing up, or only mirrors the first.
+
 This is usually a Mac hardware limit rather than a PortHole issue: base Apple Silicon
 chips (M1–M5, non-Pro/Max) natively drive only one external display. A second monitor
 through a dock needs a genuine DisplayLink-chip dock (not just a HDMI splitter/passive
 hub) and the [DisplayLink Manager driver](https://www.synaptics.com/products/displaylink-graphics/downloads/macos)
 installed to work as an independent display.
 
-**Does PortHole collect any data?**
+### Does PortHole collect any data?
+
 No — no account, no analytics, no tracking. See the
 [Privacy Policy](/porthole/privacy/) for details.
 

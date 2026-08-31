@@ -3,6 +3,7 @@ layout: page
 title: "PortHole Privacy Policy"
 description: "Privacy policy for PortHole, the Mac menu-bar display utility. No accounts, no analytics, no tracking — everything stays on your Mac."
 permalink: /porthole/privacy/
+section: porthole
 show_breadcrumb: false
 ---
 

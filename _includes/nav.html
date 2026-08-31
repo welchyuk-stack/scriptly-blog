@@ -21,6 +21,13 @@
               <small>Screenshots & Markup</small>
             </span>
           </a>
+          <a role="menuitem" href="{{ '/porthole/' | relative_url }}"{% if page.section == 'porthole' %} class="is-active"{% endif %}>
+            <span class="nav-dropdown__accent" style="background: {{ site.sections.porthole.accent }};"></span>
+            <span>
+              <strong>PortHole</strong>
+              <small>Menu-Bar Display Fixes</small>
+            </span>
+          </a>
         </div>
       </div>
       <a href="{{ '/blog/' | relative_url }}">Blog</a>
