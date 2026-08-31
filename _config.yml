@@ -96,9 +96,15 @@ defaults:
 # about, so it can't trigger the same bug.
 org_logo: /assets/images/scriptly-logo.png
 
-google_site_verification: dtVfpsOb02W8ArqVl9I3m6sFd3x6S6ZQR5S6dyWw-WE
+# Note: jekyll-seo-tag only renders the top-level google_site_verification
+# key when webmaster_verifications is unset; since webmaster_verifications
+# is set below, only webmaster_verifications.google actually appears in the
+# page. Kept both in sync anyway to avoid confusion. Replaced the old Google
+# token (never actually completed — GSC showed "no access" under the site's
+# own account) with a fresh one generated 2026-08-31.
+google_site_verification: 6ZAjjvwt281kb3_P3hcuiQ2u3Vei7Y8ysF0IU9uk-M0
 webmaster_verifications:
-  google: dtVfpsOb02W8ArqVl9I3m6sFd3x6S6ZQR5S6dyWw-WE
+  google: 6ZAjjvwt281kb3_P3hcuiQ2u3Vei7Y8ysF0IU9uk-M0
   bing: 5F7C9B6BB8D05475018B67DC707860F4
 
 social:
