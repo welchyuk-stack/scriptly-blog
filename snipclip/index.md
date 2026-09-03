@@ -29,7 +29,10 @@ A menu-bar screenshot tool for Mac that gets you from capture to markup in one h
 
 <ul class="app-features">
   <li>Global hotkey capture + instant markup — 6 tools: pen, arrow, rectangle, circle, highlight, text</li>
-  <li>Remappable hotkey — change the capture shortcut in Preferences if it conflicts with another app</li>
+  <li>Timed full-screen capture — pick a 3, 5, or 10-second delay from the menu bar, watch the countdown, then save straight to PNG or JPEG</li>
+  <li>Screen Recording — start/stop from the menu bar, saves to .mp4 in a folder of your choice, red menu bar icon and a live timer while recording (video only, no audio)</li>
+  <li>Two independently remappable hotkeys — one for capture (`⌘⇧S` default), one for screen recording (`⌘⇧R` default)</li>
+  <li>Launch SnipClip at Login, toggled from Preferences</li>
   <li>Full colour picker with opacity control</li>
   <li>Fully offline — nothing uploaded, no cloud sync, no analytics</li>
   <li>Recent Captures: last 6 screenshots from the menu bar</li>

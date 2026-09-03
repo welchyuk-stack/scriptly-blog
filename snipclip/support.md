@@ -29,6 +29,19 @@ there if it conflicts with another app.
 SnipClip copies captures straight to your clipboard by default. You can also save as
 PNG or JPEG from the markup editor.
 
+**Where do timed captures and screen recordings get saved?**
+Timed full-screen captures open a save panel so you pick the location and format (PNG or
+JPEG) each time. Screen recordings save as `.mp4` to a folder you choose in Preferences —
+that folder is remembered across launches, and SnipClip reveals the finished file in
+Finder as soon as you stop recording.
+
+**I bought SnipClip but it's asking me to pay again, or locked me out after 24 hours.**
+This is a known bug in a recent version — a leftover trial check was incorrectly
+triggering for paying customers. A fix is on its way as a 1.4.1 update. If you're hit by
+this in the meantime, email [welchyuk@gmail.com](mailto:welchyuk@gmail.com) with your
+purchase receipt and we'll sort it out directly — your purchase is valid regardless of
+what the app shows.
+
 ## Privacy
 
 See the [Privacy Policy]({{ '/snipclip/privacy/' | relative_url }}) for details on what

@@ -11,7 +11,7 @@ show_breadcrumb: false
 
 # SnipClip Privacy Policy
 
-*Last updated: August 2026*
+*Last updated: September 2026*
 
 SnipClip is a macOS screenshot and annotation app developed by Luke Welch. This policy
 describes what data SnipClip does and does not collect.
@@ -35,18 +35,13 @@ entirely by Apple — we receive no payment information, no email address, and n
 details. See [Apple's privacy policy](https://www.apple.com/legal/privacy/) for how Apple
 handles that transaction.
 
-## Legacy trial (existing installs only)
-
-New downloads do not include a free trial. A small number of installs from before this
-change may still carry a 24-hour trial period from that earlier version, tracked locally
-on your Mac using a timestamp stored in the system Keychain. This information never
-leaves your device.
-
 ## System permissions
 
 SnipClip requests **Screen Recording** permission on first launch. This permission is
-required to capture your screen. You can revoke it at any time in System Settings →
-Privacy & Security → Screen Recording.
+required to capture your screen and to record video with the Screen Recording feature.
+You can revoke it at any time in System Settings → Privacy & Security → Screen
+Recording. Screen recordings are saved as local `.mp4` files to a folder you choose —
+they are never uploaded or transmitted anywhere.
 
 ## Children
 
