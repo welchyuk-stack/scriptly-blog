@@ -29,6 +29,7 @@ A menu-bar screenshot tool for Mac that gets you from capture to markup in one h
 
 <ul class="app-features">
   <li>Global hotkey capture + instant markup — 6 tools: pen, arrow, rectangle, circle, highlight, text</li>
+  <li>Scrolling Capture — select a region, then keep scrolling the window or webpage underneath while SnipClip stitches it into one tall image, up to 12,000px, ready in the markup editor when you hit Stop</li>
   <li>Timed full-screen capture — pick a 3, 5, or 10-second delay from the menu bar, watch the countdown, then save straight to PNG or JPEG</li>
   <li>Screen Recording — start/stop from the menu bar, saves to .mp4 in a folder of your choice, red menu bar icon and a live timer while recording (video only, no audio)</li>
   <li>Two independently remappable hotkeys — one for capture (`⌘⇧S` default), one for screen recording (`⌘⇧R` default)</li>
@@ -53,6 +54,10 @@ macOS's own shortcuts (`⌘⇧3/4/5`) capture; markup is a separate step through
 ### Does it upload my screenshots anywhere?
 
 No. SnipClip has no cloud sync, no account, and makes no network requests — every capture stays on your Mac unless you choose to share it yourself.
+
+### How does Scrolling Capture work?
+
+Select a region from the menu bar's "Scrolling Capture" option, then scroll the window or page yourself — SnipClip watches that region and stitches new content onto the bottom of the image as it appears, up to 12,000px tall. Click Stop and it lands straight in the markup editor. It works well for chat logs, long documents, and most scrollable windows and webpages; like any scrolling-capture tool, unusual or animated content can occasionally trip it up.
 
 ## Reference
 

@@ -31,9 +31,18 @@ PNG or JPEG from the markup editor.
 
 **Where do timed captures and screen recordings get saved?**
 Timed full-screen captures open a save panel so you pick the location and format (PNG or
-JPEG) each time. Screen recordings save as `.mp4` to a folder you choose in Preferences —
-that folder is remembered across launches, and SnipClip reveals the finished file in
-Finder as soon as you stop recording.
+JPEG) each time, then also copy to your clipboard and appear in Recent Captures — they
+don't open the markup editor afterward, since they're meant for straight-to-file capture.
+Screen recordings save as `.mp4` to a folder you choose in Preferences — that folder is
+remembered across launches, and SnipClip reveals the finished file in Finder as soon as
+you stop recording.
+
+**My scrolling capture cut off, or looks glitchy.**
+Scrolling Capture is capped at 12,000px tall — it auto-finishes if you hit that. It works
+by watching pixels in your selected region as you scroll, so most windows, webpages, and
+long documents stitch together cleanly, but very unusual layouts or animated/video
+content can occasionally confuse it. Try a shorter scroll pass, or fall back to a regular
+capture for that content.
 
 ## Privacy
 
