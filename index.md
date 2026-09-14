@@ -40,8 +40,6 @@ last_modified_at: 2026-09-14
         <span class="mb-clock">Mon 14 Sep&nbsp; 16:42</span>
       </div>
     </div>
-    <div class="mb-window"><div class="dots"><i></i><i></i><i></i></div><img src="{{ '/assets/images/snipclip/screenshot-1-markup.jpg' | relative_url }}" width="900" height="562" fetchpriority="high" alt="SnipClip markup editor with arrows and highlights on a screenshot"></div>
-
     <div class="mb-menu is-open" data-for="snipclip">
       <div class="head"><img src="{{ '/assets/images/snipclip/icon.jpg' | relative_url }}" width="14" height="14" alt="">SnipClip</div>
       <div class="row hl">Capture Area <kbd>⇧⌘S</kbd></div>
@@ -51,12 +49,13 @@ last_modified_at: 2026-09-14
       <div class="row">Start Screen Recording <kbd>⇧⌘R</kbd></div>
       <hr><div class="row">Preferences…</div>
     </div>
-    <div class="mb-menu" data-for="scriptly">
-      <div class="head"><img src="{{ '/assets/images/scriptly/icon.jpg' | relative_url }}" width="14" height="14" alt="">Scriptly</div>
-      <div class="row hl">Run "Tidy Desktop"</div>
-      <div class="row">Run "Mute + Dark Mode"</div>
-      <div class="row">Scheduled ▸</div>
-      <hr><div class="row">New Script… <kbd>⌘N</kbd></div><div class="row">Marketplace</div>
+    <div class="mb-menu sc-panel" data-for="scriptly">
+      <div class="sc-title">Favorite Automations</div>
+      <div class="sc-row"><span class="sc-icon" aria-hidden="true">✨</span><span class="sc-label">Empty the Trash</span><span class="sc-run">Run</span></div>
+      <div class="sc-row"><span class="sc-icon" aria-hidden="true">🗂</span><span class="sc-label">Clear Downloads</span><span class="sc-run">Run</span></div>
+      <hr>
+      <div class="sc-plain">Open Scriptly</div>
+      <div class="sc-plain">Quit Scriptly</div>
     </div>
     <div class="mb-menu tb-panel" data-for="topbox">
       <div class="tb-titlebar">TopBox <span class="tb-gear" aria-hidden="true">⚙</span></div>

@@ -273,7 +273,7 @@ pre code { background: none; padding: 0; }
     radial-gradient(130% 100% at 70% 85%, rgba(79,99,214,.85), transparent 60%),
     radial-gradient(90% 90% at 15% 90%, rgba(20,39,92,.7), transparent 55%),
     linear-gradient(160deg, #cfe0f7, #9db8ee 55%, #6d7cf0);
-  position: relative; min-height: 360px;
+  position: relative; min-height: 385px;
 }
 .menubar {
   height: 32px; background: rgba(255, 255, 255, .62); backdrop-filter: blur(20px);
@@ -325,9 +325,9 @@ pre code { background: none; padding: 0; }
 
 /* PortHole popup: real panel (display status, layout controls, toggle, CTA) */
 .mb-menu.ph-panel { width: 300px; padding: 0; overflow: hidden; }
-.ph-titlebar { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; font-weight: 600; font-size: 13px; color: #1b1f2b; border-bottom: 1px solid rgba(0,0,0,.08); }
+.ph-titlebar { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; font-weight: 600; font-size: 13px; color: #1b1f2b; border-bottom: 1px solid rgba(0,0,0,.08); }
 .ph-gear { color: #5a6178; font-size: 13px; }
-.ph-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 7px 12px; border-bottom: 1px solid rgba(0,0,0,.06); font-size: 11.5px; color: #1b1f2b; }
+.ph-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 14px; border-bottom: 1px solid rgba(0,0,0,.06); font-size: 11.5px; color: #1b1f2b; }
 .ph-row strong { display: block; font-size: 12px; font-weight: 600; }
 .ph-row small { display: block; color: #5a6178; font-size: 10.5px; margin-top: 1px; }
 .ph-row--display { gap: 8px; }
@@ -336,8 +336,18 @@ pre code { background: none; padding: 0; }
 .ph-btn { background: rgba(0,0,0,.06); border-radius: 5px; padding: 4px 7px; font-size: 10px; color: #1b1f2b; white-space: nowrap; }
 .ph-row--toggle { gap: 8px; justify-content: flex-start; }
 .ph-checkbox { width: 14px; height: 14px; border-radius: 4px; border: 1.5px solid rgba(0,0,0,.2); background: #fff; flex-shrink: 0; }
-.ph-cta { margin: 6px 10px; text-align: center; background: rgba(0,0,0,.06); border-radius: 7px; padding: 6px; font-size: 11.5px; font-weight: 600; color: #8a90a0; }
-.ph-quit { text-align: right; padding: 0 12px 8px; font-size: 11px; color: #5a6178; }
+.ph-cta { margin: 8px 14px; text-align: center; background: rgba(0,0,0,.06); border-radius: 7px; padding: 8px 10px; font-size: 11.5px; font-weight: 600; color: #8a90a0; }
+.ph-quit { text-align: right; padding: 0 14px 10px; font-size: 11px; color: #5a6178; }
+
+/* Scriptly popup: real "Favorite Automations" panel, not a script-runner menu */
+.mb-menu.sc-panel { width: 260px; padding: 10px 0; background: rgba(234,238,251,.96); }
+.sc-title { padding: 2px 14px 10px; font-weight: 700; font-size: 13.5px; color: #1b1f2b; }
+.sc-row { display: flex; align-items: center; gap: 9px; padding: 6px 14px; }
+.sc-icon { font-size: 13px; flex-shrink: 0; }
+.sc-label { flex: 1; font-size: 12px; color: #1b1f2b; }
+.sc-run { background: #3b6ff1; color: #fff; font-size: 10.5px; font-weight: 600; padding: 3px 10px; border-radius: 999px; flex-shrink: 0; }
+.sc-panel hr { border: 0; border-top: 1px solid rgba(0,0,0,.1); margin: 6px 14px; }
+.sc-plain { padding: 6px 14px; font-size: 12px; color: #1b1f2b; }
 .mb-hint {
   position: absolute; left: 18px; bottom: 16px; font-family: var(--mono); font-size: 12px;
   color: #fff; background: rgba(10, 16, 36, .55); backdrop-filter: blur(8px);
