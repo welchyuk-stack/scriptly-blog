@@ -39,7 +39,7 @@ Using on-device Apple Intelligence, Scriptly generates working scripts from plai
 - ✓ Permission preview before running — see what a script needs before you grant anything
 - ✓ Save custom templates and browse your run history
 - ✓ Native Dark Mode; private, on-device processing outside the optional Marketplace
-- ✓ {{ site.sections.scriptly.price | prepend: "$" }} one-time purchase — no subscription, no in-app purchases
+- ✓ {{ site.sections.scriptly.price | prepend: "$" }} / £{{ site.sections.scriptly.gbp_price }} one-time purchase — no subscription, no in-app purchases
 
 ## Contact
 

@@ -84,7 +84,7 @@ last_modified_at: 2026-09-14
         <h3><a href="{{ '/snipclip/' | relative_url }}">SnipClip</a> <span class="tag">Screenshots &amp; Markup</span></h3>
         <p>Capture, annotate and share in one hotkey. Scrolling Capture stitches a whole page into one tall image.</p>
         <div class="foot">
-          <span class="price">${{ site.sections.snipclip.price }}</span>
+          <span class="price">${{ site.sections.snipclip.price }} · £{{ site.sections.snipclip.gbp_price }}</span>
           <a class="app-hero__badge" href="{{ site.sections.snipclip.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" width="96" height="32" alt="Download SnipClip on the App Store"></a>
           <span class="key">Hotkey <kbd>⌘⇧S</kbd></span>
         </div>
@@ -96,7 +96,7 @@ last_modified_at: 2026-09-14
         <h3><a href="{{ '/topbox/' | relative_url }}">TopBox</a> <span class="tag">Clipboard &amp; File Shelf</span></h3>
         <p>A clipboard history and a drag-in shelf for files, both one keystroke away. Nothing leaves memory, nothing syncs.</p>
         <div class="foot">
-          <span class="price">${{ site.sections.topbox.price }}</span>
+          <span class="price">${{ site.sections.topbox.price }} · £{{ site.sections.topbox.gbp_price }}</span>
           <span class="pill soon">Waiting for review</span>
           <span class="key">Hotkey <kbd>⌘⇧T</kbd></span>
         </div>
@@ -108,7 +108,7 @@ last_modified_at: 2026-09-14
         <h3><a href="{{ '/scriptly/' | relative_url }}">Scriptly</a> <span class="tag">AppleScript &amp; Automation</span></h3>
         <p>Write, schedule and run AppleScripts from the menu bar, with AI help when you're stuck and a marketplace when you're lazy.</p>
         <div class="foot">
-          <span class="price">${{ site.sections.scriptly.price }}</span>
+          <span class="price">${{ site.sections.scriptly.price }} · £{{ site.sections.scriptly.gbp_price }}</span>
           <a class="app-hero__badge" href="{{ site.sections.scriptly.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" width="96" height="32" alt="Download Scriptly on the App Store"></a>
           <span class="key">Menu bar</span>
         </div>
@@ -120,7 +120,7 @@ last_modified_at: 2026-09-14
         <h3><a href="{{ '/porthole/' | relative_url }}">PortHole</a> <span class="tag">Menu-Bar Display Fixes</span></h3>
         <p>For the moment your external monitor forgets where it lives. Put displays back where they belong without opening Settings.</p>
         <div class="foot">
-          <span class="price">${{ site.sections.porthole.price }}</span>
+          <span class="price">${{ site.sections.porthole.price }} · £{{ site.sections.porthole.gbp_price }}</span>
           <span class="pill soon">Coming soon</span>
           <span class="key">Menu bar</span>
         </div>

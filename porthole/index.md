@@ -16,7 +16,7 @@ last_modified_at: 2026-09-14
         <p>Resolution mismatches, forgotten display layouts, and AirPlay casting — one click from the menu bar.</p>
         <div class="app-hero__btn-row">
           <span class="app-hero__badge--soon">Coming soon to the App Store</span>
-          <span class="app-hero__price">${{ site.sections.porthole.price }} one-time · macOS</span>
+          <span class="app-hero__price">${{ site.sections.porthole.price }} / £{{ site.sections.porthole.gbp_price }} one-time · macOS</span>
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@ A menu-bar utility for Mac that fixes the recurring annoyances of working with e
   <div class="feat"><div class="k">Layouts</div><h3>Display Arrangement Memory</h3><p>Save named layouts (e.g. "Desk," "Living Room TV") and switch between them, or drag-arrange displays to match your desk right inside the app.</p></div>
   <div class="feat"><div class="k">AirPlay</div><h3>One-click casting</h3><p>Cast to a nearby Apple TV or AirPlay display, right from the menu bar.</p></div>
   <div class="feat"><div class="k">Menu bar</div><h3>Dark Mode and Launch at Login</h3><p>Both toggled straight from the menu bar.</p></div>
-  <div class="feat"><div class="k">Private</div><h3>No account, no analytics</h3><p>No tracking of any kind — ${{ site.sections.porthole.price }} one-time purchase, no subscription.</p></div>
+  <div class="feat"><div class="k">Private</div><h3>No account, no analytics</h3><p>No tracking of any kind — ${{ site.sections.porthole.price }} / £{{ site.sections.porthole.gbp_price }} one-time purchase, no subscription.</p></div>
   <div class="feat"><div class="k">Built right</div><h3>Public APIs only</h3><p>No private frameworks, no kernel extensions, no DDC hacking.</p></div>
 </div>
 

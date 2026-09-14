@@ -129,6 +129,7 @@ sections:
     app_url: "https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12"
     twitter: scriptlyapp
     price: "4.99"
+    gbp_price: "4.99"  # verified via App Store Connect UK pricing, same Apple tier
   windows_to_mac:
     name: "Windows → Mac"
     tagline: "Switching Guide"
@@ -143,6 +144,7 @@ sections:
     url: /snipclip/
     app_url: "https://apps.apple.com/gb/app/snipclip/id6789209242"
     price: "1.99"
+    gbp_price: "1.99"  # verified via App Store Connect UK pricing, same Apple tier
   porthole:
     name: PortHole
     tagline: "Menu-Bar Display Fixes"
@@ -154,6 +156,7 @@ sections:
     # 2026-08-31. Add once it's actually live; until then the landing page
     # shows "coming soon" instead of a download badge.
     price: "2.99"
+    gbp_price: "2.99"  # not yet live; same Apple price tier as USD, update once submitted
   topbox:
     name: TopBox
     tagline: "Clipboard & File Shelf"
@@ -164,6 +167,7 @@ sections:
     # No app_url yet — not submitted to App Store Connect as of 2026-08-31.
     # Add once it's live; until then the landing page shows "coming soon".
     price: "2.99"
+    gbp_price: "2.99"  # not yet live; same Apple price tier as USD, update once submitted
 
 # Exclude from processing
 exclude:

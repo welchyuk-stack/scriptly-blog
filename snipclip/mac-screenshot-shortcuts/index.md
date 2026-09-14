@@ -48,7 +48,7 @@ SnipClip isn't a replacement for `⌘⇧4` — it's what happens *after*. Its ow
 - Global hotkey `⌘⇧S` (customisable)
 - Recent Captures: your last 6 screenshots, reachable from the menu bar
 - Save as PNG or JPEG
-- {{ site.sections.snipclip.price | prepend: "$" }} one-time purchase — no trial, no subscription
+- {{ site.sections.snipclip.price | prepend: "$" }} / £{{ site.sections.snipclip.gbp_price }} one-time purchase — no trial, no subscription
 - Requires macOS 13+
 
 <a href="{{ site.sections.snipclip.app_url }}"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" width="120" height="40" alt="Download on the App Store" style="height: 44px; width: auto;"></a>

@@ -18,7 +18,7 @@ last_modified_at: 2026-09-14
           <a class="app-hero__badge" href="{{ site.sections.scriptly.app_url }}" target="_blank" rel="noopener">
             <img src="{{ '/assets/images/badges/app-store-badge-white.svg' | relative_url }}" width="120" height="40" alt="Download Scriptly on the App Store">
           </a>
-          <span class="app-hero__price">${{ site.sections.scriptly.price }} one-time · macOS 13+</span>
+          <span class="app-hero__price">${{ site.sections.scriptly.price }} / £{{ site.sections.scriptly.gbp_price }} one-time · macOS 13+</span>
         </div>
       </div>
     </div>
@@ -50,7 +50,7 @@ Practical, copy-paste AppleScript guides for people who have never written a lin
   <div class="feat"><div class="k">Scheduling</div><h3>Runs even while closed</h3><p>Daily, weekly, or once — scheduled automations keep running whether or not Scriptly is open.</p></div>
   <div class="feat"><div class="k">Permissions</div><h3>See before you grant</h3><p>A permission preview shows exactly what a script needs, so there are no surprise prompts.</p></div>
   <div class="feat"><div class="k">Private</div><h3>Native Dark Mode, private by default</h3><p>Nothing leaves your Mac except what you choose to publish to the Marketplace.</p></div>
-  <div class="feat new"><div class="k">Price</div><h3>${{ site.sections.scriptly.price }} one-time</h3><p>No subscription, no in-app purchases.</p></div>
+  <div class="feat new"><div class="k">Price</div><h3>${{ site.sections.scriptly.price }} / £{{ site.sections.scriptly.gbp_price }} one-time</h3><p>No subscription, no in-app purchases.</p></div>
 </div>
 
 ## Common questions
@@ -61,7 +61,7 @@ Practical, copy-paste AppleScript guides for people who have never written a lin
 <details><summary><h3>What's the Marketplace?</h3></summary><p>A searchable library of templates other Scriptly users have published, on top of the 115+ built-in ones. You can report or block any author whose templates shouldn't be there — reports are reviewed by the developer.</p></details>
 <details><summary><h3>Does the AI generation need an internet connection?</h3></summary><p>No — script generation and explanation both run on-device using Apple Intelligence. Nothing you type is sent anywhere. These features need macOS 26 and an Apple Intelligence–capable Mac; everything else in Scriptly (templates, running, scheduling, menu bar, Marketplace browsing) works back to macOS 13.</p></details>
 <details><summary><h3>Do scheduled automations really run when the app is closed?</h3></summary><p>Yes — a signed, sandboxed background helper checks for due schedules roughly every 15 minutes even with Scriptly fully quit. While the app is open, it checks far more often, so timing is much tighter in the common case.</p></details>
-<details><summary><h3>Is there a free tier?</h3></summary><p>No — Scriptly is a ${{ site.sections.scriptly.price }} one-time purchase with everything included. No subscription, no locked features, no in-app purchases.</p></details>
+<details><summary><h3>Is there a free tier?</h3></summary><p>No — Scriptly is a ${{ site.sections.scriptly.price }} (£{{ site.sections.scriptly.gbp_price }}) one-time purchase with everything included. No subscription, no locked features, no in-app purchases.</p></details>
 </div>
 
 ## Latest Guides

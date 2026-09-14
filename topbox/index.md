@@ -16,7 +16,7 @@ last_modified_at: 2026-09-14
         <p>A searchable clipboard history and a drag-and-drop file shelf, both one keystroke from the menu bar.</p>
         <div class="app-hero__btn-row">
           <span class="app-hero__badge--soon">Waiting for review</span>
-          <span class="app-hero__price">${{ site.sections.topbox.price }} one-time · macOS</span>
+          <span class="app-hero__price">${{ site.sections.topbox.price }} / £{{ site.sections.topbox.gbp_price }} one-time · macOS</span>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@ A menu-bar-only app for Mac (no Dock icon). Press a global hotkey — default **
   <div class="feat"><div class="k">Files</div><h3>File Shelf</h3><p>A fixed-size "Loading Bay" drop zone for temporarily parking files; drag files in, search by name, drag them back out to Finder or another app whenever you need them.</p></div>
   <div class="feat"><div class="k">Files</div><h3>Right-click actions</h3><p>Right-click a shelved file to open it, reveal it in Finder, or remove it; pin up to 20 files.</p></div>
   <div class="feat"><div class="k">Controls</div><h3>Rebindable hotkey &amp; reset</h3><p>Rebindable global hotkey, Launch at Login, and a one-click Reset All Data option (confirmation-gated).</p></div>
-  <div class="feat"><div class="k">Private</div><h3>No account, no analytics</h3><p>No tracking of any kind — ${{ site.sections.topbox.price }} one-time purchase, no subscription.</p></div>
+  <div class="feat"><div class="k">Private</div><h3>No account, no analytics</h3><p>No tracking of any kind — ${{ site.sections.topbox.price }} / £{{ site.sections.topbox.gbp_price }} one-time purchase, no subscription.</p></div>
 </div>
 
 ## Common questions
