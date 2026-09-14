@@ -11,15 +11,9 @@ last_modified_at: 2026-09-14
 
 <div class="hero">
   <div class="hero-grid">
-    <div>
-      <div class="eyebrow">Small Mac apps · one-time purchase · no accounts</div>
-      <h1>Four little apps that live in your <em>menu bar.</em></h1>
-      <p class="lede">Screenshots, clipboard, AppleScript and display fixes. Each one does a single job, works offline, and costs less than a coffee.</p>
-    </div>
-    <div class="hero-note">
-      Every MacBound app is one keystroke from a menu-bar icon. That's the whole idea.<br>
-      <a class="desk-link" href="#apps">See all four apps and download links ↓</a>
-    </div>
+    <div class="eyebrow">Small Mac apps · one-time purchase · no accounts</div>
+    <h1>Four little apps that live in your <em>menu bar.</em></h1>
+    <p class="lede">Screenshots, clipboard, AppleScript and display fixes. Each one does a single job, works offline, and costs less than a coffee.</p>
   </div>
 
   <div class="try-callout" aria-hidden="true">
