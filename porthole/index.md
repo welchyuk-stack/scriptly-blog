@@ -15,8 +15,8 @@ last_modified_at: 2026-09-14
         <h1>Fix your external monitor without opening Settings.</h1>
         <p>Resolution mismatches, forgotten display layouts, and AirPlay casting — one click from the menu bar.</p>
         <div class="app-hero__btn-row">
-          <span class="app-hero__badge--soon">Coming soon to the App Store</span>
-          <span class="app-hero__price">${{ site.sections.porthole.price }} / £{{ site.sections.porthole.gbp_price }} one-time · macOS</span>
+          <a class="app-hero__badge" href="{{ site.sections.porthole.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-white.svg' | relative_url }}" width="120" height="40" alt="Download PortHole on the App Store"></a>
+          <span class="app-hero__price">${{ site.sections.porthole.price }} / £{{ site.sections.porthole.gbp_price }} one-time · macOS 13+</span>
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@ A menu-bar utility for Mac that fixes the recurring annoyances of working with e
 <details open><summary><h3>Will this mess with my built-in display?</h3></summary><p>No. PortHole deliberately leaves your Mac's built-in display alone — a scaled Retina resolution there is a choice, not something to "fix."</p></details>
 <details><summary><h3>Does PortHole need an account or internet connection?</h3></summary><p>No. There's no sign-in of any kind. The only network activity is AirPlay discovery on your own local network when you use the casting button — nothing else PortHole does requires a connection.</p></details>
 <details><summary><h3>Does it collect any data?</h3></summary><p>No — confirmed "Data Not Collected" for the App Store's privacy label. Your saved display layouts and preferences stay in local storage on your Mac, never transmitted anywhere. See the <a href="{{ '/porthole/privacy/' | relative_url }}">Privacy Policy</a> for the full detail.</p></details>
-<details><summary><h3>Is it out yet?</h3></summary><p>Not quite — PortHole is still in submission prep. This page will get an App Store link the moment it's live.</p></details>
+<details><summary><h3>Is it out yet?</h3></summary><p>Yes — PortHole is live on the Mac App Store now.</p></details>
 </div>
 
 </div>

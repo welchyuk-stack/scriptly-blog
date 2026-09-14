@@ -15,8 +15,8 @@ last_modified_at: 2026-09-14
         <h1>Your clipboard history and a file shelf, one hotkey away.</h1>
         <p>A searchable clipboard history and a drag-and-drop file shelf, both one keystroke from the menu bar.</p>
         <div class="app-hero__btn-row">
-          <span class="app-hero__badge--soon">Waiting for review</span>
-          <span class="app-hero__price">${{ site.sections.topbox.price }} / £{{ site.sections.topbox.gbp_price }} one-time · macOS</span>
+          <a class="app-hero__badge" href="{{ site.sections.topbox.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-white.svg' | relative_url }}" width="120" height="40" alt="Download TopBox on the App Store"></a>
+          <span class="app-hero__price">${{ site.sections.topbox.price }} / £{{ site.sections.topbox.gbp_price }} one-time · macOS 13+</span>
         </div>
       </div>
     </div>
@@ -45,7 +45,7 @@ A menu-bar-only app for Mac (no Dock icon). Press a global hotkey — default **
 <details open><summary><h3>Does TopBox sync my clipboard or files anywhere?</h3></summary><p>No. Everything lives in memory only, on your Mac, for as long as the app is running — nothing is written to disk, nothing syncs to iCloud, and nothing leaves your Mac. Quitting or relaunching TopBox clears the in-memory history (aside from what you've pinned during that session).</p></details>
 <details><summary><h3>Does it need an account or internet connection?</h3></summary><p>No. There's no sign-in and no network calls of any kind — see the <a href="{{ '/topbox/privacy/' | relative_url }}">Privacy Policy</a> for the full detail.</p></details>
 <details><summary><h3>How is this different from macOS's own clipboard?</h3></summary><p>macOS only remembers your single most recent copy. TopBox keeps a searchable history of many past copies (up to 500), lets you pin favorites so they don't get bumped, and pairs it with a separate File Shelf for temporarily parking files mid-drag — something the built-in clipboard doesn't do at all.</p></details>
-<details><summary><h3>Is it out yet?</h3></summary><p>Not quite — TopBox is still in submission prep. This page will get an App Store link the moment it's live.</p></details>
+<details><summary><h3>Is it out yet?</h3></summary><p>Yes — TopBox is live on the Mac App Store now.</p></details>
 </div>
 
 </div>

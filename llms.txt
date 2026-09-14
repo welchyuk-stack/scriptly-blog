@@ -16,7 +16,7 @@ SnipClip (https://macbound.com/snipclip/ · App Store: https://apps.apple.com/gb
 
 ## TopBox — Clipboard History & File Shelf
 
-TopBox (https://macbound.com/topbox/) is a menu-bar clipboard history and file shelf for Mac. A global hotkey (⌘⇧T by default, rebindable) opens a panel with two panes: recent clipboard text (pin up to 3 favourites, configurable history limit and auto-clear) and a File Shelf you drag files into and out of (pin up to 20). Everything is held in memory only and cleared on quit; nothing is written to disk except preferences, and nothing syncs. Price: $2.99 one-time. Status: submitted to the Mac App Store, awaiting review (September 2026).
+TopBox (https://macbound.com/topbox/ · App Store: https://apps.apple.com/us/app/topbox/id6807077900?mt=12) is a menu-bar clipboard history and file shelf for Mac. A global hotkey (⇧⌘T by default, rebindable) opens a panel with two panes: recent clipboard text (pin up to 3 favourites, configurable history limit and auto-clear) and a File Shelf you drag files into and out of (pin up to 20). Everything is held in memory only and cleared on quit; nothing is written to disk except preferences, and nothing syncs. Price: $2.99 / £2.99 one-time. Status: live on the Mac App Store (September 2026).
 
 - [TopBox](/topbox/): Product page.
 - [TopBox Support](/topbox/support/): Hotkey rebinding, pinning, File Shelf mechanics, Reset All Data.
@@ -38,7 +38,7 @@ Scriptly (https://macbound.com/scriptly/ · App Store: https://apps.apple.com/us
 
 ## PortHole — Menu-Bar Display Fixes
 
-PortHole (https://macbound.com/porthole/) is a menu-bar utility for when an external monitor forgets its arrangement. Restores display layout without opening System Settings. Price: $2.99 one-time. Status: coming soon to the Mac App Store.
+PortHole (https://macbound.com/porthole/ · App Store: https://apps.apple.com/us/app/porthole/id6806519397?mt=12) is a menu-bar utility for when an external monitor forgets its arrangement. Restores display layout without opening System Settings. Price: $2.99 / £2.99 one-time. Status: live on the Mac App Store (September 2026).
 
 - [PortHole](/porthole/), [Support](/porthole/support/), [Privacy](/porthole/privacy/).
 
