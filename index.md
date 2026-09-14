@@ -17,7 +17,7 @@ last_modified_at: 2026-09-14
       <p class="lede">Screenshots, clipboard, AppleScript and display fixes. Each one does a single job, works offline, and costs less than a coffee.</p>
     </div>
     <div class="hero-note">
-      <b>Try it →</b> click an icon in the menu bar below.<br>Every MacBound app is one keystroke from a menu-bar icon. That's the whole idea.<br>
+      Every MacBound app is one keystroke from a menu-bar icon. That's the whole idea.<br>
       <a class="desk-link" href="#apps">See all four apps and download links ↓</a>
     </div>
   </div>
