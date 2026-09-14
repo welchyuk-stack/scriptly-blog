@@ -43,9 +43,9 @@ These get you the screenshot. They don't get you markup — for that you need a 
 
 ## Where SnipClip fits in
 
-SnipClip isn't a replacement for `⌘⇧4` — it's what happens *after*. Its own hotkey, `⌘⇧S`, drag-selects an area and opens a markup toolbar immediately: pen, arrow, rectangle, circle, text, and a full colour picker with opacity. Copy or share the result instantly, with nothing uploaded — SnipClip is fully offline.
+SnipClip isn't a replacement for `⇧⌘4` — it's what happens *after*. Its own hotkey, `⇧⌘S`, drag-selects an area and opens a markup toolbar immediately: pen, arrow, rectangle, circle, text, and a full colour picker with opacity. Copy or share the result instantly, with nothing uploaded — SnipClip is fully offline.
 
-- Global hotkey `⌘⇧S` (customisable)
+- Global hotkey `⇧⌘S` (customisable)
 - Recent Captures: your last 6 screenshots, reachable from the menu bar
 - Save as PNG or JPEG
 - {{ site.sections.snipclip.price | prepend: "$" }} / £{{ site.sections.snipclip.gbp_price }} one-time purchase — no trial, no subscription

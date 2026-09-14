@@ -26,7 +26,7 @@ This adds up faster than it sounds. If you screenshot and annotate something eve
 
 ## Why "Designed for Speed" isn't just a tagline
 
-This is the specific design bet behind [SnipClip]({{ site.sections.snipclip.app_url }}): it lives entirely in the menu bar, has no meaningful "open the app" step, and its one hotkey (`⌘⇧S`) goes straight from wherever you currently are to an area-selection cursor, then straight into markup once you've selected. There's no window to find afterward, no separate step to locate the file — copy or share happens right where you already are.
+This is the specific design bet behind [SnipClip]({{ site.sections.snipclip.app_url }}): it lives entirely in the menu bar, has no meaningful "open the app" step, and its one hotkey (`⇧⌘S`) goes straight from wherever you currently are to an area-selection cursor, then straight into markup once you've selected. There's no window to find afterward, no separate step to locate the file — copy or share happens right where you already are.
 
 It's also why SnipClip deliberately doesn't try to be a full screenshot *manager* — no searchable library, no cloud sync dashboard, no organizing folders of past captures beyond a simple "last 6" quick-access list in the menu bar. Those are legitimate features for a different kind of tool, but each one pulls the app back toward being a destination you visit, rather than a hotkey you barely notice using.
 

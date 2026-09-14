@@ -11,7 +11,7 @@ show_breadcrumb: false
 
 # TopBox Support
 
-TopBox is a menu-bar-only app for Mac — look for its icon in the menu bar after launching (there's no Dock icon or main window). Press the global hotkey (default **⌘⇧T**) or click the menu bar icon to open the panel.
+TopBox is a menu-bar-only app for Mac — look for its icon in the menu bar after launching (there's no Dock icon or main window). Press the global hotkey (default **⇧⌘T**) or click the menu bar icon to open the panel.
 
 ## What TopBox does
 

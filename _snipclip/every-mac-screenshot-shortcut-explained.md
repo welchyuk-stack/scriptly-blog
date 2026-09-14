@@ -2,7 +2,7 @@
 layout: post
 date: 2026-08-28 07:46:48 +0000
 last_modified_at: 2026-08-29 17:28:37 +0000
-title: "Every Mac Screenshot Shortcut Explained (⌘⇧3, ⌘⇧4, ⌘⇧5)"
+title: "Every Mac Screenshot Shortcut Explained (⇧⌘3, ⇧⌘4, ⇧⌘5)"
 excerpt: "Three shortcuts cover every screenshot scenario on Mac. Here's exactly what each one does, and the options most people never discover."
 author: Luke Welch
 section: snipclip
@@ -47,6 +47,6 @@ By default, everything lands on your Desktop, which gets cluttered fast if you s
 
 They capture. That's it — no markup, no arrows, no way to circle something or add text before sharing, beyond a very basic built-in Markup toolbar that appears if you click the capture thumbnail before it disappears (which does support some annotation, but requires catching that small window in time).
 
-If markup is something you do after nearly every screenshot — annotating a bug for a colleague, circling something in a support request, adding a note before sending — that extra step (open the file, find an editor, add markup, re-export) adds up. That's the specific gap [SnipClip]({{ site.sections.snipclip.app_url }}) fills: one hotkey (`⌘⇧S`) that combines the selection step above with an instant markup toolbar, so annotation happens in the same motion as the capture rather than as a separate follow-up. See [how SnipClip's hotkey fits alongside these native shortcuts](/snipclip/mac-screenshot-shortcuts/) for the full comparison.
+If markup is something you do after nearly every screenshot — annotating a bug for a colleague, circling something in a support request, adding a note before sending — that extra step (open the file, find an editor, add markup, re-export) adds up. That's the specific gap [SnipClip]({{ site.sections.snipclip.app_url }}) fills: one hotkey (`⇧⌘S`) that combines the selection step above with an instant markup toolbar, so annotation happens in the same motion as the capture rather than as a separate follow-up. See [how SnipClip's hotkey fits alongside these native shortcuts](/snipclip/mac-screenshot-shortcuts/) for the full comparison.
 
 For everyday "just get the screenshot" needs, though, the three shortcuts above are genuinely all you need.

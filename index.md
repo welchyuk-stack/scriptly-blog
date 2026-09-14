@@ -22,6 +22,13 @@ last_modified_at: 2026-09-14
     </div>
   </div>
 
+  <div class="try-callout" aria-hidden="true">
+    <span class="try-callout__text">Try it — click an icon!</span>
+    <svg class="try-callout__arrow" width="22" height="26" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M11 1 V22 M11 22 L4 15 M11 22 L18 15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
   <div class="menubar-stage">
     <div class="menubar">
       <div class="left"><span class="apple">&#63743;</span><span>Finder</span><span style="font-weight:500">File</span><span style="font-weight:500">Edit</span><span style="font-weight:500">View</span></div>
@@ -37,11 +44,12 @@ last_modified_at: 2026-09-14
 
     <div class="mb-menu is-open" data-for="snipclip">
       <div class="head"><img src="{{ '/assets/images/snipclip/icon.jpg' | relative_url }}" width="14" height="14" alt="">SnipClip</div>
-      <div class="row hl">Capture Area <kbd>⌘⇧S</kbd></div>
+      <div class="row hl">Capture Area <kbd>⇧⌘S</kbd></div>
+      <div class="row">Recent Captures ▸</div>
+      <div class="row">Timed Full-Screen Capture ▸</div>
       <div class="row">Scrolling Capture</div>
-      <div class="row">Timed Capture ▸</div>
-      <div class="row">Record Screen <kbd>⌘⇧R</kbd></div>
-      <hr><div class="row">Recent Captures ▸</div><div class="row">Preferences…</div>
+      <div class="row">Start Screen Recording <kbd>⇧⌘R</kbd></div>
+      <hr><div class="row">Preferences…</div>
     </div>
     <div class="mb-menu" data-for="scriptly">
       <div class="head"><img src="{{ '/assets/images/scriptly/icon.jpg' | relative_url }}" width="14" height="14" alt="">Scriptly</div>
@@ -66,12 +74,24 @@ last_modified_at: 2026-09-14
         </div>
       </div>
     </div>
-    <div class="mb-menu" data-for="porthole">
-      <div class="head"><img src="{{ '/assets/images/porthole/icon.jpg' | relative_url }}" width="14" height="14" alt="">PortHole</div>
-      <div class="row hl">Fix Display Arrangement</div>
-      <div class="row">Studio Display ✓</div>
-      <div class="row">MacBook Pro</div>
-      <hr><div class="row">Preferences…</div>
+    <div class="mb-menu ph-panel" data-for="porthole">
+      <div class="ph-titlebar">PortHole <span class="ph-gear" aria-hidden="true">⚙</span></div>
+      <div class="ph-row ph-row--display">
+        <span class="ph-dot" aria-hidden="true"></span>
+        <span><strong>Built-in Retina Display</strong><small>1512×982</small></span>
+      </div>
+      <div class="ph-row">
+        <span><strong>AirPlay</strong><small>Cast to a nearby display</small></span>
+      </div>
+      <div class="ph-row ph-row--layout">
+        <span><strong>Display Layout</strong><small>1 layout saved</small></span>
+        <span class="ph-btns"><span class="ph-btn">Arrange…</span><span class="ph-btn">Restore ▾</span></span>
+      </div>
+      <div class="ph-row ph-row--toggle">
+        <span class="ph-checkbox" aria-hidden="true"></span><strong>Dark Mode</strong>
+      </div>
+      <div class="ph-cta">Fix All Monitors</div>
+      <div class="ph-quit">Quit</div>
     </div>
     <div class="mb-hint">↑ live menus · not a screenshot</div>
   </div>
@@ -88,7 +108,7 @@ last_modified_at: 2026-09-14
         <div class="foot">
           <span class="price">${{ site.sections.snipclip.price }} · £{{ site.sections.snipclip.gbp_price }}</span>
           <a class="app-hero__badge" href="{{ site.sections.snipclip.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" width="96" height="32" alt="Download SnipClip on the App Store"></a>
-          <span class="key">Hotkey <kbd>⌘⇧S</kbd></span>
+          <span class="key">Hotkey <kbd>⇧⌘S</kbd></span>
         </div>
       </div>
     </div>
@@ -99,8 +119,8 @@ last_modified_at: 2026-09-14
         <p>A clipboard history and a drag-in shelf for files, both one keystroke away. Nothing leaves memory, nothing syncs.</p>
         <div class="foot">
           <span class="price">${{ site.sections.topbox.price }} · £{{ site.sections.topbox.gbp_price }}</span>
-          <span class="pill soon">Waiting for review</span>
-          <span class="key">Hotkey <kbd>⌘⇧T</kbd></span>
+          <a class="app-hero__badge" href="{{ site.sections.topbox.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" width="96" height="32" alt="Download TopBox on the App Store"></a>
+          <span class="key">Hotkey <kbd>⇧⌘T</kbd></span>
         </div>
       </div>
     </div>
@@ -123,7 +143,7 @@ last_modified_at: 2026-09-14
         <p>For the moment your external monitor forgets where it lives. Put displays back where they belong without opening Settings.</p>
         <div class="foot">
           <span class="price">${{ site.sections.porthole.price }} · £{{ site.sections.porthole.gbp_price }}</span>
-          <span class="pill soon">Coming soon</span>
+          <a class="app-hero__badge" href="{{ site.sections.porthole.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" width="96" height="32" alt="Download PortHole on the App Store"></a>
           <span class="key">Menu bar</span>
         </div>
       </div>

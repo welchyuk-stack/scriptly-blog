@@ -25,7 +25,7 @@ last_modified_at: 2026-09-14
 
 <div class="wrap wrap--wide" style="padding-top: 20px; padding-bottom: 60px;" markdown="1">
 
-A menu-bar-only app for Mac (no Dock icon). Press a global hotkey — default **⌘⇧T**, fully rebindable — or click the menu bar icon, and a floating panel opens with two side-by-side panes: your clipboard history and a file shelf.
+A menu-bar-only app for Mac (no Dock icon). Press a global hotkey — default **⇧⌘T**, fully rebindable — or click the menu bar icon, and a floating panel opens with two side-by-side panes: your clipboard history and a file shelf.
 
 ## What it does
 
