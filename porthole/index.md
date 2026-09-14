@@ -6,13 +6,18 @@ permalink: /porthole/
 section: porthole
 ---
 
-<div class="app-hero" style="--app-accent: {{ site.sections.porthole.accent }}; --app-accent-dark: {{ site.sections.porthole.accent_dark }};">
-  <div class="app-hero__inner">
-    <img class="app-hero__icon" width="96" height="96" src="{{ '/assets/images/porthole/icon.jpg' | relative_url }}" alt="PortHole app icon">
-    <div class="app-hero__text">
-      <h1>PortHole</h1>
-      <p>Fix external-monitor resolution mismatches, remember your display layouts, and AirPlay in one click — from the menu bar.</p>
-      <span class="app-hero__badge app-hero__badge--soon">Coming soon to the App Store</span>
+<div class="app-hero" style="--tint: {{ site.sections.porthole.tint }};">
+  <div class="app-hero__inner" style="grid-template-columns: 1fr;">
+    <div>
+      <img class="app-hero__icon" width="84" height="84" src="{{ '/assets/images/porthole/icon.jpg' | relative_url }}" alt="PortHole app icon">
+      <div class="app-hero__text">
+        <h1>Fix your external monitor without opening Settings.</h1>
+        <p>Resolution mismatches, forgotten display layouts, and AirPlay casting — one click from the menu bar.</p>
+        <div class="app-hero__btn-row">
+          <span class="app-hero__badge--soon">Coming soon to the App Store</span>
+          <span class="app-hero__price">${{ site.sections.porthole.price }} one-time · macOS</span>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -21,31 +26,24 @@ section: porthole
 
 A menu-bar utility for Mac that fixes the recurring annoyances of working with external monitors — wrong resolution after reconnecting, forgotten window arrangements, and casting to AirPlay displays without hunting through System Settings.
 
-<ul class="app-features">
-  <li>Resolution Fix — detects every connected display, compares current vs. native resolution, and fixes any mismatch in one click ("Fix All Monitors"), or automatically the moment a monitor reconnects</li>
-  <li>Display Arrangement Memory — save named layouts (e.g. "Desk", "Living Room TV") and switch between them, or drag-arrange displays to match your desk right inside the app</li>
-  <li>One-click AirPlay casting to a nearby Apple TV or AirPlay display, right from the menu bar</li>
-  <li>Dark Mode toggle and Launch at Login, both from the menu bar</li>
-  <li>No account, no analytics, no tracking — {{ site.sections.porthole.price | prepend: "$" }} one-time purchase, no subscription</li>
-  <li>Built entirely on public Apple APIs — no private frameworks, no kernel extensions, no DDC hacking</li>
-</ul>
+## What it does
+
+<div class="feat-grid" style="--app-tint: {{ site.sections.porthole.tint }};">
+  <div class="feat"><div class="k">Resolution</div><h3>Fix a mismatch in one click</h3><p>Detects every connected display, compares current vs. native resolution, and fixes any mismatch with "Fix All Monitors," or automatically the moment a monitor reconnects.</p></div>
+  <div class="feat"><div class="k">Layouts</div><h3>Display Arrangement Memory</h3><p>Save named layouts (e.g. "Desk," "Living Room TV") and switch between them, or drag-arrange displays to match your desk right inside the app.</p></div>
+  <div class="feat"><div class="k">AirPlay</div><h3>One-click casting</h3><p>Cast to a nearby Apple TV or AirPlay display, right from the menu bar.</p></div>
+  <div class="feat"><div class="k">Menu bar</div><h3>Dark Mode and Launch at Login</h3><p>Both toggled straight from the menu bar.</p></div>
+  <div class="feat"><div class="k">Private</div><h3>No account, no analytics</h3><p>No tracking of any kind — ${{ site.sections.porthole.price }} one-time purchase, no subscription.</p></div>
+  <div class="feat"><div class="k">Built right</div><h3>Public APIs only</h3><p>No private frameworks, no kernel extensions, no DDC hacking.</p></div>
+</div>
 
 ## Common questions
 
-### Will this mess with my built-in display?
-
-No. PortHole deliberately leaves your Mac's built-in display alone — a scaled Retina resolution there is a choice, not something to "fix."
-
-### Does PortHole need an account or internet connection?
-
-No. There's no sign-in of any kind. The only network activity is AirPlay discovery on your own local network when you use the casting button — nothing else PortHole does requires a connection.
-
-### Does it collect any data?
-
-No — confirmed "Data Not Collected" for the App Store's privacy label. Your saved display layouts and preferences stay in local storage on your Mac, never transmitted anywhere. See the [Privacy Policy]({{ '/porthole/privacy/' | relative_url }}) for the full detail.
-
-### Is it out yet?
-
-Not quite — PortHole is still in submission prep. This page will get an App Store link the moment it's live.
+<div class="faq">
+<details open><summary>Will this mess with my built-in display?</summary><p>No. PortHole deliberately leaves your Mac's built-in display alone — a scaled Retina resolution there is a choice, not something to "fix."</p></details>
+<details><summary>Does PortHole need an account or internet connection?</summary><p>No. There's no sign-in of any kind. The only network activity is AirPlay discovery on your own local network when you use the casting button — nothing else PortHole does requires a connection.</p></details>
+<details><summary>Does it collect any data?</summary><p>No — confirmed "Data Not Collected" for the App Store's privacy label. Your saved display layouts and preferences stay in local storage on your Mac, never transmitted anywhere. See the <a href="{{ '/porthole/privacy/' | relative_url }}">Privacy Policy</a> for the full detail.</p></details>
+<details><summary>Is it out yet?</summary><p>Not quite — PortHole is still in submission prep. This page will get an App Store link the moment it's live.</p></details>
+</div>
 
 </div>

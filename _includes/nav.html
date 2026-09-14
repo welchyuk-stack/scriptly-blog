@@ -2,44 +2,10 @@
   <div class="site-nav__inner">
     <a class="site-nav__brand" href="{{ '/' | relative_url }}">{% include wordmark.html %}</a>
     <div class="site-nav__links">
-      <div class="nav-dropdown" id="apps-dropdown">
-        <button class="nav-dropdown__trigger" aria-haspopup="true" aria-expanded="false" id="apps-dropdown-trigger">
-          Useful Apps <span class="nav-dropdown__caret" aria-hidden="true">▾</span>
-        </button>
-        <div class="nav-dropdown__menu" role="menu">
-          <a role="menuitem" href="{{ '/scriptly/' | relative_url }}"{% if page.section == 'scriptly' %} class="is-active"{% endif %}>
-            <span class="nav-dropdown__accent" style="background: {{ site.sections.scriptly.accent }};"></span>
-            <span>
-              <strong>Scriptly</strong>
-              <small>AppleScript & Automation</small>
-            </span>
-          </a>
-          <a role="menuitem" href="{{ '/snipclip/' | relative_url }}"{% if page.section == 'snipclip' %} class="is-active"{% endif %}>
-            <span class="nav-dropdown__accent" style="background: {{ site.sections.snipclip.accent }};"></span>
-            <span>
-              <strong>SnipClip</strong>
-              <small>Screenshots & Markup</small>
-            </span>
-          </a>
-          <a role="menuitem" href="{{ '/porthole/' | relative_url }}"{% if page.section == 'porthole' %} class="is-active"{% endif %}>
-            <span class="nav-dropdown__accent" style="background: {{ site.sections.porthole.accent }};"></span>
-            <span>
-              <strong>PortHole</strong>
-              <small>Menu-Bar Display Fixes</small>
-            </span>
-          </a>
-          <a role="menuitem" href="{{ '/topbox/' | relative_url }}"{% if page.section == 'topbox' %} class="is-active"{% endif %}>
-            <span class="nav-dropdown__accent" style="background: {{ site.sections.topbox.accent }};"></span>
-            <span>
-              <strong>TopBox</strong>
-              <small>Clipboard & File Shelf</small>
-            </span>
-          </a>
-        </div>
-      </div>
+      <a href="{{ '/#apps' | relative_url }}">Apps</a>
+      <a href="{{ '/#reference' | relative_url }}">Windows → Mac</a>
       <a href="{{ '/blog/' | relative_url }}">Blog</a>
       {% include theme-toggle.html %}
     </div>
   </div>
 </nav>
-<script src="{{ '/assets/js/nav-dropdown.js' | relative_url }}" defer></script>

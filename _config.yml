@@ -124,6 +124,7 @@ sections:
     tagline: "AppleScript & Automation"
     accent: "#14275c"
     accent_dark: "#0a1024"
+    tint: "#4f63d6"
     url: /scriptly/
     app_url: "https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12"
     twitter: scriptlyapp
@@ -138,6 +139,7 @@ sections:
     tagline: "Screenshots & Markup"
     accent: "#14275c"
     accent_dark: "#0a1024"
+    tint: "#35b8e0"
     url: /snipclip/
     app_url: "https://apps.apple.com/gb/app/snipclip/id6789209242"
     price: "1.99"
@@ -146,6 +148,7 @@ sections:
     tagline: "Menu-Bar Display Fixes"
     accent: "#14275c"
     accent_dark: "#0a1024"
+    tint: "#5b8dd6"
     url: /porthole/
     # No app_url yet — not archived/uploaded to App Store Connect as of
     # 2026-08-31. Add once it's actually live; until then the landing page
@@ -156,6 +159,7 @@ sections:
     tagline: "Clipboard & File Shelf"
     accent: "#14275c"
     accent_dark: "#0a1024"
+    tint: "#6d7cf0"
     url: /topbox/
     # No app_url yet — not submitted to App Store Connect as of 2026-08-31.
     # Add once it's live; until then the landing page shows "coming soon".
