@@ -26,17 +26,17 @@ last_modified_at: 2026-09-14
     <div class="menubar">
       <div class="left"><span class="apple">&#63743;</span><span>Finder</span><span style="font-weight:500">File</span><span style="font-weight:500">Edit</span><span style="font-weight:500">View</span></div>
       <div class="right">
-        <button class="mb-app" data-menu="scriptly" aria-expanded="false" aria-label="Scriptly menu"><img src="{{ '/assets/images/scriptly/icon.jpg' | relative_url }}" width="72" height="72" alt="" width="18" height="18"></button>
-        <button class="mb-app" data-menu="topbox" aria-expanded="false" aria-label="TopBox menu"><img src="{{ '/assets/images/topbox/icon.jpg' | relative_url }}" width="72" height="72" alt="" width="18" height="18"></button>
-        <button class="mb-app" data-menu="porthole" aria-expanded="false" aria-label="PortHole menu"><img src="{{ '/assets/images/porthole/icon.jpg' | relative_url }}" width="72" height="72" alt="" width="18" height="18"></button>
-        <button class="mb-app" data-menu="snipclip" aria-expanded="true" aria-label="SnipClip menu"><img src="{{ '/assets/images/snipclip/icon.jpg' | relative_url }}" width="72" height="72" alt="" width="18" height="18"></button>
+        <button class="mb-app" data-menu="scriptly" aria-expanded="false" aria-label="Scriptly menu"><img src="{{ '/assets/images/scriptly/icon.jpg' | relative_url }}" width="18" height="18" alt=""></button>
+        <button class="mb-app" data-menu="topbox" aria-expanded="false" aria-label="TopBox menu"><img src="{{ '/assets/images/topbox/icon.jpg' | relative_url }}" width="18" height="18" alt=""></button>
+        <button class="mb-app" data-menu="porthole" aria-expanded="false" aria-label="PortHole menu"><img src="{{ '/assets/images/porthole/icon.jpg' | relative_url }}" width="18" height="18" alt=""></button>
+        <button class="mb-app" data-menu="snipclip" aria-expanded="true" aria-label="SnipClip menu"><img src="{{ '/assets/images/snipclip/icon.jpg' | relative_url }}" width="18" height="18" alt=""></button>
         <span class="mb-clock">Mon 14 Sep&nbsp; 16:42</span>
       </div>
     </div>
     <div class="mb-window"><div class="dots"><i></i><i></i><i></i></div><img src="{{ '/assets/images/snipclip/screenshot-1-markup.jpg' | relative_url }}" width="900" height="562" fetchpriority="high" alt="SnipClip markup editor with arrows and highlights on a screenshot"></div>
 
     <div class="mb-menu is-open" data-for="snipclip">
-      <div class="head"><img src="{{ '/assets/images/snipclip/icon.jpg' | relative_url }}" width="72" height="72" alt="" width="14" height="14">SnipClip</div>
+      <div class="head"><img src="{{ '/assets/images/snipclip/icon.jpg' | relative_url }}" width="14" height="14" alt="">SnipClip</div>
       <div class="row hl">Capture Area <kbd>⌘⇧S</kbd></div>
       <div class="row">Scrolling Capture</div>
       <div class="row">Timed Capture ▸</div>
@@ -44,21 +44,30 @@ last_modified_at: 2026-09-14
       <hr><div class="row">Recent Captures ▸</div><div class="row">Preferences…</div>
     </div>
     <div class="mb-menu" data-for="scriptly">
-      <div class="head"><img src="{{ '/assets/images/scriptly/icon.jpg' | relative_url }}" width="72" height="72" alt="" width="14" height="14">Scriptly</div>
+      <div class="head"><img src="{{ '/assets/images/scriptly/icon.jpg' | relative_url }}" width="14" height="14" alt="">Scriptly</div>
       <div class="row hl">Run "Tidy Desktop"</div>
       <div class="row">Run "Mute + Dark Mode"</div>
       <div class="row">Scheduled ▸</div>
       <hr><div class="row">New Script… <kbd>⌘N</kbd></div><div class="row">Marketplace</div>
     </div>
-    <div class="mb-menu" data-for="topbox">
-      <div class="head"><img src="{{ '/assets/images/topbox/icon.jpg' | relative_url }}" width="72" height="72" alt="" width="14" height="14">TopBox</div>
-      <div class="row hl">Show Shelf <kbd>⌘⇧T</kbd></div>
-      <div class="row">Pinned · 3 clips</div>
-      <div class="row">File Shelf · 2 files</div>
-      <hr><div class="row">Clear History</div><div class="row">Settings…</div>
+    <div class="mb-menu tb-panel" data-for="topbox">
+      <div class="tb-titlebar">TopBox <span class="tb-gear" aria-hidden="true">⚙</span></div>
+      <div class="tb-panes">
+        <div class="tb-pane">
+          <div class="tb-search">Search clipboard…</div>
+          <div class="tb-row"><span>SnipClip 2026-08-31 at 16.28.03.png</span><span class="tb-pin" aria-hidden="true">📌</span></div>
+          <div class="tb-row"><span>IMG_0100.JPG</span><span class="tb-pin" aria-hidden="true">📌</span></div>
+          <div class="tb-clear">Clear</div>
+        </div>
+        <div class="tb-pane">
+          <div class="tb-search">Search files…</div>
+          <div class="tb-drop">Drop files here</div>
+          <div class="tb-empty">Nothing yet</div>
+        </div>
+      </div>
     </div>
     <div class="mb-menu" data-for="porthole">
-      <div class="head"><img src="{{ '/assets/images/porthole/icon.jpg' | relative_url }}" width="72" height="72" alt="" width="14" height="14">PortHole</div>
+      <div class="head"><img src="{{ '/assets/images/porthole/icon.jpg' | relative_url }}" width="14" height="14" alt="">PortHole</div>
       <div class="row hl">Fix Display Arrangement</div>
       <div class="row">Studio Display ✓</div>
       <div class="row">MacBook Pro</div>
