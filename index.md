@@ -121,7 +121,7 @@ last_modified_at: 2026-09-14
       <img src="{{ '/assets/images/scriptly/icon.jpg' | relative_url }}" width="72" height="72" alt="Scriptly icon">
       <div>
         <h3><a href="{{ '/scriptly/' | relative_url }}">Scriptly</a> <span class="tag">AppleScript &amp; Automation</span></h3>
-        <p>Write, schedule and run AppleScripts from the menu bar, with AI help when you're stuck and a marketplace when you're lazy.</p>
+        <p>Write, schedule and run AppleScripts from the menu bar, with AI help when you're stuck and a marketplace when you're lazy. Beginner and power-user friendly.</p>
         <div class="foot">
           <span class="price">${{ site.sections.scriptly.price }} · £{{ site.sections.scriptly.gbp_price }}</span>
           <a class="app-hero__badge" href="{{ site.sections.scriptly.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" width="96" height="32" alt="Download Scriptly on the App Store"></a>
