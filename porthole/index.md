@@ -4,6 +4,7 @@ title: "PortHole — Fix External Monitor Problems on Mac"
 description: "PortHole fixes external-monitor resolution mismatches, remembers your display arrangements, and adds one-click AirPlay — all from the menu bar."
 permalink: /porthole/
 section: porthole
+last_modified_at: 2026-09-14
 ---
 
 <div class="app-hero" style="--tint: {{ site.sections.porthole.tint }};">
@@ -40,10 +41,10 @@ A menu-bar utility for Mac that fixes the recurring annoyances of working with e
 ## Common questions
 
 <div class="faq">
-<details open><summary>Will this mess with my built-in display?</summary><p>No. PortHole deliberately leaves your Mac's built-in display alone — a scaled Retina resolution there is a choice, not something to "fix."</p></details>
-<details><summary>Does PortHole need an account or internet connection?</summary><p>No. There's no sign-in of any kind. The only network activity is AirPlay discovery on your own local network when you use the casting button — nothing else PortHole does requires a connection.</p></details>
-<details><summary>Does it collect any data?</summary><p>No — confirmed "Data Not Collected" for the App Store's privacy label. Your saved display layouts and preferences stay in local storage on your Mac, never transmitted anywhere. See the <a href="{{ '/porthole/privacy/' | relative_url }}">Privacy Policy</a> for the full detail.</p></details>
-<details><summary>Is it out yet?</summary><p>Not quite — PortHole is still in submission prep. This page will get an App Store link the moment it's live.</p></details>
+<details open><summary><h3>Will this mess with my built-in display?</h3></summary><p>No. PortHole deliberately leaves your Mac's built-in display alone — a scaled Retina resolution there is a choice, not something to "fix."</p></details>
+<details><summary><h3>Does PortHole need an account or internet connection?</h3></summary><p>No. There's no sign-in of any kind. The only network activity is AirPlay discovery on your own local network when you use the casting button — nothing else PortHole does requires a connection.</p></details>
+<details><summary><h3>Does it collect any data?</h3></summary><p>No — confirmed "Data Not Collected" for the App Store's privacy label. Your saved display layouts and preferences stay in local storage on your Mac, never transmitted anywhere. See the <a href="{{ '/porthole/privacy/' | relative_url }}">Privacy Policy</a> for the full detail.</p></details>
+<details><summary><h3>Is it out yet?</h3></summary><p>Not quite — PortHole is still in submission prep. This page will get an App Store link the moment it's live.</p></details>
 </div>
 
 </div>

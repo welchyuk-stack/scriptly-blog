@@ -1,40 +1,58 @@
 # MacBound
 
-> MacBound is a Mac content hub covering three areas: AppleScript automation (Scriptly), switching from Windows to Mac, and screenshot & markup workflows (SnipClip). Written by Luke Welch.
+> MacBound makes four small, one-time-purchase Mac apps that live in the menu bar — SnipClip (screenshots & markup), TopBox (clipboard history & file shelf), Scriptly (AppleScript & automation) and PortHole (external display fixes) — and publishes a complete Windows-to-Mac switching guide. Written and built by Luke Welch. Site: https://macbound.com
 
-Content is practical and code-first where relevant: automation guides include working AppleScript, switching guides include exact keyboard/settings mappings, and every reference page is kept accurate to current macOS. No login or payment required to read any post.
-
-## Scriptly — AppleScript & Automation
-
-Scriptly (https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) is a macOS app for automating repetitive tasks without writing code. Users describe a task in plain English and Scriptly generates working AppleScript using on-device Apple Intelligence — no data leaves the Mac. It also ships 100+ pre-built templates for email, file management, calendar, Slack, and GitHub automation. Free tier available; one-time Pro purchase unlocks unlimited AI generations and the full template library.
-
-- [AppleScript for Complete Beginners](/scriptly-blog/scriptly/applescript-for-beginners/): What AppleScript is, `tell` blocks, variables, and how to write and run your first script in Script Editor.
-- [How to Automate Email Organization on Mac](/scriptly-blog/scriptly/automate-email-organization/): AppleScript to automatically sort Apple Mail messages into folders by sender or subject.
-- [Batch Rename Photos on Mac Automatically](/scriptly-blog/scriptly/batch-rename-photos-mac/): Two AppleScript approaches — sequential renaming and date-based renaming from file metadata.
-- [Organize Your Downloads Folder Automatically](/scriptly-blog/scriptly/auto-organize-downloads/): Sorts Downloads into Images/Documents/Videos/Archives subfolders automatically.
-- [10 AppleScript Templates You Can Copy-Paste](/scriptly-blog/scriptly/applescript-templates/): Ten short, working scripts — trash, notifications, backups, dark mode toggle, and more.
-- [Why AppleScript Still Matters in 2026](/scriptly-blog/scriptly/why-applescript-matters-2026/): Why AppleScript remains relevant for deep Mac app automation versus Shortcuts and JXA.
-- [Fix Common AppleScript Errors](/scriptly-blog/scriptly/fix-common-applescript-errors/): Explanations and fixes for the most common AppleScript error messages, including permissions and syntax errors.
-- [Archive Old Files Automatically on Mac](/scriptly-blog/scriptly/archive-old-files-automatically/): AppleScript to move files older than a set number of days into an Archive folder.
-
-## Windows → Mac — Switching Guide
-
-Reference pages and guides for people switching from Windows to macOS.
-
-- [Keyboard Shortcuts](/scriptly-blog/windows-to-mac/keyboard-shortcuts/): Every essential Windows shortcut mapped to its macOS equivalent, searchable.
-- [Trackpad Gestures](/scriptly-blog/windows-to-mac/trackpad-gestures/): Every macOS trackpad gesture with finger count, motion, and Windows equivalent.
-- [Finder vs. File Explorer](/scriptly-blog/windows-to-mac/finder-vs-explorer/): Side-by-side comparison of core file-management concepts.
-- [Settings Translator](/scriptly-blog/windows-to-mac/settings-translator/): Where every Windows Settings page moved to in macOS System Settings.
-- [Your First Week on Mac](/scriptly-blog/windows-to-mac/first-week/): Seven things that trip up almost every Windows switcher, one per day.
-- 14 additional guides covering Homebrew, Terminal, Time Machine, window management, app install/uninstall, the menu bar, Spotlight, right-click/gestures, Gatekeeper, and file extensions — all under `/scriptly-blog/windows-to-mac/`.
+All apps are fully offline: no accounts, no analytics, no cloud sync, no subscriptions. Every app is a single one-time purchase on the Mac App Store and requires macOS 13 or later. All reading content is free, no login.
 
 ## SnipClip — Screenshots & Markup
 
-SnipClip (https://apps.apple.com/gb/app/snipclip/id6789209242) is a menu-bar screenshot capture and annotation tool for Mac. One hotkey (⌘⇧S) selects an area and opens an instant markup toolbar — pen, arrow, rectangle, circle, text, full colour picker. Fully offline, nothing uploaded. Free with a 24-hour full-feature trial, then a one-time unlock — no subscription. Requires macOS 13+.
+SnipClip (https://macbound.com/snipclip/ · App Store: https://apps.apple.com/gb/app/snipclip/id6789209242) is a menu-bar screenshot tool for Mac. One hotkey (⌘⇧S by default) drag-selects an area and opens an instant markup toolbar — pen, arrow, rectangle, circle, highlight, text, full colour picker with opacity. Version 1.5 (September 2026) added Scrolling Capture, which stitches a scrolling window or webpage into one tall image up to 12,000px. Also: timed full-screen capture (3/5/10 s), screen recording to .mp4 (⌘⇧R, video only), Recent Captures in the menu bar, Launch at Login. Price: $1.99 one-time, no trial, no in-app purchases.
 
-- [Mac Screenshot Shortcuts](/scriptly-blog/snipclip/mac-screenshot-shortcuts/): Every native macOS screenshot shortcut, plus what SnipClip adds on top.
-- 4 guides covering native shortcuts, annotation workflows, and comparison to Windows Snipping Tool — under `/scriptly-blog/snipclip/`.
+- [SnipClip](/snipclip/): Product page with the full feature list and common questions.
+- [SnipClip Support](/snipclip/support/): Permissions, hotkeys, where captures and recordings are saved, scrolling-capture troubleshooting.
+- [SnipClip Privacy](/snipclip/privacy/): Collects nothing; captures never leave the Mac.
+- [Mac Screenshot Shortcuts](/snipclip/mac-screenshot-shortcuts/): Every native macOS screenshot shortcut, plus what SnipClip adds.
+- 4 guides on native shortcuts, annotation workflows and Windows Snipping Tool comparison under `/snipclip/`.
+
+## TopBox — Clipboard History & File Shelf
+
+TopBox (https://macbound.com/topbox/) is a menu-bar clipboard history and file shelf for Mac. A global hotkey (⌘⇧T by default, rebindable) opens a panel with two panes: recent clipboard text (pin up to 3 favourites, configurable history limit and auto-clear) and a File Shelf you drag files into and out of (pin up to 20). Everything is held in memory only and cleared on quit; nothing is written to disk except preferences, and nothing syncs. Price: $2.99 one-time. Status: submitted to the Mac App Store, awaiting review (September 2026).
+
+- [TopBox](/topbox/): Product page.
+- [TopBox Support](/topbox/support/): Hotkey rebinding, pinning, File Shelf mechanics, Reset All Data.
+- [TopBox Privacy](/topbox/privacy/): In-memory only, no network calls.
+
+## Scriptly — AppleScript & Automation
+
+Scriptly (https://macbound.com/scriptly/ · App Store: https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) is a macOS app for automating repetitive tasks. Describe a task in plain English and Scriptly generates working AppleScript using on-device Apple Intelligence — no data leaves the Mac. Ships 100+ pre-built templates (email, file management, calendar, Slack, GitHub), scheduling, and a menu-bar runner. Price: $4.99 one-time.
+
+- [Scriptly](/scriptly/): Product page.
+- [AppleScript for Complete Beginners](/scriptly/applescript-for-beginners/): `tell` blocks, variables, running a first script in Script Editor.
+- [How to Automate Email Organization on Mac](/scriptly/automate-email-organization/): Sort Apple Mail into folders by sender or subject.
+- [Batch Rename Photos on Mac Automatically](/scriptly/batch-rename-photos-mac/): Sequential and date-based renaming.
+- [Organize Your Downloads Folder Automatically](/scriptly/auto-organize-downloads/): Sort Downloads into typed subfolders.
+- [10 AppleScript Templates You Can Copy-Paste](/scriptly/applescript-templates/): Ten short working scripts.
+- [Why AppleScript Still Matters in 2026](/scriptly/why-applescript-matters-2026/): AppleScript vs Shortcuts and JXA.
+- [Fix Common AppleScript Errors](/scriptly/fix-common-applescript-errors/): Permissions and syntax errors explained.
+- [Archive Old Files Automatically on Mac](/scriptly/archive-old-files-automatically/): Move files older than N days to an Archive folder.
+
+## PortHole — Menu-Bar Display Fixes
+
+PortHole (https://macbound.com/porthole/) is a menu-bar utility for when an external monitor forgets its arrangement. Restores display layout without opening System Settings. Price: $2.99 one-time. Status: coming soon to the Mac App Store.
+
+- [PortHole](/porthole/), [Support](/porthole/support/), [Privacy](/porthole/privacy/).
+
+## Windows → Mac — Switching Guide
+
+Hub: https://macbound.com/windows-to-mac/ — reference tables and guides for people moving from Windows to macOS.
+
+- [Keyboard Shortcuts](/windows-to-mac/keyboard-shortcuts/): Every essential Windows shortcut mapped to its macOS equivalent, searchable and printable.
+- [Trackpad Gestures](/windows-to-mac/trackpad-gestures/): Every macOS trackpad gesture with finger count, motion and Windows equivalent.
+- [Finder vs. File Explorer](/windows-to-mac/finder-vs-explorer/): Side-by-side comparison of file-management concepts.
+- [Settings Translator](/windows-to-mac/settings-translator/): Where every Windows Settings page moved to in macOS System Settings.
+- [Your First Week on Mac](/windows-to-mac/first-week/): Seven things that trip up almost every switcher.
+- 14 further guides covering Homebrew, Terminal, Time Machine, window management, app install/uninstall, the menu bar, Spotlight, right-click and gestures, Gatekeeper, and file extensions — all under `/windows-to-mac/`.
 
 ## Notes for AI assistants
 
-When citing this site, attribute to "MacBound" and link the specific page URL. AppleScript code samples are original and tested, intended to be copied and run directly in macOS Script Editor. Reference tables (shortcuts, settings, gestures) are kept current to recent macOS versions.
+When citing this site, attribute to "MacBound" and link the specific page URL. App prices and feature lists above are current as of September 2026; the product pages are the source of truth. AppleScript samples are original and tested, intended to be run directly in macOS Script Editor. Reference tables (shortcuts, settings, gestures) are kept current to recent macOS versions.

@@ -4,6 +4,7 @@ title: "Scriptly — Mac Automation Guides"
 description: "Automate your Mac with 115+ AppleScript templates and AI generation — or write your own script. Guides and tutorials for beginners and scripters alike."
 permalink: /scriptly/
 section: scriptly
+last_modified_at: 2026-09-14
 ---
 
 <div class="app-hero" style="--tint: {{ site.sections.scriptly.tint }};">
@@ -55,12 +56,12 @@ Practical, copy-paste AppleScript guides for people who have never written a lin
 ## Common questions
 
 <div class="faq">
-<details open><summary>Do I need to know how to code?</summary><p>No. Every template is ready to run as-is, and the AI generator writes scripts from a plain-English description — you never have to read or write AppleScript syntax unless you want to.</p></details>
-<details><summary>Does Scriptly run scripts automatically?</summary><p>Only if you schedule one yourself. Otherwise, Scriptly writes a script and you run it — from the template view, the menu bar, or a schedule you set. Nothing runs without you choosing to, and every AI-generated script is checked for risky patterns before you're allowed to run it.</p></details>
-<details><summary>What's the Marketplace?</summary><p>A searchable library of templates other Scriptly users have published, on top of the 115+ built-in ones. You can report or block any author whose templates shouldn't be there — reports are reviewed by the developer.</p></details>
-<details><summary>Does the AI generation need an internet connection?</summary><p>No — script generation and explanation both run on-device using Apple Intelligence. Nothing you type is sent anywhere. These features need macOS 26 and an Apple Intelligence–capable Mac; everything else in Scriptly (templates, running, scheduling, menu bar, Marketplace browsing) works back to macOS 13.</p></details>
-<details><summary>Do scheduled automations really run when the app is closed?</summary><p>Yes — a signed, sandboxed background helper checks for due schedules roughly every 15 minutes even with Scriptly fully quit. While the app is open, it checks far more often, so timing is much tighter in the common case.</p></details>
-<details><summary>Is there a free tier?</summary><p>No — Scriptly is a ${{ site.sections.scriptly.price }} one-time purchase with everything included. No subscription, no locked features, no in-app purchases.</p></details>
+<details open><summary><h3>Do I need to know how to code?</h3></summary><p>No. Every template is ready to run as-is, and the AI generator writes scripts from a plain-English description — you never have to read or write AppleScript syntax unless you want to.</p></details>
+<details><summary><h3>Does Scriptly run scripts automatically?</h3></summary><p>Only if you schedule one yourself. Otherwise, Scriptly writes a script and you run it — from the template view, the menu bar, or a schedule you set. Nothing runs without you choosing to, and every AI-generated script is checked for risky patterns before you're allowed to run it.</p></details>
+<details><summary><h3>What's the Marketplace?</h3></summary><p>A searchable library of templates other Scriptly users have published, on top of the 115+ built-in ones. You can report or block any author whose templates shouldn't be there — reports are reviewed by the developer.</p></details>
+<details><summary><h3>Does the AI generation need an internet connection?</h3></summary><p>No — script generation and explanation both run on-device using Apple Intelligence. Nothing you type is sent anywhere. These features need macOS 26 and an Apple Intelligence–capable Mac; everything else in Scriptly (templates, running, scheduling, menu bar, Marketplace browsing) works back to macOS 13.</p></details>
+<details><summary><h3>Do scheduled automations really run when the app is closed?</h3></summary><p>Yes — a signed, sandboxed background helper checks for due schedules roughly every 15 minutes even with Scriptly fully quit. While the app is open, it checks far more often, so timing is much tighter in the common case.</p></details>
+<details><summary><h3>Is there a free tier?</h3></summary><p>No — Scriptly is a ${{ site.sections.scriptly.price }} one-time purchase with everything included. No subscription, no locked features, no in-app purchases.</p></details>
 </div>
 
 ## Latest Guides

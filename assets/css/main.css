@@ -557,6 +557,7 @@ table.ref-table tr.is-hidden { display: none; }
 .faq details { border-bottom: 1px solid var(--line); padding: 14px 0; }
 .faq summary { font-family: var(--display); font-weight: 700; font-size: 19px; cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 20px; }
 .faq summary::-webkit-details-marker { display: none; }
+.faq summary h3 { margin: 0; font-size: inherit; font-weight: inherit; line-height: inherit; }
 .faq summary::after { content: "+"; color: var(--signal); font-weight: 500; flex-shrink: 0; }
 .faq details[open] summary::after { content: "–"; }
 .faq details p { color: var(--ink-2); margin: 10px 0 0; }
@@ -599,3 +600,7 @@ table.ref-table tr.is-hidden { display: none; }
   .theme-toggle { padding: 8px 10px; font-size: 0; line-height: 1; min-height: 36px; }
   .theme-toggle::before { content: "\25D0"; font-size: 16px; }
 }
+
+/* Post-audit: comfortable tap targets for the menu-bar hero icons, hub link */
+.mb-app { width: 32px; height: 28px; }
+.desk-link { color: var(--signal); font-weight: 600; }

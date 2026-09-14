@@ -4,6 +4,7 @@ title: "TopBox — Clipboard History & File Shelf for Mac"
 description: "TopBox keeps a searchable clipboard history and a drag-and-drop file shelf, both one hotkey away from the menu bar."
 permalink: /topbox/
 section: topbox
+last_modified_at: 2026-09-14
 ---
 
 <div class="app-hero" style="--tint: {{ site.sections.topbox.tint }};">
@@ -41,10 +42,10 @@ A menu-bar-only app for Mac (no Dock icon). Press a global hotkey — default **
 ## Common questions
 
 <div class="faq">
-<details open><summary>Does TopBox sync my clipboard or files anywhere?</summary><p>No. Everything lives in memory only, on your Mac, for as long as the app is running — nothing is written to disk, nothing syncs to iCloud, and nothing leaves your Mac. Quitting or relaunching TopBox clears the in-memory history (aside from what you've pinned during that session).</p></details>
-<details><summary>Does it need an account or internet connection?</summary><p>No. There's no sign-in and no network calls of any kind — see the <a href="{{ '/topbox/privacy/' | relative_url }}">Privacy Policy</a> for the full detail.</p></details>
-<details><summary>How is this different from macOS's own clipboard?</summary><p>macOS only remembers your single most recent copy. TopBox keeps a searchable history of many past copies (up to 500), lets you pin favorites so they don't get bumped, and pairs it with a separate File Shelf for temporarily parking files mid-drag — something the built-in clipboard doesn't do at all.</p></details>
-<details><summary>Is it out yet?</summary><p>Not quite — TopBox is still in submission prep. This page will get an App Store link the moment it's live.</p></details>
+<details open><summary><h3>Does TopBox sync my clipboard or files anywhere?</h3></summary><p>No. Everything lives in memory only, on your Mac, for as long as the app is running — nothing is written to disk, nothing syncs to iCloud, and nothing leaves your Mac. Quitting or relaunching TopBox clears the in-memory history (aside from what you've pinned during that session).</p></details>
+<details><summary><h3>Does it need an account or internet connection?</h3></summary><p>No. There's no sign-in and no network calls of any kind — see the <a href="{{ '/topbox/privacy/' | relative_url }}">Privacy Policy</a> for the full detail.</p></details>
+<details><summary><h3>How is this different from macOS's own clipboard?</h3></summary><p>macOS only remembers your single most recent copy. TopBox keeps a searchable history of many past copies (up to 500), lets you pin favorites so they don't get bumped, and pairs it with a separate File Shelf for temporarily parking files mid-drag — something the built-in clipboard doesn't do at all.</p></details>
+<details><summary><h3>Is it out yet?</h3></summary><p>Not quite — TopBox is still in submission prep. This page will get an App Store link the moment it's live.</p></details>
 </div>
 
 </div>

@@ -66,13 +66,19 @@
     "name": "{{ site.sections[page.section].name }}",
     "url": "{{ page.url | absolute_url }}",
     "applicationCategory": "UtilitiesApplication",
-    "operatingSystem": "macOS",
+    "operatingSystem": "macOS 13.0 or later",
     "description": "{{ page.description }}",
     "publisher": { "@id": "{{ site.url }}/#organization" },
     "offers": {
       "@type": "Offer",
       "price": "{{ site.sections[page.section].price }}",
       "priceCurrency": "USD"
+      {%- if site.sections[page.section].app_url -%}
+      , "url": "{{ site.sections[page.section].app_url }}",
+      "availability": "https://schema.org/InStock"
+      {%- else -%}
+      , "availability": "https://schema.org/PreOrder"
+      {%- endif %}
     }
   }
   </script>
