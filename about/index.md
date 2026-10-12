@@ -1,29 +1,42 @@
 ---
 layout: page
 title: "About MacBound"
-description: "MacBound is a Mac content hub written by Luke Welch, covering AppleScript automation, Windows-to-Mac switching, and screenshot workflows."
+description: "MacBound is run by independent Mac developer Luke Welch: four one-time-purchase menu-bar apps and a free Windows-to-Mac switching guide."
 permalink: /about/
 show_breadcrumb: false
+last_modified_at: 2026-10-12
 ---
 
 <span class="section-badge">MacBound</span>
 
 # About MacBound
 
-MacBound is a Mac content hub covering three areas: AppleScript automation ([Scriptly]({{ site.sections.scriptly.url | relative_url }})), switching from Windows to Mac, and screenshot & markup workflows ([SnipClip]({{ site.sections.snipclip.url | relative_url }})).
+MacBound is the home of four small Mac apps built by independent developer **Luke Welch**, plus a free guide for people switching from Windows to the Mac. Every app lives in the menu bar, does one job, works offline, and is a single one-time purchase on the Mac App Store.
 
-## Who writes this
+## The apps
 
-Every guide on MacBound is written by **Luke Welch**, who also builds the two Mac apps the site covers — Scriptly and SnipClip. That means the AppleScript examples are tested in the same app users install, and the screenshot/markup guides are written by the person who built the tool doing the annotating.
+- **[SnipClip]({{ site.sections.snipclip.url | relative_url }})** — screenshot capture and markup in one hotkey, with scrolling capture and screen recording. ${{ site.sections.snipclip.price }} / £{{ site.sections.snipclip.gbp_price }}.
+- **[TopBox]({{ site.sections.topbox.url | relative_url }})** — a searchable clipboard history and a drag-and-drop file shelf, side by side. ${{ site.sections.topbox.price }} / £{{ site.sections.topbox.gbp_price }}.
+- **[Scriptly]({{ site.sections.scriptly.url | relative_url }})** — 115 ready-to-run AppleScript automations with scheduling and on-device AI help. ${{ site.sections.scriptly.price }} / £{{ site.sections.scriptly.gbp_price }}.
+- **[PortHole]({{ site.sections.porthole.url | relative_url }})** — one-click fixes for wrong-resolution external monitors, saved display layouts and AirPlay. ${{ site.sections.porthole.price }} / £{{ site.sections.porthole.gbp_price }}.
 
-Content here follows a simple rule: no login or payment required to read any post, and every reference page (keyboard shortcuts, settings mappings, gestures) is kept accurate to the current version of macOS rather than left to go stale.
+All four are native macOS apps with no accounts, no subscriptions and no ads. Each one has its own privacy policy and support page, linked from the footer.
 
-## Get in touch
+## Who writes the guides
 
-Questions, corrections, or something on the site that's out of date — reach out at [{{ site.email }}](mailto:{{ site.email }}) or via [GitHub](https://github.com/{{ site.repository }}).
+Every guide on MacBound is written by Luke, the same person who builds the apps. The AppleScript examples are tested in Scriptly, and the screenshot guides are written by the person who built the markup tool they describe.
+
+Two rules apply to everything here:
+
+- **Free to read.** No login, no paywall, no email gate on any guide.
+- **Kept current.** Reference pages such as the [keyboard shortcuts]({{ '/windows-to-mac/keyboard-shortcuts/' | relative_url }}), settings mappings and gestures are updated for current macOS rather than left to go stale. Each guide shows when it was published and last updated.
+
+## Corrections and contact
+
+If something on the site is wrong or out of date, or you need help with one of the apps, email [{{ site.email }}](mailto:{{ site.email }}). Corrections are welcome and get fixed quickly.
 
 ## Elsewhere
 
-- [Scriptly on the App Store]({{ site.sections.scriptly.app_url }})
-- [SnipClip on the App Store]({{ site.sections.snipclip.app_url }})
-- [MacBound on GitHub](https://github.com/{{ site.repository }})
+- [All of Luke Welch's apps on the Mac App Store](https://apps.apple.com/us/developer/luke-welch/id6788811381)
+- [SnipClip]({{ site.sections.snipclip.app_url }}), [TopBox]({{ site.sections.topbox.app_url }}), [Scriptly]({{ site.sections.scriptly.app_url }}) and [PortHole]({{ site.sections.porthole.app_url }}) on the App Store
+- [MacBound source on GitHub](https://github.com/{{ site.repository }})

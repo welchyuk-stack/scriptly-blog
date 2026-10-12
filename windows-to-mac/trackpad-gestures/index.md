@@ -32,4 +32,6 @@ Every gesture below works the same on a Magic Trackpad or a MacBook's built-in t
 
 ---
 
+Want the handful worth learning first, and why? Read [Trackpad gestures every Windows switcher should learn](/windows-to-mac/gestures-every-switcher-should-learn/).
+
 Related: [Keyboard Shortcuts](/windows-to-mac/keyboard-shortcuts/) · [Finder vs. Explorer](/windows-to-mac/finder-vs-explorer/)

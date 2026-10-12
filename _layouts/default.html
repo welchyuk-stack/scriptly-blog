@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en" }}">
   {%- include head.html -%}
-  <body{% if page.section and site.sections[page.section] %} style="--accent: {{ site.sections[page.section].accent }};"{% endif %}>
+  {%- comment -%} No per-section --accent override here: an inline value on <body> beats the
+       dark-mode token and made links navy-on-black in dark mode. {%- endcomment -%}
+  <body>
     {%- include nav.html -%}
     {%- include section-bar.html -%}
     <main>

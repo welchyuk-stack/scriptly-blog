@@ -32,7 +32,7 @@ There's periodic anxiety in the community about AppleScript's long-term future, 
 
 AppleScript's English-like syntax is approachable in theory ("tell application... to..."), but in practice, remembering exact command names, correct capitalization, and app-specific dictionaries is where beginners get stuck. That's a real, valid criticism — but it's a tooling problem, not a reason the language itself is obsolete.
 
-This is exactly the gap apps like [Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) exist to close: describe a task in plain English, get working AppleScript back, powered by on-device AI so nothing leaves your Mac. You get AppleScript's real power over apps, without needing to memorize its dictionaries.
+This is exactly the gap apps like [Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) exist to close: pick from ready-made AppleScript templates, or describe a task in plain English and on-device AI finds and fills in the right one, so nothing leaves your Mac. You get AppleScript's real power over apps, without needing to memorize its dictionaries.
 
 ## When to Use Shortcuts Instead
 

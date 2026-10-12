@@ -118,7 +118,7 @@ Check `daysOld` — and remember `modification date` updates every time a file i
 
 ## Prefer a Ready-Made Version?
 
-[Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) includes this as a built-in template — no setup required, plus AI generation if you want custom archiving rules described in plain English.
+[Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) includes this as a built-in template — just pick the folder and how many days old, then run it or schedule it.
 
 ## Related Guides
 

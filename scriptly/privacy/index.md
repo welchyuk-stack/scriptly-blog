@@ -5,13 +5,14 @@ description: "Scriptly's privacy policy: the app collects no personal data by de
 permalink: /scriptly/privacy/
 section: scriptly
 show_breadcrumb: false
+last_modified_at: 2026-10-12
 ---
 
 <span class="section-badge">Scriptly</span>
 
 # Privacy Policy
 
-*Scriptly for macOS · Last updated: 8 July 2026*
+*Scriptly for macOS · Last updated: 12 October 2026*
 
 Scriptly is designed to work entirely on your Mac. This policy explains what data the app does and does not handle. By default, **Scriptly collects, transmits, and stores no personal data.** The one exception is the optional Marketplace feature, described below, which never sends your name, email, or Apple ID.
 
@@ -21,7 +22,7 @@ Scriptly is operated by Luke Welch, trading as Scriptly ("we", "us"). For any pr
 
 ## Data we collect by default
 
-**None.** Scriptly's core features — templates, AI script generation and repair, menu bar quick-run, and scheduled automations — all run entirely on your Mac. The app has no analytics, no tracking, and no advertising. Everything you type into a template stays on your device unless you choose to use the Marketplace.
+**None.** Scriptly's core features — templates, running scripts, the on-device AI features (Generate with AI, Explain and Fix), menu bar quick-run, and scheduled automations — all run entirely on your Mac. The app has no analytics, no tracking, and no advertising. Everything you type into a template stays on your device unless you choose to use the Marketplace.
 
 ## The Marketplace (optional)
 
@@ -33,13 +34,13 @@ Using it requires being signed in to iCloud on your Mac, because the Marketplace
 - **Publishing** a template sends its title, summary, script text, and category to CloudKit, along with a one-way cryptographic hash of your iCloud account identifier — never your name, email address, or Apple ID directly. That hash exists so we can attribute a template to the account that published it (for example, to act on a report) without ever seeing who you are.
 - **Reporting** a template works the same way: a report is tied to the same anonymized hash, not to any identifying information.
 
-We review reported templates ourselves; no third party beyond Apple/CloudKit is involved in handling Marketplace content.
+Every shared script is scanned for risky commands on your Mac before you download or run it; that check sends nothing anywhere. We review reported templates ourselves; no third party beyond Apple/CloudKit is involved in handling Marketplace content.
 
 ## How the rest of Scriptly works
 
-Scriptly generates AppleScript text from built-in templates or from your own plain-English description (via on-device AI) and copies it to your clipboard. The app never runs those scripts itself and never sends them anywhere — you run each script yourself in Apple's Script Editor or via the menu bar quick-run. The app is sandboxed by macOS; the only file access it requests is to folders you explicitly choose in a standard "Choose Folder" dialog.
+Scriptly fills in AppleScript from its built-in templates using the details you enter. On Macs with Apple Intelligence, the AI features — matching a plain-English description to the right template, Explain and Fix — use Apple's on-device model, so your descriptions and scripts are not sent off your Mac. Scripts run locally on your Mac only when you press Run, use menu bar quick-run, or set a schedule; scheduled runs are handled on your Mac by Scriptly or its background helper. Scriptly never sends your scripts anywhere unless you choose to publish one to the Marketplace. The app is sandboxed by macOS; the only file access it requests is to folders you explicitly choose in a standard "Choose Folder" dialog.
 
-Some templates generate scripts that *you* may later configure to contact third-party services (for example Slack, GitHub, or a webhook). Any such connection happens only when *you* run the generated script yourself, using credentials you supply. Scriptly is not involved in, and does not see, that activity.
+Some templates generate scripts that *you* may later configure to contact third-party services (for example Slack, GitHub, or a webhook). Any such connection happens only when *you* run the script (or a schedule you set runs it), goes directly from your Mac to that service using credentials you supply, and is never routed through or seen by us.
 
 ## Purchases
 
@@ -47,7 +48,7 @@ Scriptly is a one-time purchase handled entirely by Apple through the App Store.
 
 ## Local storage on your device
 
-Scriptly stores small preferences locally on your Mac (your favourites, recently used templates, and appearance choice) using the standard macOS preferences system. This data never leaves your device and is removed if you delete the app.
+Scriptly stores small amounts of data locally on your Mac (your favourites, saved templates, schedules, run history, and settings such as appearance and menu bar visibility) using standard macOS storage. This data never leaves your device and is removed if you delete the app.
 
 ## Children
 

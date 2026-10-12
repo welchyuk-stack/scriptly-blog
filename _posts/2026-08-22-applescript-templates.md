@@ -147,9 +147,9 @@ For any script above:
 3. Click **Run** (▶)
 4. Approve any permission prompts (this is normal — macOS confirming the script can control an app)
 
-## Want 100+ More, Organized by Category?
+## Want 115 More, Organized by Category?
 
-These ten cover the basics. [Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) has 100+ ready-made templates across email, files, calendar, Slack, and GitHub — plus AI generation for anything not already covered.
+These ten cover the basics. [Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) has 115 ready-made templates across email, files, calendar, Slack, and GitHub — plus on-device AI (on Macs with Apple Intelligence) that finds and fills in the right one from a plain-English description.
 
 ## Related Guides
 

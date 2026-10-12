@@ -1,9 +1,10 @@
 ---
 layout: page
 title: "Blog"
-description: "All posts across MacBound — Scriptly, Windows→Mac, and SnipClip."
+description: "Every MacBound guide in one place: AppleScript automation with Scriptly, Windows-to-Mac switching help, and Mac screenshot tips from SnipClip."
 permalink: /blog/
 wide: true
+last_modified_at: 2026-10-12
 ---
 
 # Blog
@@ -11,10 +12,10 @@ wide: true
 {% assign all_posts = site.posts | concat: site.windows_to_mac | concat: site.snipclip | sort: "date" | reverse %}
 
 <div class="ref-toolbar no-print">
-  <button class="btn is-active" data-blog-filter="all">All</button>
-  <button class="btn" data-blog-filter="scriptly">Scriptly</button>
-  <button class="btn" data-blog-filter="windows_to_mac">Windows → Mac</button>
-  <button class="btn" data-blog-filter="snipclip">SnipClip</button>
+  <button type="button" class="btn is-active" aria-pressed="true" data-blog-filter="all">All</button>
+  <button type="button" class="btn" aria-pressed="false" data-blog-filter="scriptly">Scriptly</button>
+  <button type="button" class="btn" aria-pressed="false" data-blog-filter="windows_to_mac">Windows → Mac</button>
+  <button type="button" class="btn" aria-pressed="false" data-blog-filter="snipclip">SnipClip</button>
 </div>
 
 <div id="blog-list">
@@ -28,19 +29,4 @@ wide: true
 {% endfor %}
 </div>
 
-<script>
-(function () {
-  var buttons = document.querySelectorAll('[data-blog-filter]');
-  var items = document.querySelectorAll('#blog-list [data-section]');
-  buttons.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      buttons.forEach(function (b) { b.classList.remove('is-active'); });
-      btn.classList.add('is-active');
-      var filter = btn.dataset.blogFilter;
-      items.forEach(function (item) {
-        item.style.display = (filter === 'all' || item.dataset.section === filter) ? '' : 'none';
-      });
-    });
-  });
-})();
-</script>
+<script src="{{ '/assets/js/blog-filter.js' | relative_url }}" defer></script>

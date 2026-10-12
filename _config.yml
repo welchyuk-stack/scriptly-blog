@@ -2,8 +2,8 @@
 title: MacBound
 email: welchyuk@gmail.com
 description: >-
-  A Mac content hub: AppleScript automation with Scriptly, a full Windows-to-Mac
-  switching guide, and screenshot & markup tips with SnipClip.
+  Four small, one-time-purchase Mac menu-bar apps — SnipClip, TopBox, Scriptly
+  and PortHole — plus a complete Windows-to-Mac switching guide.
 
 # URLs
 url: "https://macbound.com"
@@ -98,7 +98,7 @@ defaults:
 # `return unless site["logo"]`), leaving only our correct schema. Our own
 # Organization block uses `org_logo:` instead, which the plugin doesn't know
 # about, so it can't trigger the same bug.
-org_logo: /assets/images/scriptly-logo.png
+org_logo: /assets/icons/icon-512.png
 
 # Note: jekyll-seo-tag only renders the top-level google_site_verification
 # key when webmaster_verifications is unset; since webmaster_verifications
@@ -114,6 +114,7 @@ webmaster_verifications:
 social:
   name: MacBound
   links:
+    - https://apps.apple.com/us/developer/luke-welch/id6788811381
     - https://github.com/welchyuk-stack/scriptly-blog
 
 # Section metadata — product/section-specific bits referenced from layouts,
@@ -127,6 +128,8 @@ sections:
     tint: "#4f63d6"
     url: /scriptly/
     app_url: "https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12"
+    min_os: "14.0"
+    version: "1.4"
     twitter: scriptlyapp
     price: "4.99"
     gbp_price: "4.99"  # verified via App Store Connect UK pricing, same Apple tier
@@ -142,7 +145,9 @@ sections:
     accent_dark: "#0a1024"
     tint: "#35b8e0"
     url: /snipclip/
-    app_url: "https://apps.apple.com/gb/app/snipclip/id6789209242"
+    app_url: "https://apps.apple.com/us/app/snipclip/id6789209242?mt=12"
+    min_os: "13.0"
+    version: "1.6"
     price: "1.99"
     gbp_price: "1.99"  # verified via App Store Connect UK pricing, same Apple tier
   porthole:
@@ -152,7 +157,9 @@ sections:
     accent_dark: "#0a1024"
     tint: "#5b8dd6"
     url: /porthole/
-    app_url: "https://apps.apple.com/us/app/porthole/id6806519397?mt=12"
+    app_url: "https://apps.apple.com/us/app/porthole-external-monitor/id6806519397?mt=12"
+    min_os: "13.0"
+    version: "1.2"
     price: "2.99"
     gbp_price: "2.99"  # verified via App Store Connect UK pricing, same Apple tier
   topbox:
@@ -162,7 +169,9 @@ sections:
     accent_dark: "#0a1024"
     tint: "#6d7cf0"
     url: /topbox/
-    app_url: "https://apps.apple.com/us/app/topbox/id6807077900?mt=12"
+    app_url: "https://apps.apple.com/us/app/topbox-clipboard-manager/id6807077900?mt=12"
+    min_os: "13.0"
+    version: "1.2"
     price: "2.99"
     gbp_price: "2.99"  # verified via App Store Connect UK pricing, same Apple tier
 

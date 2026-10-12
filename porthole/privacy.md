@@ -5,13 +5,14 @@ description: "Privacy policy for PortHole, the Mac menu-bar display utility. No 
 permalink: /porthole/privacy/
 section: porthole
 show_breadcrumb: false
+last_modified_at: 2026-10-12
 ---
 
 <span class="section-badge">PortHole</span>
 
 # PortHole Privacy Policy
 
-*Last updated: August 2026*
+*Last updated: October 2026 (PortHole 1.2)*
 
 PortHole is a menu-bar utility for Mac. This policy covers what it does and doesn't do
 with your data.
@@ -21,7 +22,8 @@ with your data.
 - **No account, no sign-in.** PortHole doesn't know who you are.
 - **No analytics, no tracking, no telemetry.** Nothing about your usage is collected or
   transmitted anywhere.
-- **No data ever leaves your Mac**, with one exception below.
+- **No data ever leaves your Mac**, with one exception below. The App Store privacy
+  label is "Data Not Collected."
 
 ## The one exception: AirPlay on your local network
 
@@ -36,10 +38,19 @@ network.
 Everything below stays in this Mac's local preferences storage — never transmitted,
 never backed up to iCloud, never seen by us:
 
-- **Your saved display arrangement** (if you use that feature) — which monitor goes
-  where, identified by the monitor's vendor/model/serial number, not by anything
-  identifying you.
-- **Your preference settings**, such as auto-fix-on-connect and launch-at-login.
+- **Your saved display layouts** (if you use that feature) — the name you give each
+  layout and which monitor goes where, with monitors identified by their
+  vendor/model/serial number, not by anything identifying you.
+- **Your preference settings**, such as auto-fix-on-connect.
+
+Launch at Login is registered with macOS itself (as a login item you can see in System
+Settings → General → Login Items), not stored by PortHole.
+
+## Permissions macOS may ask for
+
+- **Local network** — only for finding AirPlay displays, as described above.
+- **Control "System Events"** — only for the Dark Mode toggle, which switches your
+  Mac's appearance through System Events. This happens entirely on your Mac.
 
 ## Third-party access
 

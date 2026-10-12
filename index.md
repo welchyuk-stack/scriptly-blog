@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "MacBound: Four Little Mac Apps That Live in Your Menu Bar"
-description: "Screenshots, clipboard, AppleScript and display fixes — four small Mac menu-bar apps, one-time purchase, no accounts. Plus the complete Windows-to-Mac switching guide."
+title: "Four Little Mac Apps That Live in Your Menu Bar"
+description: "SnipClip, TopBox, Scriptly and PortHole: four small Mac menu-bar apps for screenshots, clipboard, automation and monitors. One-time purchase, no accounts."
 permalink: /
 section: windows_to_mac
 wide: true
 show_breadcrumb: false
-last_modified_at: 2026-09-14
+last_modified_at: 2026-10-12
 ---
 
 <div class="hero">
@@ -36,12 +36,14 @@ last_modified_at: 2026-09-14
     </div>
     <div class="mb-menu is-open" data-for="snipclip">
       <div class="head"><img src="{{ '/assets/images/snipclip/icon.jpg' | relative_url }}" width="14" height="14" alt="">SnipClip</div>
-      <div class="row hl">Capture Area <kbd>⇧⌘S</kbd></div>
-      <div class="row">Recent Captures ▸</div>
-      <div class="row">Timed Full-Screen Capture ▸</div>
+      <div class="row hl">Capture Region <kbd>⌥⇧⌘S</kbd></div>
+      <div class="row">Capture Full Screen</div>
+      <div class="row">Timed Capture ▸</div>
       <div class="row">Scrolling Capture</div>
-      <div class="row">Start Screen Recording <kbd>⇧⌘R</kbd></div>
-      <hr><div class="row">Preferences…</div>
+      <hr><div class="row">Record Full Screen <kbd>⌥⇧⌘R</kbd></div>
+      <div class="row">Record Selected Region</div>
+      <hr><div class="row">Recent Captures ▸</div>
+      <div class="row">Settings…</div>
     </div>
     <div class="mb-menu sc-panel" data-for="scriptly">
       <div class="sc-title">Favorite Automations</div>
@@ -91,17 +93,17 @@ last_modified_at: 2026-09-14
 </div>
 
 <div class="section" id="apps">
-  <div class="section-head"><h2>The apps</h2><span class="meta">4 apps · macOS 13+ · Mac App Store</span></div>
+  <div class="section-head"><h2>The apps</h2><span class="meta">4 apps · one-time purchase · Mac App Store</span></div>
   <div class="tiles">
     <div class="tile" style="--tint: {{ site.sections.snipclip.tint }}">
       <img src="{{ '/assets/images/snipclip/icon.jpg' | relative_url }}" width="72" height="72" alt="SnipClip icon">
       <div>
         <h3><a href="{{ '/snipclip/' | relative_url }}">SnipClip</a> <span class="tag">Screenshots &amp; Markup</span></h3>
-        <p>Capture, annotate and share in one hotkey. Scrolling Capture stitches a whole page into one tall image.</p>
+        <p>Screenshot and markup in one hotkey: arrows, numbered steps, blur and crop, plus scrolling capture and screen recording. Fully offline.</p>
         <div class="foot">
           <span class="price">${{ site.sections.snipclip.price }} · £{{ site.sections.snipclip.gbp_price }}</span>
           <a class="app-hero__badge" href="{{ site.sections.snipclip.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" width="96" height="32" alt="Download SnipClip on the App Store"></a>
-          <span class="key">Hotkey <kbd>⇧⌘S</kbd></span>
+          <span class="key">Hotkey <kbd>⌥⇧⌘S</kbd></span>
         </div>
       </div>
     </div>
@@ -109,7 +111,7 @@ last_modified_at: 2026-09-14
       <img src="{{ '/assets/images/topbox/icon.jpg' | relative_url }}" width="72" height="72" alt="TopBox icon">
       <div>
         <h3><a href="{{ '/topbox/' | relative_url }}">TopBox</a> <span class="tag">Clipboard &amp; File Shelf</span></h3>
-        <p>A clipboard history and a drag-in shelf for files, both one keystroke away. Nothing leaves memory, nothing syncs.</p>
+        <p>A searchable clipboard history and a drag-and-drop file shelf, side by side and one keystroke away. Encrypted on your Mac, never synced.</p>
         <div class="foot">
           <span class="price">${{ site.sections.topbox.price }} · £{{ site.sections.topbox.gbp_price }}</span>
           <a class="app-hero__badge" href="{{ site.sections.topbox.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" width="96" height="32" alt="Download TopBox on the App Store"></a>
@@ -121,7 +123,7 @@ last_modified_at: 2026-09-14
       <img src="{{ '/assets/images/scriptly/icon.jpg' | relative_url }}" width="72" height="72" alt="Scriptly icon">
       <div>
         <h3><a href="{{ '/scriptly/' | relative_url }}">Scriptly</a> <span class="tag">AppleScript &amp; Automation</span></h3>
-        <p>Write, schedule and run AppleScripts from the menu bar, with AI help when you're stuck and a marketplace when you're lazy. Beginner and power-user friendly.</p>
+        <p>115 ready-to-run AppleScript automations you can schedule or run from the menu bar, with on-device AI that finds the right template, explains scripts and fixes failed ones. Beginner and power-user friendly.</p>
         <div class="foot">
           <span class="price">${{ site.sections.scriptly.price }} · £{{ site.sections.scriptly.gbp_price }}</span>
           <a class="app-hero__badge" href="{{ site.sections.scriptly.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" width="96" height="32" alt="Download Scriptly on the App Store"></a>
@@ -133,7 +135,7 @@ last_modified_at: 2026-09-14
       <img src="{{ '/assets/images/porthole/icon.jpg' | relative_url }}" width="72" height="72" alt="PortHole icon">
       <div>
         <h3><a href="{{ '/porthole/' | relative_url }}">PortHole</a> <span class="tag">Menu-Bar Display Fixes</span></h3>
-        <p>For the moment your external monitor forgets where it lives. Put displays back where they belong without opening Settings.</p>
+        <p>Fixes a blurry or wrong-resolution external monitor in one click, saves named display layouts, and casts to AirPlay. No trip to System Settings.</p>
         <div class="foot">
           <span class="price">${{ site.sections.porthole.price }} · £{{ site.sections.porthole.gbp_price }}</span>
           <a class="app-hero__badge" href="{{ site.sections.porthole.app_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/badges/app-store-badge-black.svg' | relative_url }}" width="96" height="32" alt="Download PortHole on the App Store"></a>

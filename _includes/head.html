@@ -25,6 +25,8 @@
     "@id": "{{ site.url }}/#organization",
     "name": "{{ site.social.name }}",
     "url": "{{ site.url }}/",
+    "description": {{ site.description | strip | jsonify }},
+    "founder": { "@id": "{{ site.url }}/about/#person" },
     "logo": {
       "@type": "ImageObject",
       "url": "{{ site.org_logo | absolute_url }}"
@@ -43,6 +45,8 @@
     "@id": "{{ site.url }}/about/#person",
     "name": "{{ site.author }}",
     "url": "{{ site.url }}/about/",
+    "jobTitle": "Independent Mac app developer",
+    "knowsAbout": ["macOS", "AppleScript", "Mac automation", "Mac menu bar apps", "Switching from Windows to Mac"],
     "worksFor": { "@id": "{{ site.url }}/#organization" },
     "sameAs": [
       {%- for link in site.social.links -%}
@@ -69,15 +73,25 @@
   {%- endif -%}
 
   {%- if page.layout == "app" -%}
+  {%- assign app = site.sections[page.section] -%}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "{{ site.sections[page.section].name }}",
+    "@id": "{{ page.url | absolute_url }}#app",
+    "name": {{ app.name | jsonify }},
     "url": "{{ page.url | absolute_url }}",
     "applicationCategory": "UtilitiesApplication",
-    "operatingSystem": "macOS 13.0 or later",
-    "description": "{{ page.description }}",
+    "operatingSystem": "macOS {{ app.min_os | default: '13.0' }} or later",
+    {%- if app.version %}
+    "softwareVersion": {{ app.version | jsonify }},
+    {%- endif %}
+    "description": {{ page.description | jsonify }},
+    "image": "{{ '/assets/images/' | append: page.section | append: '/icon.jpg' | absolute_url }}",
+    {%- if app.app_url %}
+    "downloadUrl": {{ app.app_url | jsonify }},
+    {%- endif %}
+    "author": { "@id": "{{ site.url }}/about/#person" },
     "publisher": { "@id": "{{ site.url }}/#organization" },
     "offers": {
       "@type": "Offer",

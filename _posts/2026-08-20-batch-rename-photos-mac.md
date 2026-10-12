@@ -122,7 +122,7 @@ end padded
 
 ## Skip Writing This Yourself
 
-[Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) has a ready-made photo batch-rename template, plus AI generation if you want a custom naming pattern — just describe it in plain English.
+[Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) has ready-made templates for both approaches (sequential numbering and date prefixes) — just pick the folder and fill in a name or file type.
 
 ## Related Guides
 

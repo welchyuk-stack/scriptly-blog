@@ -11,7 +11,7 @@ show_breadcrumb: false
 
 # SnipClip Privacy Policy
 
-*Last updated: September 2026*
+*Last updated: October 2026*
 
 SnipClip is a macOS screenshot and annotation app developed by Luke Welch. This policy
 describes what data SnipClip does and does not collect.
@@ -25,7 +25,11 @@ telemetry of any kind. The app does not connect to the internet during normal us
 
 Screenshots you capture stay entirely on your Mac. They are never uploaded, transmitted,
 or shared with us or any third party. SnipClip accesses your screen only when you
-explicitly trigger a capture.
+explicitly trigger a capture or recording.
+
+To make Recent Captures work, SnipClip keeps your last few captures as image files in its
+own folder on your Mac (in Application Support). They stay on your Mac and are replaced as
+you take new captures.
 
 ## Purchases
 
@@ -37,11 +41,13 @@ handles that transaction.
 
 ## System permissions
 
-SnipClip requests **Screen Recording** permission on first launch. This permission is
+SnipClip asks for **Screen Recording** permission before it first captures your screen. This permission is
 required to capture your screen and to record video with the Screen Recording feature.
 You can revoke it at any time in System Settings → Privacy & Security → Screen
 Recording. Screen recordings are saved as local `.mp4` files to a folder you choose —
-they are never uploaded or transmitted anywhere.
+they are never uploaded or transmitted anywhere. If you turn on the optional system audio
+setting, that audio is saved inside the same local `.mp4` file and goes nowhere else.
+SnipClip does not record your microphone.
 
 ## Children
 

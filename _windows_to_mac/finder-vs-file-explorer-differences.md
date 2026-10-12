@@ -45,3 +45,5 @@ Windows shows hidden files through a View menu checkbox. Finder's toggle is a sh
 There's no "map a drive letter" concept on Mac — network shares don't get a letter, they show up in the sidebar once connected. `⌘+K` opens Connect to Server, where you paste a server address (`smb://`, `afp://`, etc.) directly.
 
 None of this is worse or better, exactly — it's just a different set of defaults built around a different set of assumptions. Once the shortcuts are in your fingers, Finder gets out of your way the same as Explorer did. For the shortcuts side of things, the [full keyboard shortcut reference](/windows-to-mac/keyboard-shortcuts/) covers Finder-specific ones alongside everything else.
+
+For a quick side-by-side lookup table of the same concepts, see [Finder vs. Explorer at a glance](/windows-to-mac/finder-vs-explorer/).

@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
-last_modified_at: 2026-08-29 17:28:37 +0000
+last_modified_at: 2026-10-12
 title: "Why a Menu-Bar Screenshot Tool Beats a Full App Window"
 excerpt: "The best tool for a five-second task is the one that never asks you to switch windows to use it."
 author: Luke Welch
@@ -26,9 +26,9 @@ This adds up faster than it sounds. If you screenshot and annotate something eve
 
 ## Why "Designed for Speed" isn't just a tagline
 
-This is the specific design bet behind [SnipClip]({{ site.sections.snipclip.app_url }}): it lives entirely in the menu bar, has no meaningful "open the app" step, and its one hotkey (`⇧⌘S`) goes straight from wherever you currently are to an area-selection cursor, then straight into markup once you've selected. There's no window to find afterward, no separate step to locate the file — copy or share happens right where you already are.
+This is the specific design bet behind [SnipClip]({{ site.sections.snipclip.app_url }}): it lives entirely in the menu bar, has no meaningful "open the app" step, and its capture hotkey (`⌥⇧⌘S`) goes straight from wherever you currently are to an area-selection cursor, then straight into markup once you've selected. There's no window to find afterward, no separate step to locate the file — copy or share happens right where you already are.
 
-It's also why SnipClip deliberately doesn't try to be a full screenshot *manager* — no searchable library, no cloud sync dashboard, no organizing folders of past captures beyond a simple "last 6" quick-access list in the menu bar. Those are legitimate features for a different kind of tool, but each one pulls the app back toward being a destination you visit, rather than a hotkey you barely notice using.
+It's also why SnipClip deliberately doesn't try to be a full screenshot *manager* — no searchable library, no cloud sync dashboard, no organizing folders of past captures beyond a short Recent Captures list in the menu bar. Those are legitimate features for a different kind of tool, but each one pulls the app back toward being a destination you visit, rather than a hotkey you barely notice using.
 
 ## When a full-window tool is actually the right call
 

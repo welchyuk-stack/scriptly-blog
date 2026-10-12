@@ -1,6 +1,6 @@
 ---
 layout: page
-last_modified_at: 2026-08-28 07:46:48 +0000
+last_modified_at: 2026-10-12
 title: "Windows to Mac Keyboard Shortcuts (Full Reference)"
 description: "Every essential Windows keyboard shortcut mapped to its macOS equivalent — searchable, copyable, and printable."
 permalink: /windows-to-mac/keyboard-shortcuts/
@@ -51,6 +51,34 @@ Find the macOS equivalent of any Windows shortcut you already know. Search by ac
 </table>
 </div>
 <p class="empty-state" id="ref-empty">No shortcuts match your search.</p>
+
+## Shortcuts that work differently on a Mac
+
+Most Windows shortcuts carry over by swapping **Ctrl** for **⌘ Command**. These are the ones that don't, and the ones that catch out almost every switcher in the first week.
+
+### Where are Home and End on a Mac?
+
+Mac keyboards have no Home or End keys. In a text field, **⌘←** jumps to the start of the line and **⌘→** to the end; add **Shift** to select as you go. **⌘↑** and **⌘↓** jump to the top and bottom of the whole document. On a full-size keyboard with Fn, **Fn ←** and **Fn →** act like Home and End in many apps, scrolling to the top or bottom of the page rather than moving the cursor.
+
+### How do I forward-delete?
+
+The Mac **Delete** key deletes backwards, like Backspace on Windows. To delete the character to the right of the cursor, press **Fn Delete**. **⌥ Delete** removes a whole word, and **⌘ Delete** removes everything back to the start of the line.
+
+### Why doesn't closing a window quit the app?
+
+On Windows, closing the last window usually exits the program. On a Mac, **⌘W** closes the window but most apps keep running, with a dot under their Dock icon. Use **⌘Q** to quit. If an app stops responding, **⌥⌘Esc** opens Force Quit, the closest equivalent to Ctrl+Alt+Del.
+
+### Why does ⌘Tab skip my other windows?
+
+**⌘Tab** switches between apps, not windows. To cycle through windows of the same app, use **⌘`** (the key above Tab). Mission Control, with a three-finger swipe up or **⌃↑**, shows every open window at once.
+
+### How do I rename or open a file in Finder?
+
+Select a file and press **Return** to rename it; Windows uses F2. To open it, press **⌘O** or **⌘↓**. **⌘ Delete** moves it to the Trash.
+
+### Can I make the Mac keyboard behave like Windows?
+
+Partly. System Settings → Keyboard → Keyboard Shortcuts → Modifier Keys lets you swap Control and Command, which some switchers do to keep their muscle memory. Most people find it easier to learn the Mac layout within a couple of weeks, because every guide, menu and app assumes the standard keys.
 
 ---
 

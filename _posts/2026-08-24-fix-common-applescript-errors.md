@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fix Common AppleScript Errors (With Real Explanations, Not Just Fixes)"
+title: "Fix Common AppleScript Errors, Explained"
 date: 2026-08-24
 redirect_from: /fix-common-applescript-errors/
 section: scriptly
@@ -120,7 +120,7 @@ end timeout
 
 Post the exact error message on [r/applescript](https://reddit.com/r/applescript) — the community is fast and genuinely helpful with beginner questions.
 
-Or skip the debugging entirely: [Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) generates tested, working AppleScript from a plain-English description, so you're starting from working code instead of fixing broken code.
+Or skip the debugging entirely: [Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) gives you 115 tested, ready-to-run templates, so you're starting from working code instead of fixing broken code — and on Macs with Apple Intelligence, its Fix feature diagnoses a failed script and suggests a correction.
 
 ## Related Guides
 

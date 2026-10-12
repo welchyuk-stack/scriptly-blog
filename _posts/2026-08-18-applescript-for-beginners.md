@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AppleScript for Complete Beginners: What It Is and How to Write Your First Script"
+title: "AppleScript for Complete Beginners: Your First Script"
 date: 2026-08-18
 redirect_from: /applescript-for-beginners/
 section: scriptly
@@ -111,9 +111,9 @@ Almost every useful AppleScript follows this same three-step shape.
 
 ## You Don't Have to Write These From Scratch
 
-Honestly, this is the part most beginners get stuck on — remembering exact syntax, app-specific commands, and correct capitalization. That's exactly the problem [Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) solves: describe what you want in plain English, and it generates working AppleScript for you, or pick from 100+ ready-made templates.
+Honestly, this is the part most beginners get stuck on — remembering exact syntax, app-specific commands, and correct capitalization. That's exactly the problem [Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) solves: pick from 115 ready-made templates and fill in a few fields, or (on Macs with Apple Intelligence) describe what you want in plain English and it finds and fills in the right template for you.
 
-But understanding the basics above means you can actually read what Scriptly generates, tweak it, and troubleshoot it yourself — which is a genuinely useful skill.
+But understanding the basics above means you can actually read what Scriptly produces, tweak it, and troubleshoot it yourself — which is a genuinely useful skill.
 
 ## Next Steps
 

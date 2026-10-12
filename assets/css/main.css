@@ -586,6 +586,7 @@ table.ref-table tr.is-hidden { display: none; }
   border-radius: 12px; overflow: hidden; box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .7);
   transform: rotate(-1.5deg); border: 1px solid rgba(255, 255, 255, .15);
 }
+.app-hero__shot picture { display: block; }
 .app-hero__shot img { display: block; width: 100%; border-radius: 0; }
 
 .app-screens { display: flex; gap: 18px; overflow-x: auto; padding: 28px 24px 8px; margin: 0 auto; max-width: var(--wide-width); scroll-snap-type: x proximity; }

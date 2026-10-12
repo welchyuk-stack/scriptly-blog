@@ -1,9 +1,10 @@
 ---
 layout: page
 title: "SnipClip Support"
-description: "Get help with SnipClip, the Mac screenshot and markup app."
+description: "Get help with SnipClip, the Mac screenshot and markup app: shortcuts, permissions, save locations, screen recording audio and scrolling capture."
 permalink: /snipclip/support/
 show_breadcrumb: false
+last_modified_at: 2026-10-12
 ---
 
 # SnipClip Support
@@ -19,23 +20,38 @@ feature requests. We read every email and aim to reply within a couple of days.
 
 **SnipClip isn't capturing my screen.**
 Open System Settings → Privacy & Security → Screen Recording, and make sure SnipClip is
-enabled. macOS requires this permission before any app can capture the screen.
+enabled. macOS requires this permission before any app can capture or record the screen.
+SnipClip's Welcome guide walks you through it.
+
+**What are the default shortcuts?**
+`⌥⇧⌘S` starts a capture and `⌥⇧⌘R` starts a screen recording. These defaults changed in
+version 1.6, so if an older shortcut has stopped working, that's why.
 
 **The global hotkey doesn't work.**
-Check Preferences in the SnipClip menu bar item — the capture shortcut can be changed
-there if it conflicts with another app.
+Open SnipClip's Settings from the menu bar icon — both the capture and recording shortcuts
+can be changed there if they conflict with another app.
+
+**How do I capture a single window?**
+Start a capture, then click the window instead of dragging. While dragging a region you
+can hold Space to move the selection, and press Esc to cancel.
 
 **Where are my screenshots saved?**
-SnipClip copies captures straight to your clipboard by default. You can also save as
-PNG or JPEG from the markup editor.
+By default, new captures are copied straight to your clipboard and open in the markup editor. From the
+editor sidebar you can Copy, Save as PNG or JPEG, or drag the image into another app.
+
+**How do I get back to an earlier capture?**
+Open Recent Captures from the menu bar icon to reopen, edit or copy a past snip.
 
 **Where do timed captures and screen recordings get saved?**
-Timed full-screen captures open a save panel so you pick the location and format (PNG or
-JPEG) each time, then also copy to your clipboard and appear in Recent Captures — they
-don't open the markup editor afterward, since they're meant for straight-to-file capture.
-Screen recordings save as `.mp4` to a folder you choose in Preferences — that folder is
+Timed full-screen captures let you choose PNG or JPEG and where the file is saved.
+Screen recordings save as `.mp4` to a folder you choose in Settings — that folder is
 remembered across launches, and SnipClip reveals the finished file in Finder as soon as
 you stop recording.
+
+**My screen recording has no sound.**
+System audio is off by default. Turn on "Record system audio" in Settings and it will be
+included in the next recording. It records the sound your Mac plays, not your microphone,
+and uses the same Screen Recording permission as capture.
 
 **My scrolling capture cut off, or looks glitchy.**
 Scrolling Capture is capped at 12,000px tall — it auto-finishes if you hit that. It works

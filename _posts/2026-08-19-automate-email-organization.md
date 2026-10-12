@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Automate Email Organization on Mac (Zero Coding Required)"
+title: "How to Automate Email Organization on Mac"
 date: 2026-08-19
 redirect_from: /automate-email-organization/
 section: scriptly
@@ -108,7 +108,7 @@ Go to **System Settings → Privacy & Security → Automation**, find Script Edi
 
 ## Want More Filters Without Writing Them Yourself?
 
-[Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) includes ready-made email templates (auto-archive, flag, forward, and more) — or describe your rule in plain English and it writes the script for you.
+[Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) includes ready-made email templates (auto-archive, flag, forward, and more) — or describe your rule in plain English and it finds and fills in the right template for you.
 
 ## Related Guides
 

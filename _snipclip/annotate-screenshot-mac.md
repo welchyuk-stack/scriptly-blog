@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
-last_modified_at: 2026-08-29 17:28:37 +0000
+last_modified_at: 2026-10-12
 title: "How to Annotate a Screenshot on Mac (Arrows, Boxes, Text)"
 excerpt: "Mac has a built-in markup tool — it's just easy to miss. Here's how to use it, and when a dedicated tool is worth the switch."
 author: Luke Welch
@@ -40,6 +40,6 @@ The built-in path works, but it's several deliberate steps: capture, catch (or f
 
 ## Where a dedicated tool changes the workflow
 
-This is the specific gap [SnipClip]({{ site.sections.snipclip.app_url }}) is built around: instead of capture → find file → open Preview → find Markup → annotate → save → find file again to share, it's capture and annotate in the same motion. `⇧⌘S`, drag to select the area, and the markup toolbar (pen, arrow, rectangle, circle, text, full colour picker with opacity) is already there, before you've even finished the capture — then copy or share immediately with the result already on your clipboard.
+This is the specific gap [SnipClip]({{ site.sections.snipclip.app_url }}) is built around: instead of capture → find file → open Preview → find Markup → annotate → save → find file again to share, it's capture and annotate in the same motion. `⌥⇧⌘S`, drag to select the area, and the markup toolbar (pen, arrow, rectangle, circle, highlighter, text, numbered steps, blur, crop, full colour picker with opacity) is already there, before you've even finished the capture — then copy or share immediately with the result already on your clipboard.
 
-It's not a different set of markup tools so much as a different number of steps to reach them. If Preview's Markup already fits your workflow, there's no reason to add another app. If you're finding yourself annotating screenshots often enough that the extra steps are noticeable, that's the actual signal worth paying attention to.
+It's mostly the same kind of markup tools with fewer steps to reach them — plus a couple Preview doesn't have, like numbered step badges and a blur tool for hiding private details. If Preview's Markup already fits your workflow, there's no reason to add another app. If you're finding yourself annotating screenshots often enough that the extra steps are noticeable, that's the actual signal worth paying attention to.

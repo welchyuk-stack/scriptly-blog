@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2026-08-28 07:46:48 +0000
-last_modified_at: 2026-08-30 06:06:04 +0000
-title: "Windows Snipping Tool vs Mac: Every Screenshot & Markup Option Compared"
+last_modified_at: 2026-10-12
+title: "Windows Snipping Tool vs Mac: Every Screenshot Option Compared"
 excerpt: "Snipping Tool bundles capture and markup into one app. Here's every way to match that on Mac — built-in, free third-party, and paid — compared side by side."
 author: Luke Welch
 section: snipclip
@@ -27,7 +27,7 @@ Snipping Tool on Windows 11 handles capture (rectangular, freeform, window, or f
 | Price | Free (built-in) | Free (built-in) | $1.99 one-time | Free, or a paid unlock to remove prompts | $35 one-time (1yr updates) or $10–12/mo subscription |
 | Capture → markup in one motion | ✓ | ✗ (capture, then open Preview separately) | ✓ | ✓ | ✓ |
 | Global hotkey | ✓ | ✓ (capture only) | ✓ (remappable) | ✓ | ✓ |
-| Scrolling capture | ✗ | ✗ | ✗ | ✓ | ✓ |
+| Scrolling capture | ✗ | ✗ | ✓ | ✓ | ✓ |
 | OCR / text recognition | ✗ | ✗ | ✗ | ✓ | ✓ (Pro) |
 | Cloud upload / shareable links | ✗ | ✗ | ✗ | Optional (S3) | ✓ (Pro tier, unlimited storage) |
 | Works fully offline | ✓ | ✓ | ✓ | ✓ | Core capture yes; cloud features need a connection |
@@ -37,7 +37,7 @@ Snipping Tool on Windows 11 handles capture (rectangular, freeform, window, or f
 
 **If you only need what Snipping Tool gave you** — one hotkey, capture, mark up, share, done, nothing else — **SnipClip** is the closest match and the cheapest paid option: a single $1.99 purchase with no ongoing cost, built specifically around that one workflow rather than trying to do everything.
 
-**If you also want scrolling capture or OCR and don't mind a slightly heavier app**, **Shottr** is free to use indefinitely (with occasional prompts to buy a license) and covers more ground — scrolling screenshots, text recognition, a color picker, and basic cloud upload.
+**If you also want OCR and don't mind a slightly heavier app**, **Shottr** is free to use indefinitely (with occasional prompts to buy a license) and covers more ground — scrolling screenshots, text recognition, a color picker, and basic cloud upload.
 
 **If you need team features — shareable links, custom-domain branding, SSO — or you're capturing constantly and want unlimited cloud storage**, **CleanShot X** is built for that, at a correspondingly higher price: $35 one-time for the basic app-plus-cloud tier, or a $10–12/month subscription for the Pro tier with unlimited storage and team management.
 
@@ -45,4 +45,4 @@ Snipping Tool on Windows 11 handles capture (rectangular, freeform, window, or f
 
 ## The honest takeaway
 
-None of these is objectively "best" — they solve different amounts of the same problem. If your Windows habit was "Snipping Tool handles the whole thing in one window" and that's genuinely all you need, SnipClip rebuilds exactly that habit for $1.99 with nothing else to configure. If you find yourself wanting more — a searchable capture history, scrolling pages, OCR — that's the signal to look at Shottr or CleanShot X instead, since SnipClip deliberately doesn't try to be those tools.
+None of these is objectively "best" — they solve different amounts of the same problem. If your Windows habit was "Snipping Tool handles the whole thing in one window" and that's genuinely all you need, SnipClip rebuilds exactly that habit for $1.99 with nothing else to configure. If you find yourself wanting more — a searchable capture history, OCR, cloud links — that's the signal to look at Shottr or CleanShot X instead, since SnipClip deliberately doesn't try to be those tools.

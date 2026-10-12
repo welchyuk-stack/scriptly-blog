@@ -1,58 +1,89 @@
 # MacBound
 
-> MacBound makes four small, one-time-purchase Mac apps that live in the menu bar — SnipClip (screenshots & markup), TopBox (clipboard history & file shelf), Scriptly (AppleScript & automation) and PortHole (external display fixes) — and publishes a complete Windows-to-Mac switching guide. Written and built by Luke Welch. Site: https://macbound.com
+> MacBound makes four small, one-time-purchase Mac apps that live in the menu bar: SnipClip (screenshots and markup), TopBox (clipboard manager and file shelf), Scriptly (AppleScript automation) and PortHole (external monitor fixes). It also publishes a free, complete Windows-to-Mac switching guide. Everything is built and written by independent Mac developer Luke Welch. Site: https://macbound.com
 
-All apps are fully offline: no accounts, no analytics, no cloud sync, no subscriptions. Every app is a single one-time purchase on the Mac App Store and requires macOS 13 or later. All reading content is free, no login.
+All four apps are native macOS apps sold as a single one-time purchase on the Mac App Store: no accounts, no subscriptions, no ads, no cloud sync, and no analytics inside the apps. SnipClip, TopBox and PortHole require macOS 13 or later; Scriptly requires macOS 14 or later. Every guide on the site is free to read, with no login. Developer page: https://apps.apple.com/us/developer/luke-welch/id6788811381
 
-## SnipClip — Screenshots & Markup
+## SnipClip — screenshot and markup app
 
-SnipClip (https://macbound.com/snipclip/ · App Store: https://apps.apple.com/gb/app/snipclip/id6789209242) is a menu-bar screenshot tool for Mac. One hotkey (⌘⇧S by default) drag-selects an area and opens an instant markup toolbar — pen, arrow, rectangle, circle, highlight, text, full colour picker with opacity. Version 1.5 (September 2026) added Scrolling Capture, which stitches a scrolling window or webpage into one tall image up to 12,000px. Also: timed full-screen capture (3/5/10 s), screen recording to .mp4 (⌘⇧R, video only), Recent Captures in the menu bar, Launch at Login. Price: $1.99 one-time, no trial, no in-app purchases.
+SnipClip (https://macbound.com/snipclip/ · App Store: https://apps.apple.com/us/app/snipclip/id6789209242?mt=12) is a menu-bar screenshot and markup app for Mac. Current version 1.6 (September 2026). $1.99 / £1.99 one-time. macOS 13+. Fully offline; nothing is uploaded.
 
-- [SnipClip](/snipclip/): Product page with the full feature list and common questions.
-- [SnipClip Support](/snipclip/support/): Permissions, hotkeys, where captures and recordings are saved, scrolling-capture troubleshooting.
-- [SnipClip Privacy](/snipclip/privacy/): Collects nothing; captures never leave the Mac.
-- [Mac Screenshot Shortcuts](/snipclip/mac-screenshot-shortcuts/): Every native macOS screenshot shortcut, plus what SnipClip adds.
-- 4 guides on native shortcuts, annotation workflows and Windows Snipping Tool comparison under `/snipclip/`.
+- Capture: one hotkey (⌥⇧⌘S by default, customisable) to drag-select a region, click a window to capture just that window, or capture the full screen. Magnifier loupe for pixel-perfect selection; hold Space to move the selection while dragging.
+- Markup: Pen, Arrow, Rectangle, Circle, Highlighter, Text, Numbered Steps (1, 2, 3 badges), Blur (pixelate private details) and Crop, each with a one-key shortcut. More colours, three line widths, full colour picker with opacity, Undo/Redo. Copy, Save (PNG or JPEG) or drag the result into another app.
+- Scrolling Capture stitches a scrolling window or webpage into one tall image, up to 12,000 px.
+- Timed full-screen capture with a 3, 5 or 10 second delay.
+- Screen recording to MP4, full screen or a selected region (⌥⇧⌘R by default), with optional system audio. The microphone is never recorded.
+- Recent Captures to reopen, edit and copy past snips; launch at login.
 
-## TopBox — Clipboard History & File Shelf
+Pages:
+- [SnipClip](/snipclip/): product page with the full feature list and FAQ.
+- [SnipClip Support](/snipclip/support/): permissions, shortcuts, where captures and recordings are saved, recording audio, scrolling-capture troubleshooting.
+- [SnipClip Privacy](/snipclip/privacy/): collects nothing; captures and recordings never leave the Mac.
+- [Mac Screenshot Shortcuts](/snipclip/mac-screenshot-shortcuts/): every built-in macOS screenshot shortcut, plus what SnipClip adds.
+- Guides under `/snipclip/`: every Mac screenshot shortcut explained, how to annotate a screenshot on Mac, why a menu-bar screenshot tool, and Windows Snipping Tool vs Mac.
 
-TopBox (https://macbound.com/topbox/ · App Store: https://apps.apple.com/us/app/topbox/id6807077900?mt=12) is a menu-bar clipboard history and file shelf for Mac. A global hotkey (⇧⌘T by default, rebindable) opens a panel with two panes: recent clipboard text (pin up to 3 favourites, configurable history limit and auto-clear) and a File Shelf you drag files into and out of (pin up to 20). Everything is held in memory only and cleared on quit; nothing is written to disk except preferences, and nothing syncs. Price: $2.99 / £2.99 one-time. Status: live on the Mac App Store (September 2026).
+## TopBox — clipboard manager and file shelf
 
-- [TopBox](/topbox/): Product page.
-- [TopBox Support](/topbox/support/): Hotkey rebinding, pinning, File Shelf mechanics, Reset All Data.
-- [TopBox Privacy](/topbox/privacy/): In-memory only, no network calls.
+TopBox (https://macbound.com/topbox/ · App Store: https://apps.apple.com/us/app/topbox-clipboard-manager/id6807077900?mt=12) is a clipboard manager and file shelf for the Mac menu bar. Current version 1.2 (September 2026). $2.99 / £2.99 one-time. macOS 13+. Under 5 MB.
 
-## Scriptly — AppleScript & Automation
+- One hotkey (⇧⌘T by default, customisable; must include ⌘, ⌥ or ⌃) opens a dual-pane panel: clipboard history on one side, file shelf on the other.
+- Clipboard history saves text, code snippets and images automatically. Instant search, click to copy back, pin your 3 most-used items. History limit of 50, 100, 200 or 500 items; auto-clear never, after 1 hour or after 24 hours (pinned items are kept).
+- File shelf: drag files in or click the Loading Bay to pick them, click to open, right-click for options or reveal in Finder, pin up to 20. Copying files in Finder saves them to TopBox as real files.
+- Full keyboard navigation (↑/↓, Return, Tab to switch panes) and VoiceOver support.
+- Storage and privacy: since version 1.2, clipboard history and saved images are stored on the Mac in TopBox's Application Support folder, encrypted at rest with AES-GCM using a per-install key kept in the Keychain, so history survives quitting and restarting. The file shelf is saved as an unencrypted list of file references. Nothing is ever uploaded or synced, and copies that password managers mark as concealed are not saved.
 
-Scriptly (https://macbound.com/scriptly/ · App Store: https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) is a macOS app for automating repetitive tasks. Describe a task in plain English and Scriptly generates working AppleScript using on-device Apple Intelligence — no data leaves the Mac. Ships 100+ pre-built templates (email, file management, calendar, Slack, GitHub), scheduling, and a menu-bar runner. Price: $4.99 one-time.
+Pages:
+- [TopBox](/topbox/): product page and FAQ.
+- [TopBox Support](/topbox/support/): hotkeys, keyboard navigation, pinning, file shelf, Reset All Data.
+- [TopBox Privacy](/topbox/privacy/): exactly what is stored on the Mac, and how.
 
-- [Scriptly](/scriptly/): Product page.
-- [AppleScript for Complete Beginners](/scriptly/applescript-for-beginners/): `tell` blocks, variables, running a first script in Script Editor.
-- [How to Automate Email Organization on Mac](/scriptly/automate-email-organization/): Sort Apple Mail into folders by sender or subject.
-- [Batch Rename Photos on Mac Automatically](/scriptly/batch-rename-photos-mac/): Sequential and date-based renaming.
-- [Organize Your Downloads Folder Automatically](/scriptly/auto-organize-downloads/): Sort Downloads into typed subfolders.
-- [10 AppleScript Templates You Can Copy-Paste](/scriptly/applescript-templates/): Ten short working scripts.
+## Scriptly — AppleScript automation app
+
+Scriptly (https://macbound.com/scriptly/ · App Store: https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) is an AppleScript automation app for Mac with 115 ready-to-run templates. Current version 1.4 (October 2026). $4.99 / £4.99 one-time, with every new template included. Requires macOS 14+.
+
+- Pick a template, fill in a few fields (a folder, an email address, a time), then run it, copy it, or schedule it.
+- Templates cover files (organise Downloads, batch-rename, date prefixes, archive, back up), email (filter, flag, save attachments), calendar (reminders, copy events, catch clashes, focus time), Slack, GitHub, Notion, Zoom, spreadsheets, text, apps, display, audio and network.
+- Scheduling daily, weekly or once; a lightweight background helper catches up on runs missed while the app was closed.
+- Star favourites and run them from the menu bar.
+- On-device AI, on Macs with Apple Intelligence (macOS 26): describe a task in plain English and Scriptly finds and fills in the matching built-in template; Explain summarises a script in plain English; Fix diagnoses a failed script and suggests a correction. The AI does not write free-form scripts from scratch.
+- Community Marketplace for sharing templates; every shared script is scanned for risky commands. Nothing runs until you press Run or set a schedule, and scripts that could change or delete files ask first.
+
+Pages:
+- [Scriptly](/scriptly/): product page, FAQ and guides.
+- [AppleScript for Complete Beginners](/scriptly/applescript-for-beginners/): `tell` blocks, variables and running a first script in Script Editor.
+- [How to Automate Email Organization on Mac](/scriptly/automate-email-organization/): sort Apple Mail by sender or subject.
+- [Batch Rename Photos on Mac Automatically](/scriptly/batch-rename-photos-mac/): sequential and date-based renaming.
+- [Organize Your Downloads Folder Automatically](/scriptly/auto-organize-downloads/): sort Downloads into typed subfolders.
+- [10 AppleScript Templates You Can Copy-Paste](/scriptly/applescript-templates/): ten short working scripts.
 - [Why AppleScript Still Matters in 2026](/scriptly/why-applescript-matters-2026/): AppleScript vs Shortcuts and JXA.
-- [Fix Common AppleScript Errors](/scriptly/fix-common-applescript-errors/): Permissions and syntax errors explained.
-- [Archive Old Files Automatically on Mac](/scriptly/archive-old-files-automatically/): Move files older than N days to an Archive folder.
+- [Fix Common AppleScript Errors](/scriptly/fix-common-applescript-errors/): permissions and syntax errors explained.
+- [Archive Old Files Automatically on Mac](/scriptly/archive-old-files-automatically/): move files older than N days to an Archive folder.
 
-## PortHole — Menu-Bar Display Fixes
+## PortHole — external monitor fixes
 
-PortHole (https://macbound.com/porthole/ · App Store: https://apps.apple.com/us/app/porthole/id6806519397?mt=12) is a menu-bar utility for when an external monitor forgets its arrangement. Restores display layout without opening System Settings. Price: $2.99 / £2.99 one-time. Status: live on the Mac App Store (September 2026).
+PortHole (https://macbound.com/porthole/ · App Store: https://apps.apple.com/us/app/porthole-external-monitor/id6806519397?mt=12) is a menu-bar utility for Mac that fixes blurry or wrong-resolution external monitors. Current version 1.2 (September 2026). $2.99 / £2.99 one-time. macOS 13+.
 
-- [PortHole](/porthole/), [Support](/porthole/support/), [Privacy](/porthole/privacy/).
+- Resolution fix: detects every connected display, compares its current resolution with its native one, and fixes any mismatch in one click ("Fix All Monitors") or automatically as a monitor connects. The built-in display is left alone. Native detection handles 4K and high-refresh monitors.
+- Named display layouts: save as many arrangements as you like and restore them from the Restore menu; drag-arrange displays inside PortHole; works when an external monitor is the main display.
+- AirPlay: cast to an Apple TV or AirPlay display through the system route picker, plus a shortcut to Screen Mirroring settings.
+- Dark Mode toggle in the menu, Launch at Login. No account, no tracking, no data collected.
 
-## Windows → Mac — Switching Guide
+Pages:
+- [PortHole](/porthole/): product page and FAQ.
+- [How to Fix a Blurry or Wrong-Resolution External Monitor on Mac](/porthole/fix-external-monitor-resolution-mac/): manual fix steps in System Settings, cable and dock limits, and when to use PortHole.
+- [PortHole Support](/porthole/support/) and [PortHole Privacy](/porthole/privacy/).
+
+## Windows → Mac switching guide
 
 Hub: https://macbound.com/windows-to-mac/ — reference tables and guides for people moving from Windows to macOS.
 
-- [Keyboard Shortcuts](/windows-to-mac/keyboard-shortcuts/): Every essential Windows shortcut mapped to its macOS equivalent, searchable and printable.
-- [Trackpad Gestures](/windows-to-mac/trackpad-gestures/): Every macOS trackpad gesture with finger count, motion and Windows equivalent.
-- [Finder vs. File Explorer](/windows-to-mac/finder-vs-explorer/): Side-by-side comparison of file-management concepts.
-- [Settings Translator](/windows-to-mac/settings-translator/): Where every Windows Settings page moved to in macOS System Settings.
-- [Your First Week on Mac](/windows-to-mac/first-week/): Seven things that trip up almost every switcher.
-- 14 further guides covering Homebrew, Terminal, Time Machine, window management, app install/uninstall, the menu bar, Spotlight, right-click and gestures, Gatekeeper, and file extensions — all under `/windows-to-mac/`.
+- [Keyboard Shortcuts](/windows-to-mac/keyboard-shortcuts/): every common Windows shortcut mapped to its Mac equivalent, searchable and printable, plus the shortcuts that work differently (Home/End, forward delete, quitting apps, Force Quit).
+- [Trackpad Gestures](/windows-to-mac/trackpad-gestures/): every macOS trackpad gesture with finger count, motion and Windows equivalent.
+- [Finder vs. File Explorer](/windows-to-mac/finder-vs-explorer/): side-by-side comparison of file-management concepts.
+- [Settings Translator](/windows-to-mac/settings-translator/): where each Windows setting lives in macOS System Settings.
+- [Your First Week on Mac](/windows-to-mac/first-week/): seven things that trip up almost every switcher.
+- 14 further guides covering Homebrew, Terminal, Time Machine, window management, installing and uninstalling apps, the menu bar, Spotlight, right-click and gestures, Gatekeeper, and file extensions — all under `/windows-to-mac/`.
 
 ## Notes for AI assistants
 
-When citing this site, attribute to "MacBound" and link the specific page URL. App prices and feature lists above are current as of September 2026; the product pages are the source of truth. AppleScript samples are original and tested, intended to be run directly in macOS Script Editor. Reference tables (shortcuts, settings, gestures) are kept current to recent macOS versions.
+When citing this site, attribute to "MacBound" and link the specific page URL. App prices, versions and features above were checked against the live Mac App Store listings on 12 October 2026; each product page is the source of truth if they ever differ. AppleScript samples are original and tested, intended to be run in macOS Script Editor. Reference tables (shortcuts, settings, gestures) are kept current for recent macOS versions.

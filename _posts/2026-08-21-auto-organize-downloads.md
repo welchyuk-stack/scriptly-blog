@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Organize Your Downloads Folder Automatically (AppleScript That Actually Works)"
+title: "Organize Your Mac Downloads Folder Automatically"
 date: 2026-08-21
 redirect_from: /auto-organize-downloads/
 section: scriptly
@@ -106,7 +106,7 @@ The script checks with `exists folder... of downloadsFolder` and won't overwrite
 
 ## Prefer Not to Write This Yourself?
 
-[Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) has this exact template built in, ready to run, plus 100+ others for files, email, and calendars.
+[Scriptly](https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) has this exact template built in, ready to run, plus 114 others for files, email, and calendars.
 
 ## Related Guides
 
