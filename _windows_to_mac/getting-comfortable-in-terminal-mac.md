@@ -58,6 +58,6 @@ Terminal commands are unforgiving — there's no confirmation dialog before `rm`
 
 ## If Terminal isn't really what you're after
 
-A lot of people reach for Terminal assuming it's the only way to automate repetitive tasks on Mac — rename files, sort downloads, that kind of thing. It's one way, but not the easiest one. AppleScript handles most everyday automation without ever opening Terminal, and [Scriptly]({{ site.sections.scriptly.app_url }}) will write that AppleScript for you from a plain description if you'd rather skip the syntax entirely.
+A lot of people reach for Terminal assuming it's the only way to automate repetitive tasks on Mac — rename files, sort downloads, that kind of thing. It's one way, but not the easiest one. AppleScript handles most everyday automation without ever opening Terminal.
 
 Terminal is a tool worth having in your back pocket, not something you need to master. Learning the ten commands above covers the vast majority of situations where it's genuinely the fastest option.

@@ -3,10 +3,14 @@ layout: page
 title: "Scriptly Support"
 description: "Get help with Scriptly, the Mac automation app — troubleshooting, permissions, and how to contact us."
 permalink: /scriptly/support/
-section: scriptly
 show_breadcrumb: false
-last_modified_at: 2026-10-12
+sitemap: false
+noindex: true
+last_modified_at: 2026-10-23
 ---
+
+<p class="retired-note"><strong>Scriptly is no longer sold.</strong> This page stays online for people who already have Scriptly installed.</p>
+
 
 <span class="section-badge">Scriptly</span>
 

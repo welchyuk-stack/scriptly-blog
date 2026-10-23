@@ -3,10 +3,14 @@ layout: page
 title: "TopBox Privacy Policy"
 description: "Privacy policy for TopBox, the Mac clipboard manager and file shelf. No account, no analytics, no network calls; history stays on your Mac, encrypted at rest."
 permalink: /topbox/privacy/
-section: topbox
 show_breadcrumb: false
-last_modified_at: 2026-10-12
+sitemap: false
+noindex: true
+last_modified_at: 2026-10-23
 ---
+
+<p class="retired-note"><strong>TopBox is no longer sold.</strong> This page stays online for people who already have TopBox installed.</p>
+
 
 <span class="section-badge">TopBox</span>
 

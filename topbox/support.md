@@ -3,10 +3,14 @@ layout: page
 title: "TopBox Support"
 description: "Get help with TopBox, the Mac menu-bar clipboard manager and file shelf: hotkeys, keyboard navigation, storage, the file shelf, and resetting data."
 permalink: /topbox/support/
-section: topbox
 show_breadcrumb: false
-last_modified_at: 2026-10-12
+sitemap: false
+noindex: true
+last_modified_at: 2026-10-23
 ---
+
+<p class="retired-note"><strong>TopBox is no longer sold.</strong> This page stays online for people who already have TopBox installed.</p>
+
 
 <span class="section-badge">TopBox</span>
 

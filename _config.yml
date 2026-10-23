@@ -2,8 +2,8 @@
 title: MacBound
 email: welchyuk@gmail.com
 description: >-
-  Four small, one-time-purchase Mac menu-bar apps — SnipClip, TopBox, Scriptly
-  and PortHole — plus a complete Windows-to-Mac switching guide.
+  Small, one-time-purchase Mac menu-bar apps — SnipClip and PortHole — plus a
+  complete Windows-to-Mac switching guide.
 
 # URLs
 url: "https://macbound.com"
@@ -20,6 +20,7 @@ permalink: /scriptly/:title/
 # RFC 9116 security contact) that must ship as-is.
 include:
   - _headers
+  - _redirects
   - .well-known
 plugins:
   - jekyll-feed
@@ -51,7 +52,6 @@ lang: en
 locale: en_US
 author: "Luke Welch"
 twitter:
-  username: scriptlyapp
   card: summary_large_image
 
 # Link-preview (Open Graph/Twitter Card) images. jekyll-seo-tag reads
@@ -64,11 +64,6 @@ defaults:
       image: /assets/images/social/default.jpg
   - scope:
       path: "scriptly"
-    values:
-      image: /assets/images/scriptly/social-preview.jpg
-  - scope:
-      path: ""
-      type: posts
     values:
       image: /assets/images/scriptly/social-preview.jpg
   - scope:
@@ -120,19 +115,6 @@ social:
 # Section metadata — product/section-specific bits referenced from layouts,
 # so nothing is hardcoded in templates.
 sections:
-  scriptly:
-    name: Scriptly
-    tagline: "AppleScript & Automation"
-    accent: "#14275c"
-    accent_dark: "#0a1024"
-    tint: "#4f63d6"
-    url: /scriptly/
-    app_url: "https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12"
-    min_os: "14.0"
-    version: "1.4"
-    twitter: scriptlyapp
-    price: "4.99"
-    gbp_price: "4.99"  # verified via App Store Connect UK pricing, same Apple tier
   windows_to_mac:
     name: "Windows → Mac"
     tagline: "Switching Guide"
@@ -162,20 +144,6 @@ sections:
     version: "1.2"
     price: "2.99"
     gbp_price: "2.99"  # verified via App Store Connect UK pricing, same Apple tier
-  topbox:
-    name: TopBox
-    tagline: "Clipboard & File Shelf"
-    accent: "#14275c"
-    accent_dark: "#0a1024"
-    tint: "#6d7cf0"
-    url: /topbox/
-    app_url: "https://apps.apple.com/us/app/topbox-clipboard-manager/id6807077900?mt=12"
-    min_os: "13.0"
-    version: "1.2"
-    price: "2.99"
-    gbp_price: "2.99"  # verified via App Store Connect UK pricing, same Apple tier
-
-# Exclude from processing
 exclude:
   - .gitignore
   - Gemfile

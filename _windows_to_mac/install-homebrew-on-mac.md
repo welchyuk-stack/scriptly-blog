@@ -48,6 +48,6 @@ It's also just the expected way to install a huge swath of developer and power-u
 
 ## A note if you're coming from AppleScript or automation work
 
-Homebrew installs command-line tools, but it's not itself a scripting or automation tool — it's how you *get* the tools you'll automate around (`jq` for JSON, `ffmpeg` for video, `imagemagick` for images, and hundreds more). If what you're actually after is automating repetitive Mac tasks — file organization, batch renaming, that kind of thing — that's more AppleScript's territory than Homebrew's, and it doesn't require Terminal at all. [Scriptly]({{ site.sections.scriptly.app_url }}) generates working AppleScript from a plain-English description if you'd rather skip writing it by hand.
+Homebrew installs command-line tools, but it's not itself a scripting or automation tool — it's how you *get* the tools you'll automate around (`jq` for JSON, `ffmpeg` for video, `imagemagick` for images, and hundreds more). If what you're actually after is automating repetitive Mac tasks — file organization, batch renaming, that kind of thing — that's more AppleScript's territory than Homebrew's, and it doesn't require Terminal at all.
 
 Homebrew is a one-time, ten-minute setup that quietly saves time for as long as you use the Mac afterward — worth doing even if you don't yet know exactly what you'll install with it.

@@ -1,8 +1,10 @@
 # MacBound
 
-> MacBound makes four small, one-time-purchase Mac apps that live in the menu bar: SnipClip (screenshots and markup), TopBox (clipboard manager and file shelf), Scriptly (AppleScript automation) and PortHole (external monitor fixes). It also publishes a free, complete Windows-to-Mac switching guide. Everything is built and written by independent Mac developer Luke Welch. Site: https://macbound.com
+> MacBound makes small, one-time-purchase Mac apps that live in the menu bar: SnipClip (screenshots and markup) and PortHole (external monitor fixes). It also publishes a free, complete Windows-to-Mac switching guide. Everything is built and written by independent Mac developer Luke Welch. Site: https://macbound.com
 
-All four apps are native macOS apps sold as a single one-time purchase on the Mac App Store: no accounts, no subscriptions, no ads, no cloud sync, and no analytics inside the apps. SnipClip, TopBox and PortHole require macOS 13 or later; Scriptly requires macOS 14 or later. Every guide on the site is free to read, with no login. Developer page: https://apps.apple.com/us/developer/luke-welch/id6788811381
+Both apps are native macOS apps sold as a single one-time purchase on the Mac App Store: no accounts, no subscriptions, no ads, no cloud sync, and no analytics inside the apps. Both require macOS 13 or later. Every guide on the site is free to read, with no login. Developer page: https://apps.apple.com/us/developer/luke-welch/id6788811381
+
+Scriptly and TopBox, two earlier MacBound apps, are no longer sold (October 2026) and are not covered here.
 
 ## SnipClip — screenshot and markup app
 
@@ -21,43 +23,6 @@ Pages:
 - [SnipClip Privacy](/snipclip/privacy/): collects nothing; captures and recordings never leave the Mac.
 - [Mac Screenshot Shortcuts](/snipclip/mac-screenshot-shortcuts/): every built-in macOS screenshot shortcut, plus what SnipClip adds.
 - Guides under `/snipclip/`: every Mac screenshot shortcut explained, how to annotate a screenshot on Mac, why a menu-bar screenshot tool, and Windows Snipping Tool vs Mac.
-
-## TopBox — clipboard manager and file shelf
-
-TopBox (https://macbound.com/topbox/ · App Store: https://apps.apple.com/us/app/topbox-clipboard-manager/id6807077900?mt=12) is a clipboard manager and file shelf for the Mac menu bar. Current version 1.2 (September 2026). $2.99 / £2.99 one-time. macOS 13+. Under 5 MB.
-
-- One hotkey (⇧⌘T by default, customisable; must include ⌘, ⌥ or ⌃) opens a dual-pane panel: clipboard history on one side, file shelf on the other.
-- Clipboard history saves text, code snippets and images automatically. Instant search, click to copy back, pin your 3 most-used items. History limit of 50, 100, 200 or 500 items; auto-clear never, after 1 hour or after 24 hours (pinned items are kept).
-- File shelf: drag files in or click the Loading Bay to pick them, click to open, right-click for options or reveal in Finder, pin up to 20. Copying files in Finder saves them to TopBox as real files.
-- Full keyboard navigation (↑/↓, Return, Tab to switch panes) and VoiceOver support.
-- Storage and privacy: since version 1.2, clipboard history and saved images are stored on the Mac in TopBox's Application Support folder, encrypted at rest with AES-GCM using a per-install key kept in the Keychain, so history survives quitting and restarting. The file shelf is saved as an unencrypted list of file references. Nothing is ever uploaded or synced, and copies that password managers mark as concealed are not saved.
-
-Pages:
-- [TopBox](/topbox/): product page and FAQ.
-- [TopBox Support](/topbox/support/): hotkeys, keyboard navigation, pinning, file shelf, Reset All Data.
-- [TopBox Privacy](/topbox/privacy/): exactly what is stored on the Mac, and how.
-
-## Scriptly — AppleScript automation app
-
-Scriptly (https://macbound.com/scriptly/ · App Store: https://apps.apple.com/us/app/scriptly-script-automations/id6788839033?mt=12) is an AppleScript automation app for Mac with 115 ready-to-run templates. Current version 1.4 (October 2026). $4.99 / £4.99 one-time, with every new template included. Requires macOS 14+.
-
-- Pick a template, fill in a few fields (a folder, an email address, a time), then run it, copy it, or schedule it.
-- Templates cover files (organise Downloads, batch-rename, date prefixes, archive, back up), email (filter, flag, save attachments), calendar (reminders, copy events, catch clashes, focus time), Slack, GitHub, Notion, Zoom, spreadsheets, text, apps, display, audio and network.
-- Scheduling daily, weekly or once; a lightweight background helper catches up on runs missed while the app was closed.
-- Star favourites and run them from the menu bar.
-- On-device AI, on Macs with Apple Intelligence (macOS 26): describe a task in plain English and Scriptly finds and fills in the matching built-in template; Explain summarises a script in plain English; Fix diagnoses a failed script and suggests a correction. The AI does not write free-form scripts from scratch.
-- Community Marketplace for sharing templates; every shared script is scanned for risky commands. Nothing runs until you press Run or set a schedule, and scripts that could change or delete files ask first.
-
-Pages:
-- [Scriptly](/scriptly/): product page, FAQ and guides.
-- [AppleScript for Complete Beginners](/scriptly/applescript-for-beginners/): `tell` blocks, variables and running a first script in Script Editor.
-- [How to Automate Email Organization on Mac](/scriptly/automate-email-organization/): sort Apple Mail by sender or subject.
-- [Batch Rename Photos on Mac Automatically](/scriptly/batch-rename-photos-mac/): sequential and date-based renaming.
-- [Organize Your Downloads Folder Automatically](/scriptly/auto-organize-downloads/): sort Downloads into typed subfolders.
-- [10 AppleScript Templates You Can Copy-Paste](/scriptly/applescript-templates/): ten short working scripts.
-- [Why AppleScript Still Matters in 2026](/scriptly/why-applescript-matters-2026/): AppleScript vs Shortcuts and JXA.
-- [Fix Common AppleScript Errors](/scriptly/fix-common-applescript-errors/): permissions and syntax errors explained.
-- [Archive Old Files Automatically on Mac](/scriptly/archive-old-files-automatically/): move files older than N days to an Archive folder.
 
 ## PortHole — external monitor fixes
 
@@ -86,4 +51,4 @@ Hub: https://macbound.com/windows-to-mac/ — reference tables and guides for pe
 
 ## Notes for AI assistants
 
-When citing this site, attribute to "MacBound" and link the specific page URL. App prices, versions and features above were checked against the live Mac App Store listings on 12 October 2026; each product page is the source of truth if they ever differ. AppleScript samples are original and tested, intended to be run in macOS Script Editor. Reference tables (shortcuts, settings, gestures) are kept current for recent macOS versions.
+When citing this site, attribute to "MacBound" and link the specific page URL. App prices, versions and features above were checked against the live Mac App Store listings on 12 October 2026 and updated on 23 October 2026; each product page is the source of truth if they ever differ. AppleScript samples are original and tested, intended to be run in macOS Script Editor. Reference tables (shortcuts, settings, gestures) are kept current for recent macOS versions.

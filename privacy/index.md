@@ -24,7 +24,7 @@ Reading any post, guide, or reference page on MacBound requires no login, no acc
 
 ## Third-party links
 
-Guides on this site link to third-party sites (including the Apple App Store for Scriptly and SnipClip, and GitHub). Those sites have their own privacy policies, which this policy does not cover.
+Guides on this site link to third-party sites (including the Apple App Store for SnipClip and PortHole, and GitHub). Those sites have their own privacy policies, which this policy does not cover.
 
 ## Contact
 

@@ -1,0 +1,26 @@
+# Scriptly and TopBox are no longer sold (October 2026). Their product
+# pages and the Scriptly AppleScript guides redirect to the home page.
+# /scriptly/support/, /scriptly/privacy/, /topbox/support/ and
+# /topbox/privacy/ stay live on purpose: installed copies link to them.
+/scriptly / 301
+/scriptly/ / 301
+/scriptly/about / 301
+/scriptly/about/ / 301
+/topbox / 301
+/topbox/ / 301
+/scriptly/applescript-for-beginners/ / 301
+/scriptly/applescript-for-beginners / 301
+/scriptly/automate-email-organization/ / 301
+/scriptly/automate-email-organization / 301
+/scriptly/batch-rename-photos-mac/ / 301
+/scriptly/batch-rename-photos-mac / 301
+/scriptly/auto-organize-downloads/ / 301
+/scriptly/auto-organize-downloads / 301
+/scriptly/applescript-templates/ / 301
+/scriptly/applescript-templates / 301
+/scriptly/why-applescript-matters-2026/ / 301
+/scriptly/why-applescript-matters-2026 / 301
+/scriptly/fix-common-applescript-errors/ / 301
+/scriptly/fix-common-applescript-errors / 301
+/scriptly/archive-old-files-automatically/ / 301
+/scriptly/archive-old-files-automatically / 301
