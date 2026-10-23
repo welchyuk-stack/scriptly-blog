@@ -651,3 +651,9 @@ table.ref-table tr.is-hidden { display: none; }
 
 /* Notice on support/privacy pages for apps that are no longer sold */
 .retired-note { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 12px 16px; color: var(--text); }
+
+/* Support-only home page */
+.tile__title { font-size: 24px; margin: 0; }
+.tile .foot a:not(.app-hero__badge) { font-weight: 600; }
+.retired-apps { color: var(--text-secondary); }
+.retired-apps h2 { font-size: 20px; color: var(--text); }

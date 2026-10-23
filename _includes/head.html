@@ -49,7 +49,7 @@
     "name": "{{ site.author }}",
     "url": "{{ site.url }}/about/",
     "jobTitle": "Independent Mac app developer",
-    "knowsAbout": ["macOS", "AppleScript", "Mac automation", "Mac menu bar apps", "Switching from Windows to Mac"],
+    "knowsAbout": ["macOS", "Mac menu bar apps"],
     "worksFor": { "@id": "{{ site.url }}/#organization" },
     "sameAs": [
       {%- for link in site.social.links -%}
@@ -59,60 +59,7 @@
   }
   </script>
 
-  {%- if page.section and site.sections[page.section] and page.section != "windows_to_mac" -%}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "MacBound", "item": "{{ site.url }}/" },
-      { "@type": "ListItem", "position": 2, "name": "{{ site.sections[page.section].name }}", "item": "{{ site.sections[page.section].url | absolute_url }}" }
-      {%- if page.url != site.sections[page.section].url -%}
-      , { "@type": "ListItem", "position": 3, "name": "{{ page.title }}", "item": "{{ page.url | absolute_url }}" }
-      {%- endif -%}
-    ]
-  }
-  </script>
-  {%- endif -%}
-
-  {%- if page.layout == "app" -%}
-  {%- assign app = site.sections[page.section] -%}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "@id": "{{ page.url | absolute_url }}#app",
-    "name": {{ app.name | jsonify }},
-    "url": "{{ page.url | absolute_url }}",
-    "applicationCategory": "UtilitiesApplication",
-    "operatingSystem": "macOS {{ app.min_os | default: '13.0' }} or later",
-    {%- if app.version %}
-    "softwareVersion": {{ app.version | jsonify }},
-    {%- endif %}
-    "description": {{ page.description | jsonify }},
-    "image": "{{ '/assets/images/' | append: page.section | append: '/icon.jpg' | absolute_url }}",
-    {%- if app.app_url %}
-    "downloadUrl": {{ app.app_url | jsonify }},
-    {%- endif %}
-    "author": { "@id": "{{ site.url }}/about/#person" },
-    "publisher": { "@id": "{{ site.url }}/#organization" },
-    "offers": {
-      "@type": "Offer",
-      "price": "{{ site.sections[page.section].price }}",
-      "priceCurrency": "USD"
-      {%- if site.sections[page.section].app_url -%}
-      , "url": "{{ site.sections[page.section].app_url }}",
-      "availability": "https://schema.org/InStock"
-      {%- else -%}
-      , "availability": "https://schema.org/PreOrder"
-      {%- endif %}
-    }
-  }
-  </script>
-  {%- endif -%}
-
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}

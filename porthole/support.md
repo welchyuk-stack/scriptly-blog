@@ -32,8 +32,9 @@ current version is 1.2.
   system picker as QuickTime and Music, with a shortcut to Screen Mirroring settings.
 - **Dark Mode toggle** — switch appearance straight from the menu.
 
-Prefer to fix things by hand? See our guide:
-[How to fix a blurry or wrong-resolution external monitor on Mac](/porthole/fix-external-monitor-resolution-mac/).
+Prefer to fix things by hand? Look up your monitor's native resolution, then choose it in
+System Settings → Displays. If it isn't offered, Control-click the resolution options, choose
+"Show List", and turn on "Show all resolutions".
 
 ## Common questions
 
@@ -41,8 +42,7 @@ Prefer to fix things by hand? See our guide:
 
 Built-in Retina displays are intentionally left alone — a scaled resolution there is a
 deliberate choice, not a mismatch. If an *external* monitor is flagged, try System
-Settings → Displays as a fallback if PortHole's own fix doesn't take — our
-[manual fix guide](/porthole/fix-external-monitor-resolution-mac/) walks through it. If
+Settings → Displays as a fallback if PortHole's own fix doesn't take. If
 the native resolution never appears, the cable, adapter, or dock may not be able to
 carry it (for example, HDMI 1.4 tops out at 4K 30 Hz).
 

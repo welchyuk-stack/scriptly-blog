@@ -1,13 +1,42 @@
-# Scriptly and TopBox are no longer sold (October 2026). Their product
-# pages and the Scriptly AppleScript guides redirect to the home page.
-# /scriptly/support/, /scriptly/privacy/, /topbox/support/ and
-# /topbox/privacy/ stay live on purpose: installed copies link to them.
+# macbound.com now only hosts app support and privacy pages (October 2026).
+# Everything else redirects to the home page so old links and search
+# results don't 404.
+#
+# Kept live (linked from inside the apps and from App Store Connect):
+#   /snipclip/support/  /snipclip/privacy/  /porthole/support/  /porthole/privacy/
+#   /scriptly/support/  /scriptly/privacy/  /topbox/support/    /topbox/privacy/
+#   /privacy/ (this website's own policy)
+/windows-to-mac/* / 301
+/windows-to-mac / 301
+/blog/* / 301
+/blog / 301
+/about/* / 301
+/about / 301
+/llms.txt / 301
+/feed.xml / 301
+/feed/* / 301
+/snipclip / 301
+/snipclip/ / 301
+/porthole / 301
+/porthole/ / 301
 /scriptly / 301
 /scriptly/ / 301
-/scriptly/about / 301
-/scriptly/about/ / 301
 /topbox / 301
 /topbox/ / 301
+/porthole/fix-external-monitor-resolution-mac/ / 301
+/porthole/fix-external-monitor-resolution-mac / 301
+/snipclip/mac-screenshot-shortcuts/ / 301
+/snipclip/mac-screenshot-shortcuts / 301
+/snipclip/annotate-screenshot-mac/ / 301
+/snipclip/annotate-screenshot-mac / 301
+/snipclip/every-mac-screenshot-shortcut-explained/ / 301
+/snipclip/every-mac-screenshot-shortcut-explained / 301
+/snipclip/why-menu-bar-screenshot-tool/ / 301
+/snipclip/why-menu-bar-screenshot-tool / 301
+/snipclip/windows-snipping-tool-vs-mac/ / 301
+/snipclip/windows-snipping-tool-vs-mac / 301
+/scriptly/about/ / 301
+/scriptly/about / 301
 /scriptly/applescript-for-beginners/ / 301
 /scriptly/applescript-for-beginners / 301
 /scriptly/automate-email-organization/ / 301

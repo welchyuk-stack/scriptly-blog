@@ -10,9 +10,9 @@ show_breadcrumb: false
 
 # Privacy Policy
 
-*Last updated: August 2026*
+*Last updated: October 2026*
 
-MacBound ({{ site.url }}) is a static content site. This page explains what data is collected from visitors.
+MacBound ({{ site.url }}) is a static site that hosts support and privacy pages for SnipClip and PortHole. This page explains what data is collected from visitors.
 
 ## Analytics
 
@@ -20,11 +20,11 @@ This site uses [Cloudflare Web Analytics](https://www.cloudflare.com/web-analyti
 
 ## No accounts, no tracking cookies
 
-Reading any post, guide, or reference page on MacBound requires no login, no account, and sets no tracking or advertising cookies.
+Reading any page on MacBound requires no login, no account, and sets no tracking or advertising cookies.
 
 ## Third-party links
 
-Guides on this site link to third-party sites (including the Apple App Store for SnipClip and PortHole, and GitHub). Those sites have their own privacy policies, which this policy does not cover.
+This site links to third-party sites, including the Mac App Store. Those sites have their own privacy policies, which this policy does not cover.
 
 ## Contact
 

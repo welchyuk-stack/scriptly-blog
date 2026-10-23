@@ -2,8 +2,8 @@
 title: MacBound
 email: welchyuk@gmail.com
 description: >-
-  Small, one-time-purchase Mac menu-bar apps — SnipClip and PortHole — plus a
-  complete Windows-to-Mac switching guide.
+  Support and privacy information for SnipClip and PortHole, Mac menu-bar apps
+  by Luke Welch.
 
 # URLs
 url: "https://macbound.com"
@@ -23,36 +23,14 @@ include:
   - _redirects
   - .well-known
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-
-# Collections
-collections:
-  windows_to_mac:
-    output: true
-    permalink: /windows-to-mac/:path/
-  snipclip:
-    output: true
-    permalink: /snipclip/:path/
-
-# jekyll-feed: include the two new collections alongside _posts so RSS
-# covers all three sections, not just Scriptly. Default posts_limit is 10,
-# which silently truncated the 14-post Windows→Mac feed — raised well above
-# any section's current post count.
-feed:
-  collections:
-    - windows_to_mac
-    - snipclip
-  posts_limit: 100
 
 # SEO
 lang: en
 locale: en_US
 author: "Luke Welch"
-twitter:
-  card: summary_large_image
 
 # Link-preview (Open Graph/Twitter Card) images. jekyll-seo-tag reads
 # `page.image`, which Jekyll's front-matter `defaults` can set per-path
@@ -68,11 +46,6 @@ defaults:
       image: /assets/images/scriptly/social-preview.jpg
   - scope:
       path: "snipclip"
-    values:
-      image: /assets/images/snipclip/social-preview.jpg
-  - scope:
-      path: ""
-      type: snipclip
     values:
       image: /assets/images/snipclip/social-preview.jpg
   - scope:
@@ -115,35 +88,22 @@ social:
 # Section metadata — product/section-specific bits referenced from layouts,
 # so nothing is hardcoded in templates.
 sections:
-  windows_to_mac:
-    name: "Windows → Mac"
-    tagline: "Switching Guide"
-    accent: "#14275c"
-    url: /
   snipclip:
     name: SnipClip
     tagline: "Screenshots & Markup"
     accent: "#14275c"
     accent_dark: "#0a1024"
     tint: "#35b8e0"
-    url: /snipclip/
+    url: /snipclip/support/
     app_url: "https://apps.apple.com/us/app/snipclip/id6789209242?mt=12"
-    min_os: "13.0"
-    version: "1.6"
-    price: "1.99"
-    gbp_price: "1.99"  # verified via App Store Connect UK pricing, same Apple tier
   porthole:
     name: PortHole
     tagline: "Menu-Bar Display Fixes"
     accent: "#14275c"
     accent_dark: "#0a1024"
     tint: "#5b8dd6"
-    url: /porthole/
+    url: /porthole/support/
     app_url: "https://apps.apple.com/us/app/porthole-external-monitor/id6806519397?mt=12"
-    min_os: "13.0"
-    version: "1.2"
-    price: "2.99"
-    gbp_price: "2.99"  # verified via App Store Connect UK pricing, same Apple tier
 exclude:
   - .gitignore
   - Gemfile
